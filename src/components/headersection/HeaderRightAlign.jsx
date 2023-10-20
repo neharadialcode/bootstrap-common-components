@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { CrossIcon, MenuIcon } from "../common/Icons";
-import Logo from "../../assets/svg/headerLogo.svg";
+import Logo from "../../assets/Image/svg/headerLogo.svg";
 const HeaderRightAlign = () => {
   const [menu, setMenu] = useState(false);
   return (
