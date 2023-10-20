@@ -1,13 +1,18 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HeroHalfContentHalfImage from "./components/herosection/HeroHalfContentHalfImage";
-import HeroCenter from "./components/herosection/HeroCenter";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./views/Header";
+import Hero from "./views/Hero";
 
 function App() {
   return (
     <>
-      <HeroHalfContentHalfImage />
-      <HeroCenter/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/header" element={ <Header/>} />
+          <Route path="/hero" element={ <Hero/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
