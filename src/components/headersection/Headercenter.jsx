@@ -20,13 +20,13 @@ const Headercenter = () => {
           <Nav>
             <div className="w-100">
               <div className="d-flex justify-content-between align-items-center">
-                <span >
+                <a href="#">
                   <img
                     src={logo}
                     alt="logo nav"
                     className="w-100 pointer mx_45_sm mx_50"
                   />
-                </span>
+                </a>
                 <div className="d-flex align-items-center">
                   <ul
                     className={`nav_show d-flex flex-md-row gap-2 flex-column align-items-center mb-0 p-0 flex-row z-3
