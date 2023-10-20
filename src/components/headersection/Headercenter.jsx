@@ -15,12 +15,12 @@ const Headercenter = () => {
   }
   return (
     <div>
-      <div className="position-relative bg-red">
+      <div className="position-relative bg-info d-flex align-content-center py-2">
         <Container className="px-md-3">
           <Nav>
-            <div className="mt-3 w-100">
+            <div className="w-100">
               <div className="d-flex justify-content-between align-items-center">
-                <span className="z-10">
+                <span >
                   <img
                     src={logo}
                     alt="logo nav"
@@ -61,17 +61,34 @@ const Headercenter = () => {
                     </li>
                     <li>
                       <div className="d-block d-md-none">
-                        <button className="border-0 position-relative rounded-pill text-black fw-medium position-relative overflow-hidden py-2 px-3 ">
-                          Subscribe
-                        </button>
+                        <div>
+                          <div className="d-flex align-items-center">
+                            <button
+                              className="dedcription-btn border-0"
+                              href="#"
+                            >
+                              <span className="name-descripeion position-relative">
+                                Subscribe
+                              </span>
+                              <span className="btn-icon"></span>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="d-none d-md-block">
                   <div className="d-flex align-items-center">
-                    <button className="border-0 position-relative rounded-pill text-black fw-medium position-relative overflow-hidden py-2 px-3">
-                      Subscribe
+                    <button
+                      className="dedcription-btn border-0"
+                      href="#"
+                      onClick={clickshow}
+                    >
+                      <span className="name-descripeion position-relative">
+                        Subscribe
+                      </span>
+                      <span className="btn-icon"></span>
                     </button>
                   </div>
                 </div>
