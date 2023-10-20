@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/svg/headerLogo.svg";
 import { Container, Nav } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
@@ -14,13 +15,17 @@ const Headercenter = () => {
   }
   return (
     <div>
-      <div className="position-relative">
+      <div className="position-relative bg-red">
         <Container className="px-md-3">
           <Nav>
             <div className="mt-3 w-100">
               <div className="d-flex justify-content-between align-items-center">
                 <span className="z-10">
-                  <p>Logo</p>
+                  <img
+                    src={logo}
+                    alt="logo nav"
+                    className="w-100 pointer mx_45_sm mx_50"
+                  />
                 </span>
                 <div className="d-flex align-items-center">
                   <ul
