@@ -56,7 +56,7 @@ const Headercenter = () => {
                     </li>
                     <li>
                       <div className="d-block d-md-none">
-                        <button className="border-0 position-relative rounded-pill text-black fw-medium position-relative overflow-hidden py-2 px-3">
+                        <button className="border-0 position-relative rounded-pill text-black fw-medium position-relative overflow-hidden py-2 px-3 ">
                           Subscribe
                         </button>
                       </div>
