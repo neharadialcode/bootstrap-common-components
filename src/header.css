@@ -7,16 +7,6 @@
 .nav_btn {
   padding: 15px 30px;
 }
-.hover_line::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 0;
-  background-color: #fff;
-  bottom: 18px;
-  left: 50%;
-  transition: 0.6s ease-in-out;
-}
 .hover_line::after {
   content: "";
   position: absolute;
@@ -28,10 +18,6 @@
   transition: 0.4s ease-in-out;
 }
 .hover_line:hover::after {
-  width: 100%;
-  left: 0;
-}
-.hover_line:hover::before {
   width: 100%;
   left: 0;
 }
@@ -53,7 +39,7 @@
   width: 100%;
   left: 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .nav_show {
     position: fixed;
     height: 0vh;
@@ -98,7 +84,7 @@
   z-index: 10;
 }
 @media (max-width: 992px) {
-  .nav_show {
+  .NavShow {
     position: fixed;
     opacity: 0;
     background-color: transparent;
@@ -112,10 +98,10 @@
     clip-path: circle(0px at calc(100% - 45px) 45px);
     top: 0;
   }
-  .nav_show.showw {
+  .NavShow.showw {
     opacity: 1;
     min-height: 100vh;
-    z-index: 999;
+    z-index: 9999;
     clip-path: circle(75%);
     background-color: var(--bg-body) !important;
   }
@@ -189,4 +175,61 @@
     top: 20px;
     right: 20px;
   }
+}
+.zFull{
+    z-index: 99999;
+}
+/* btn hover class here  */
+.dedcription-btn {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #fcfcfc;
+  color: #ffa000;
+  text-align: center;
+  font-size: 18px;
+  padding: 9px 30px;
+  transition: all 0.3s;
+  margin: 20px 5px;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+.dedcription-btn .btn-icon {
+  background-color: #ffa000;
+  width: 25px;
+  height: 45px;
+  float: right;
+  position: absolute;
+  border-radius: 30px 30px 30px 0;
+  right: -30px;
+  top: 0px;
+  transition: all 0.3s;
+}
+.dedcription-btn:hover .btn-icon {
+  right: 0px;
+}
+.name-descripeion {
+  z-index: 9999;
+}
+.btn-icon::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 45px solid #fcfcfc;
+  border-right: 40px solid transparent;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.dedcription-btn:hover .btn-icon {
+  width: 100%;
+  border-radius: 30px;
+}
+.dedcription-btn:hover .btn-icon::after {
+  display: none;
+  opacity: 0.1;
+}
+.dedcription-btn:hover {
+  color: #fff !important;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/svg/headerLogo.svg";
+import logo from "../../assets/Image/svg/headerLogo.svg";
 import { RxCross2 } from "react-icons/rx";
 import { AiOutlineAlignRight } from "react-icons/ai";
 const HeaderFull = () => {
@@ -22,19 +22,19 @@ const HeaderFull = () => {
               <img
                 src={logo}
                 alt="logo"
-                className="w-100 position-relative z_10"
+                className="w-100"
               />
             </a>
           </span>
           <h2
             onClick={clickshow}
-            className="pointer position-relative z_10 text-white ps-4"
+            className="pointer position-relative zFull text-white ps-4"
           >
             {First ? <AiOutlineAlignRight /> : <RxCross2 />}
           </h2>
         </div>
         {/* nav */}
-        <div className={`nav_show ${First ? "" : "ps-0 showw"}`}>
+        <div className={`NavShow ${First ? "" : "ps-0 showw"}`}>
           <div className="bg-black py-4 vh_100_1920 position-relative">
             <div className="mx-md-5 mx-sm-3 mx-1">
               {/* nav bar container */}
@@ -80,9 +80,18 @@ const HeaderFull = () => {
                       </a>
                     </li>
                   </ul>
-                  <button className="position-relative overflow-hidden rounded-pill border-0 py-2 px-3">
-                    Explore the ecosystem
-                  </button>
+                  <div className="d-flex align-items-center">
+                    <button
+                      className="dedcription-btn border-0"
+                      href="#"
+                      onClick={clickshow}
+                    >
+                      <span className="name-descripeion position-relative">
+                        Subscribe
+                      </span>
+                      <span className="btn-icon"></span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
