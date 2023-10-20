@@ -7,13 +7,16 @@ const HeroCenter = () => {
       <div className=" hero_center min-vh-100 d-flex align-items-center justify-content-center">
         <div className=" container ">
           <div className=" text-center">
-            <h1 className=" text-center fw-semibold text-white font_md ff_poppins  mx-auto">
+            <h1 className=" text-center mb-4 font_md ff_poppins text_linear_gradient fw-semibold">
+              Hero Center
+            </h1>
+            <h2 className=" text-center fw-semibold text-white font_md ff_poppins  mx-auto">
               Unveiling The Soul of{" "}
               <span className="text_linear_gradient">
                 Every Invention and The Passion
               </span>{" "}
               of Those Behind it.
-            </h1>
+            </h2>
             <p className=" ff_poppins fw-normal font-sm text-white-50 mx-auto pt-2">
               Ensuring the tales of your relentless research, eureka moments of
               discovery, and unwavering commitment to patient care neither go
