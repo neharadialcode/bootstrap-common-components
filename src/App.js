@@ -1,15 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
+import "./header.css"
 import "bootstrap/dist/css/bootstrap.min.css";
-
-
-import Hero from "./components/Hero";
-
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./views/Header";
+import Hero from "./views/Hero";
 function App() {
   return (
     <>
-      <Hero/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/header" element={ <Header/>} />
+          <Route path="/hero" element={ <Hero/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
