@@ -3,7 +3,7 @@ import React from "react";
 const AboutCenter = () => {
   return (
     <div>
-      <h1 className="text-center">About heading</h1>
+      <h1 className="text-center">About Center</h1>
       <div className="container">
         <div className="about_card bg-primary rounded-2 mt-4 py-3 d-flex flex-column justify-content-center align-items-center">
           <h5 className="text-center text-white">About us</h5>
