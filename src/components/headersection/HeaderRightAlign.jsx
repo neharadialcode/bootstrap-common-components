@@ -10,7 +10,9 @@ const HeaderRightAlign = () => {
         <div className=" container">
           <div className="d-flex justify-content-between align-items-center">
             <div className="gap-4 d-flex z-1 align-items-center">
-              <img src={Logo} alt="Logo" />
+              <a href="#">
+                <img src={Logo} alt="Logo" />
+              </a>
             </div>
             <div className={`${menu ? "show-nav" : "nav-fix"}`}>
               <div
