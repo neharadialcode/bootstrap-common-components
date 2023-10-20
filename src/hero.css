@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+
+@media (max-width:575.98px) {
+    :root {
+        --font-sm: 16px;
+        --font-xl: 50px;
+        --font-md: 32px
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --font-sm: 16px;
+        --font-xl: 62px;
+        --font-md: 50px
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --font-sm: 16px;
+        --font-xl: 44px;
+        --font-md: 50px
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --font-sm: 16px;
+        --font-xl: 62px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --font-sm: 16px;
+        --font-xl: 70px;
+    }
+}
+
+
+/*===================herohalf============= */
+:root {
+
+    /*============colors========= */
+    --clr-primary: #555858;
+    --clr-secndary: #8B96F9;
+    --clr-thirdary: #fff;
+}
+
+.ff_poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*=========== Font-size============= */
+
+.font-sm {
+    font-size: var(--font-sm);
+}
+
+.font-xl {
+    font-size: var(--font-xl);
+}
+
+.font_md {
+    font-size: var(--font-md);
+}
+
+/* ===========line-height============ */
+.lh_medium {
+    line-height: 24px;
+}
+
+.lh_larg {
+    line-height: 70px;
+}
+
+/*================color========= */
+.text_primary {
+    color: var(--clr-primary) !important;
+}
+
+/* ==============width============= */
+.max_width_par {
+    max-width: 380px;
+}
+
+.common_btu {
+    font-family: 'Poppins', sans-serif !important;
+    width: 208px;
+    height: 60px;
+    color: var(--clr-thirdary);
+    border-radius: 57px;
+    background: var(--clr-secndary);
+    border: 1px solid #8B96F9 !important;
+    transition: all 300ms ease-in-out;
+}
+
+.text_linear_gradient {
+    background: var(--linear, linear-gradient(180deg, #ABB6FB 0%, #747EF9 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.common_btu:hover {
+    color: var(--clr-secndary);
+    background: var(--clr-thirdary);
+    border: 1px solid #8B96F9 !important;
+    transition: all 300ms ease-in-out;
+}
+
+.common_btu:hover .Get_Started_icon path {
+    fill: var(--clr-secndary);
+    transition: all 300ms ease-in-out;
+    transform: translateX(0px) !important;
+}
+.common_btu .Get_Started_icon{
+    transform: translateX(0px) !important;
+    transition: all 300ms ease-in-out;
+}
+.common_btu:hover .Get_Started_icon{
+    transform: translateX(10px) !important;
+    transition: all 300ms ease-in-out;
+}
+.Get_Started_icon path {
+    transition: all 300ms ease-in-out;
+}
+
+
+@media (max-width:575.98px) {
+    .lh_larg {
+        line-height: 50px;
+    }
+
+    .max_width_hero_img {
+        max-width: 400px;
+    }
+}
+
+@media (min-width:576px) {
+    .lh_larg {
+        line-height: 62px;
+    }
+
+    .max_width_hero_img {
+        max-width: 400px;
+    }
+}
+
+@media (min-width:768px) {
+    .lh_larg {
+        line-height: 44px;
+    }
+
+    .max_width_hero_img {
+        max-width: 100% !important;
+    }
+}
+
+@media (min-width:992px) {
+    .lh_larg {
+        line-height: 62px;
+    }
+}
+
+@media (min-width:1200px) {
+    .lh_larg {
+        line-height: 70px;
+    }
+}
+
+
+
+
+.hero_center {
+    background-image: url("../src/assets/image/png/woman-take.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max_width_h1 {
+    max-width: 937px;
+}
+
+.max_width_parTwo {
+    max-width: 750px;
+}
+
+.placeholder_input {
+    max-width: 500px;
+    border-radius: 49px;
+    border: 1px solid rgba(233, 233, 233, 0.50);
+    background: rgba(0, 0, 0, 0.10);
+    outline: none;
+}
+
+.Do_It_Btn {
+    max-width: 140px !important;
+}
