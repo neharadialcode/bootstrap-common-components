@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/image/svg/headerLogo.svg"
+import logo from "../../assetsFolder/images/svg/headerLogo.svg"
 import { Container, Nav } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
