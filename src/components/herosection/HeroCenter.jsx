@@ -20,7 +20,7 @@ const HeroCenter = () => {
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="ff_poppins fw-normal font-sm  mx-auto pt-2 button_btn">
+              <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn">
                 Button
               </button>
             </div>
