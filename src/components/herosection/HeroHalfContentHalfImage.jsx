@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImag from "../../assets/image/png/hero_Half_img.png"
+import heroImag from "../../assetsFolder/images/png/hero_Half_img.png"
 import HeaderFull from "../headersection/HeaderFull"
 const HeroHalfContentHalfImage = () => {
   return (
