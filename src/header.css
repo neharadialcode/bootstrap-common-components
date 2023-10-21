@@ -191,7 +191,7 @@
   font-size: 18px;
   padding: 9px 30px;
   transition: all 0.3s;
-  margin: 20px 5px;
+  /* margin: 20px 5px; */
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
 }

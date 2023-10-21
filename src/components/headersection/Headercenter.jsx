@@ -15,7 +15,7 @@ const Headercenter = () => {
   }
   return (
     <div>
-      <div className="position-relative bg-info d-flex align-content-center py-2">
+      <div className="position-relative bg-info d-flex align-content-center py-4">
         <Container className="px-md-3">
           <Nav>
             <div className="w-100">

@@ -4,9 +4,9 @@ import Headercenter from "../headersection/Headercenter"
 const HeroCenter = () => {
   return (
     <>
-      <div className=" vh-100">
+      <div>
         <Headercenter />
-        <div className=" hero_center d-flex ali min-vh-100 align-items-center justify-content-center">
+        <div className=" hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">
           <div className=" container ">
             <div className=" text-center">
               <h1 className=" text-center mb-4 font_md ff_poppins text_linear_gradient fw-semibold">
