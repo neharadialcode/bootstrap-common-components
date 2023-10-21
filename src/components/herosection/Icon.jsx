@@ -3,7 +3,7 @@
 export const Icon1 =()=> {
     return (
       <svg
-        className="Get_Started_icon"
+        className="get_started_icon "
         width="21"
         height="15"
         viewBox="0 0 21 15"

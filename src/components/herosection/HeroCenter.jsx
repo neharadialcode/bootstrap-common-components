@@ -29,7 +29,7 @@ const HeroCenter = () => {
                 className=" bg-transparent  ff_poppins fw-normal font-sm text-white-50 w-100 py-3 placeholder_input px-3"
                 placeholder=" Enter your email here and we'll send you some 'magic'..."
               />
-              <button className="common_btn Do_It_Btn  fw-medium font-sm mt-4 mt-sm-0">
+              <button className="common_btn do_it_btn  fw-medium font-sm mt-4 mt-sm-0">
                 Do It
                 <span className=" ms-3">
                   <Icon1 />
