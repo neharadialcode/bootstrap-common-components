@@ -4,9 +4,9 @@ import HeaderFull from "../headersection/HeaderFull"
 const HeroHalfContentHalfImage = () => {
   return (
     <>
-      <div className=" vh-100 my-5">
-        <HeaderFull/>
-        <div className=" min-vh-100 d-flex align-items-center">
+      <div>
+        <HeaderFull />
+        <div className="hero_custom_height d-flex align-items-center">
           <div className=" container">
             <div className=" row flex-column-reverse flex-md-row align-items-center">
               <div className="  col-md-6 mt-5">

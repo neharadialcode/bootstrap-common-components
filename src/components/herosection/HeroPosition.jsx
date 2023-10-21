@@ -8,9 +8,9 @@ import HeaderRightAlign from "../headersection/HeaderRightAlign";
 const HeroPosition = () => {
   return (
     <>
-      <div className=" position-relative overflow-hidden">
+      <div className=" overflow-hidden">
         <HeaderRightAlign />
-        <div className="d-flex align-items-center justify-content-center min-vh-100 position-relative">
+        <div className="d-flex align-items-center justify-content-center  hero_custom_height position-relative">
           <img
             src={leftImagLeft}
             alt="leftImag"
@@ -31,7 +31,7 @@ const HeroPosition = () => {
             alt="leftImag"
             className=" position-absolute start-0 bottom-0  max_w_position_hero_img"
           />
-          <div className=" d-flex align-items-center justify-content-center">
+          <div className=" d-flex align-items-center justify-content-center ">
             <div className=" max_w_Hero_Position text-center">
               <span className="ff_poppins font-md text-black">
                 A nice headline

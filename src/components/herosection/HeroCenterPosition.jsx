@@ -5,8 +5,8 @@ const HeroCenterPosition = () => {
   return (
     <>
       <div>
-<HeaderRightAlign/>
-        <div className=" d-flex min-vh-100 align-items-center">
+        <HeaderRightAlign />
+        <div className=" d-flex hero_custom_height align-items-center">
           <div className=" container mt-4">
             <h1 className=" text-center mb-4 font_md ff_poppins text_linear_gradient fw-semibold">
               Hero Center Position
@@ -23,7 +23,11 @@ const HeroCenterPosition = () => {
               Button
             </button>
             <div className=" mt-5 pt-4">
-              <img src={heroCenterPosition} alt="heroCenterPosition" className=' w-100 min_h_hero_img' />
+              <img
+                src={heroCenterPosition}
+                alt="heroCenterPosition"
+                className=" w-100 min_h_hero_img"
+              />
             </div>
           </div>
         </div>
