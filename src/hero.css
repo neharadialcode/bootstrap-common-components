@@ -90,7 +90,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.max_w_hero_par{
+    max-width: 777px;
+}
 /* ===================COMMON BTN============== */
 
 .common_btn {
@@ -125,12 +127,20 @@
 .get_started_icon path {
     transition: all 300ms ease-in-out;
 }
+.button_btn{
+    width: 164px;
+    height: 48px;
+    color: #FFF;
+    border-radius: 12px;
+background: #3C278D;
+border: #3C278D;
+}
 
 
 /* =====================HERO CENTER======================== */
 
 .hero_center {
-    background-image: url("../src/assets/Image/png/woman-take.png");
+    background-image: url("../src/assets/image/png/hero_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

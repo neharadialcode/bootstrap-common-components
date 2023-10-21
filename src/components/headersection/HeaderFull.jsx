@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Image/svg/headerLogo.svg";
+import logo from "../../assets/image/svg/headerLogo.svg"
 import { RxCross2 } from "react-icons/rx";
 import { AiOutlineAlignRight } from "react-icons/ai";
 const HeaderFull = () => {

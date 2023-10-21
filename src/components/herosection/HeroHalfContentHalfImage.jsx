@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon, { Icon1 } from './Icon';
- import frame from "../../assets/Image/svg/Frame.svg";
- import heroImag from "../../assets/Image/png/hero_1.png";
+import  { Icon1 } from './Icon';
+ import frame from "../../assets/image/svg/Frame.svg"
+import heroImag from "../../assets/image/png/hero_1.png"
 const HeroHalfContentHalfImage = () => {
   return (
     <>
