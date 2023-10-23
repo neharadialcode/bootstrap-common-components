@@ -22,13 +22,14 @@
 .about_left_arrow{
     top: 50%;
     transform: translateY(-50%);
-    left: 6%;
+    left: 0;
     cursor: pointer;
+    z-index: 2;
 }
 .about_right_arrow{
     top: 50%;
     transform: translateY(-50%);
-    right: 6%;
+    right: 0;
     cursor: pointer;
 }
 .aboutus_bottom_slider{max-width: 1008px;}
