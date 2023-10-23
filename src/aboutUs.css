@@ -1,0 +1,12 @@
+.about_card {
+    min-height: 466px;
+  }
+  .header_bg {
+    background-image: url(../src/assets/images/webp/about-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about_para {
+    max-width: 800px;
+  }
+  .opacity_70{opacity: 0.7;}

@@ -8,7 +8,6 @@
     box-sizing: border-box !important;
 }
 
-
 @media (max-width:575.98px) {
     :root {
         --font-sm: 16px;
@@ -62,6 +61,7 @@
 :root {
 
     /*============COLORS========= */
+    
     --clr-primary: #555858;
 }
 
@@ -231,5 +231,5 @@
 }
 
 .hero_custom_height {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 95px);
 }
