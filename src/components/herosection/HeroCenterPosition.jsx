@@ -26,7 +26,7 @@ const HeroCenterPosition = () => {
               <img
                 src={heroCenterPosition}
                 alt="heroCenterPosition"
-                className=" w-100 min_h_ hero_img"
+                className=" w-100 min_h_hero_img"
               />
             </div>
           </div>
