@@ -1,0 +1,32 @@
+/* full form css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+.text40 {
+  font-size: 40px;
+}
+.max-w-435 {
+  max-width: 435px;
+}
+.lh_120 {
+  line-height: 120%;
+}
+.fs_16 {
+  font-size: 16px;
+}
+.max-w-559 {
+  max-width: 559px;
+}
+.loveInput {
+  border-radius: 12px;
+  background: rgba(138, 138, 138, 0.17);
+  border: 1px solid transparent;
+  height: 52px;
+  padding-left: 26px;
+  padding-bottom: 2px;
+}
+.loveInput::placeholder {
+  color: #474747;
+  font-family: inter;
+}

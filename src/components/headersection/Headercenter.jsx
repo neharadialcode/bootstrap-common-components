@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assetsFolder/images/svg/headerLogo.svg"
 import { Container, Nav } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { ImCross } from "react-icons/im";
+import { RxCross2 } from "react-icons/rx";
 const Headercenter = () => {
   const [NavShow, setNavShow] = React.useState(true);
   function clickshow() {
@@ -94,7 +94,7 @@ const Headercenter = () => {
                 </div>
                 <div className="z-10 d-md-none position-relative">
                   <h3 className="text-black w-100" onClick={clickshow}>
-                    {NavShow ? <GiHamburgerMenu /> : <ImCross />}
+                    {NavShow ? <GiHamburgerMenu /> : <RxCross2 />}
                   </h3>
                 </div>
               </div>
