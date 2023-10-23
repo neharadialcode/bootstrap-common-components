@@ -19,7 +19,7 @@
 }
 .loveInput {
   border-radius: 12px;
-  background: rgba(138, 138, 138, 0.17);
+  background-color: rgba(138, 138, 138, 0.17);
   border: 1px solid transparent;
   height: 52px;
   padding-left: 26px;
@@ -29,6 +29,19 @@
   color: #474747;
 }
 .loveInput:active {
-  background: white !important;
+  background-color: white !important;
   border: 1px solid #000;
+}
+.textAreaHeight {
+  height: 130px;
+  padding-top: 17px;
+  position: 30px;
+}
+.lh_157 {
+  line-height: 157%;
+}
+.justBtn{
+  width: 410px;
+  height: 52px;
+  border-radius: 12px;
 }

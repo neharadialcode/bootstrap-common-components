@@ -18,65 +18,35 @@ const SliderSlick = () => {
     setNav2(slider2.current);
   }, []);
   return (
-    <div className="container">
-      <div className="row pb-4 mb-3 align-items-center">
-        <div className="col-6 pe-5">
-          <Slider className="mainSlider" asNavFor={nav2} ref={slider1}>
-            <div>
-              <img
-                className="w-100 about_big_sliders"
-                src={Slider_small_1}
-                alt="Slider-img"
-              />
-            </div>
-            <div>
-              <img
-                className="w-100 about_big_sliders"
-                src={Slider_small_2}
-                alt="Slider-img"
-              />
-            </div>
-            <div>
-              <img
-                className="w-100 about_big_sliders"
-                src={Slider_small_3}
-                alt="Slider-img"
-              />
-            </div>
-            <div>
-              <img
-                className="w-100 about_big_sliders"
-                src={Slider_small_4}
-                alt="Slider-img"
-              />
-            </div>
-            <div>
-              <img
-                className="w-100 about_big_sliders"
-                src={Slider_small_5}
-                alt="Slider-img"
-              />
-            </div>
-          </Slider>
+    <div className="container py-5">
+      <Slider className="mainSlider" asNavFor={nav2} ref={slider1}>
+        <div className="align-items-center d-flex pb-4 mb-3">
+          <div className="col-6 pe-5">
+            <img
+              className="w-100 about_big_sliders"
+              src={Slider_small_1}
+              alt="Slider-img"
+            />
+          </div>
+          <div className="col-6 pe-5">
+            <h2 className="fs_2xl fw-semibold">Lorem ipsum </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
+              consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
+              Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
+              nam vitae hendrerit at egestas.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
+              consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
+              Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
+              nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
+              vitae sed. Proin urna ornare dolor mauris convallis varius nunc.
+            </p>
+            <button className="button_btn">Button</button>
+          </div>
         </div>
-        <div className="col-6 pe-5">
-          <h2 className="fs_2xl fw-semibold">Lorem ipsum </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
-            consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
-            posuere eget nam diam velit urna adipiscing diam. Dis velit nam
-            vitae hendrerit at egestas.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
-            consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
-            posuere eget nam diam velit urna adipiscing diam. Dis velit nam
-            vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae
-            sed. Proin urna ornare dolor mauris convallis varius nunc.
-          </p>
-          <button className="button_btn">Button</button>
-        </div>
-      </div>
+      </Slider>
       <div className="position-relative">
         <div
           onClick={() => slider2.current?.slickNext()}
