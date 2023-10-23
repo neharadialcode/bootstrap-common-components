@@ -10,6 +10,8 @@ const Main = () => {
         <a href="/hero"className="py-2 px-4 bg-info border-0 text-white">Hero</a>
         <h2 className='pb-3 mt-5'>ABOUT US</h2>
         <a href="/about"className="py-2 px-4 bg-info border-0 text-white">About Us</a>
+        <h2 className='pb-3 mt-5'>Form</h2>
+        <a href="/form"className="py-2 px-4 bg-info border-0 text-white">Form</a>
       </div>
     </>
   );
