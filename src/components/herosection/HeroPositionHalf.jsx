@@ -28,7 +28,7 @@ const HeroPositionHalf = () => {
                 <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-5">
                   Button
                 </button>
-                <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-5 ms-3">
+                <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-2 ms-3 mt-sm-5">
                   Button
                 </button>
               </div>
