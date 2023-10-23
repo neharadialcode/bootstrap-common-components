@@ -1,17 +1,20 @@
 import React from 'react'
-import heroImag from "../../assetsFolder/images/png/hero_Half_img.png"
-import HeaderFull from "../headersection/HeaderFull"
-const HeroHalfContentHalfImage = () => {
+import heroImagPosition from "../../assetsFolder/images/png/hero_half_position.png";
+import Headercenter from "../headersection/Headercenter"
+const HeroPositionHalf = () => {
   return (
     <>
-      <div>
-        <HeaderFull />
+      <div className=" overflow-hidden">
+        <Headercenter />
         <div className="hero_custom_height d-flex align-items-center">
           <div className=" container">
-            <div className=" row flex-column-reverse flex-md-row align-items-center">
-              <div className="  col-md-6 mt-5">
+            <div className=" row flex-column-reverse flex-lg-row align-items-center">
+              <div className="  col-md-8 col-lg-5 mt-5">
+                <span className="ff_poppins font-md text-black">
+                  A nice headline
+                </span>
                 <h1 className=" ff_poppins fw-medium font-xl text-black">
-                  Lorem ipsum dolor sit{" "}
+                  Goes here
                 </h1>
 
                 <p className=" ff_poppins fw-normal text_primary font-sm   mb-0">
@@ -25,12 +28,15 @@ const HeroHalfContentHalfImage = () => {
                 <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-5">
                   Button
                 </button>
+                <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-5 ms-3">
+                  Button
+                </button>
               </div>
-              <div className=" col-md-6 text-center text-md-start">
+              <div className=" col-md-8 col-lg-7 text-center text-md-start position-relative">
                 <img
-                  src={heroImag}
-                  alt="heroImag"
-                  className=" w-100 mx-auto max_width_hero_img"
+                  src={heroImagPosition}
+                  alt="heroImagPosition"
+                  className=" w-100 hero_Img_position"
                 />
               </div>
             </div>
@@ -41,4 +47,4 @@ const HeroHalfContentHalfImage = () => {
   );
 }
 
-export default HeroHalfContentHalfImage
+export default HeroPositionHalf

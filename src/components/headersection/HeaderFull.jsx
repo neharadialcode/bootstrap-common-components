@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/svg/headerLogo.svg";
+import logo from "../../assetsFolder/images/svg/headerLogo.svg";
 import { RxCross2 } from "react-icons/rx";
 import { AiOutlineAlignRight } from "react-icons/ai";
 const HeaderFull = () => {
@@ -19,11 +19,7 @@ const HeaderFull = () => {
         <div className=" d-flex justify-content-between d-lg-none align-items-center px-4 py-3 bg-black">
           <span>
             <a href="#">
-              <img
-                src={logo}
-                alt="logo"
-                className="w-100"
-              />
+              <img src={logo} alt="logo" className="w-100" />
             </a>
           </span>
           <h2
