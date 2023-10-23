@@ -8,6 +8,8 @@ import Header from "./views/Header";
 import Hero from "./views/Hero";
 import Main from "./components/Main";
 import AboutUs from "./views/AboutUs";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
