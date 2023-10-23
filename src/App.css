@@ -5,6 +5,7 @@
   --fs-md: 20px;
   --fs-lg: 24px;
   --fs-xl: 32px;
+  --fs-2xl: 48px;
   /* color */
   --clr-purple: #3c278d;
   --clr-lightPurple: #6b5ba9;
@@ -21,6 +22,9 @@
 }
 .fs_xl {
   font-size: var(--fs-xl);
+}
+.fs_2xl{
+  font-size: var(--fs-2xl);
 }
 /* font-color */
 .clr_lightBrown {
@@ -42,6 +46,7 @@
     --fs-md: 18px;
     --fs-lg: 22px;
     --fs-xl: 28px;
+    --fs-2xl: 38px;
   }
 }
 
