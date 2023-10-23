@@ -1,3 +1,23 @@
-.about_card{
-  min-height: 300px;
+.about_card {
+  min-height: 466px;
+}
+.header_bg {
+  background-image: url(../src/assets/images/webp/about-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_para {
+  max-width: 800px;
+}
+.common_btn {
+  display: flex;
+  color: white;
+  border: none;
+  width: 164px;
+  height: 48px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #3C278D;
 }
