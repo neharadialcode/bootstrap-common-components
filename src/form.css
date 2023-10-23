@@ -30,3 +30,7 @@
   color: #474747;
   font-family: inter;
 }
+.loveInput:active {
+  background: white !important;
+  border: 1px solid #000;
+}
