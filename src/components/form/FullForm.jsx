@@ -13,7 +13,15 @@ const FullForm = () => {
             <input
               type="text"
               placeholder="Edward Snowden"
-              className="w-100 max-w-559 loveInput"
+              className="w-100 loveInput"
+            />
+          </div>
+          <div className="col-6">
+            <p className=" ff_inter fw-medium fs_16 text-black mb-2">Your name </p>
+            <input
+              type="text"
+              placeholder="Edward Snowden"
+              className="w-100 loveInput"
             />
           </div>
         </div>

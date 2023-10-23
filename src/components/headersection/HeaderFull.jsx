@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assetsFolder/images/svg/headerLogo.svg";
-import { RxCross2 } from "react-icons/rx";
-import { AiOutlineAlignRight } from "react-icons/ai";
+import { CrossIcon, MenuIcon } from "../common/Icons";
 const HeaderFull = () => {
   const [First, setFirst] = React.useState(true);
   function clickshow() {
@@ -16,7 +15,7 @@ const HeaderFull = () => {
     <>
       <div className="">
         {/* btn */}
-        <div className=" d-flex justify-content-between d-lg-none align-items-center px-3 py-3 bg-black">
+        <div className=" d-flex justify-content-between d-lg-none align-items-center px-3 py-3 bg-info">
           <span>
             <a href="#">
               <img src={logo} alt="logo" className="w-100" />
@@ -26,12 +25,12 @@ const HeaderFull = () => {
             onClick={clickshow}
             className="pointer position-relative zFull text-white ps-4"
           >
-            {First ? <AiOutlineAlignRight /> : <RxCross2 />}
+            {First ? <MenuIcon /> : <CrossIcon />}
           </h2>
         </div>
         {/* nav */}
         <div className={`NavShow ${First ? "" : "ps-0 showw"}`}>
-          <div className="bg-black py-4 vh_100_1920 position-relative">
+          <div className="bg-info py-4 vh_100_1920 position-relative">
             {/* nav bar container */}
             <div className="container-fluid">
               <div className=" d-flex align-items-center flex-lg-row flex-column justify-content-center justify-content-lg-between vh_100_992">
