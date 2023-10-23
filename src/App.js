@@ -1,4 +1,5 @@
 import "./App.css";
+import "./aboutUs.css"
 import "./hero.css";
 import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -10,18 +10,18 @@ const AboutRowCol = () => {
           </div>
           <div className="col-lg-6 pe-xl-4 pt-4 pt-lg-0">
             <h2 className="mb-0">Lorem ipsum </h2>
-            <p className="py-3 mb-0">
+            <p className="py-3 mb-0 opacity_70">
               Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
               Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
               nam vitae hendrerit at egestas.
             </p>
-            <p className="pb-3">
+            <p className="pb-3 opacity_70">
               Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
-              Hac posuere eget nam diam velit urna adipiscing diam.{" "}
+              Hac posuere eget nam diam velit urna adipiscing diam.
             </p>
-            <button className="common_btn">Button</button>
+            <button className="button_btn">Button</button>
           </div>
         </div>
       </div>
