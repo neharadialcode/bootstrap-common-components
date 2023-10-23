@@ -26,3 +26,7 @@
   padding-left: 26px;
   padding-bottom: 2px;
 }
+.loveInput::placeholder {
+  color: #474747;
+  font-family: inter;
+}

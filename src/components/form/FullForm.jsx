@@ -9,7 +9,7 @@ const FullForm = () => {
         </p>
         <div className="row">
           <div className="col-6">
-            <p className=" ff_inter fw-medium fs_16 text-black">Your name </p>
+            <p className=" ff_inter fw-medium fs_16 text-black mb-2">Your name </p>
             <input
               type="text"
               placeholder="Edward Snowden"
