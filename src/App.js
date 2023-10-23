@@ -10,6 +10,8 @@ import Hero from "./views/Hero";
 import Main from "./components/Main";
 import AboutUs from "./views/AboutUs";
 import Form from "./views/Form";
+import FaqsOne from "./components/faqs/FaqsOne";
+import Faqs from "./components/faqs/Faqs";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path="/hero" element={<Hero />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/faqs" element={<Faqs/>}/>
         </Routes>
       </BrowserRouter>
     </>
