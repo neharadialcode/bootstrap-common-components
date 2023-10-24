@@ -5,8 +5,8 @@
 .text40 {
   font-size: 40px;
 }
-.max-w-435 {
-  max-width: 435px;
+.headingMaxWidth {
+  max-width: 494px;
 }
 .lh_120 {
   line-height: 120%;
@@ -21,8 +21,8 @@
   border-radius: 12px;
   background-color: rgba(138, 138, 138, 0.17);
   border: 1px solid transparent;
-  height: 52px;
-  padding-left: 26px;
+  height: 42px;
+  padding-left: 16px;
   padding-bottom: 2px;
 }
 .loveInput::placeholder {
@@ -30,18 +30,38 @@
 }
 .loveInput:active {
   background-color: white !important;
-  border: 1px solid #000;
+  border: 1px solid #000 !important;
 }
 .textAreaHeight {
-  height: 130px;
+  height: 130px !important;
   padding-top: 17px;
-  position: 30px;
 }
 .lh_157 {
   line-height: 157%;
 }
-.justBtn{
-  width: 410px;
+.justBtn {
+  width: 210px;
   height: 52px;
   border-radius: 12px;
+}
+.loveInput:focus-visible {
+  outline: black auto 1px !important;
+}
+.inputBottomSpace {
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .inputBottomSpaceSm {
+    margin-bottom: 31px;
+  }
+  .justBtn {
+    width: 410px;
+    height: 52px;
+    border-radius: 12px;
+  }
+  .loveInput {
+    height: 52px;
+    padding-bottom: 2px;
+    padding-left: 26px;
+  }
 }
