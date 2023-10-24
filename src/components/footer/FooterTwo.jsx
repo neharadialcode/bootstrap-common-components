@@ -8,28 +8,28 @@ const FooterTwo = () => {
           <p className=" fw-semibold fs-5 bg-danger d-inline-block py-2 px-3 mb-0">
             Logo
           </p>
-          <ul className=" row ps-0  align-items-center gap-5 justify-content-center mt-4">
-            <li className=" col-5 col-sm-auto mt-2">
+          <ul className=" row ps-0  align-items-center justify-content-center mt-4">
+            <li className=" col-4 col-sm-auto mt-2">
               <a href="#" className="font-sm ff_poppins text-dark">
                 Home
               </a>
             </li>
-            <li className=" col-5 col-sm-auto mt-2">
+            <li className=" col-4 col-sm-auto mt-2">
               <a href="#" className="font-sm ff_poppins text-dark">
                 About
               </a>
             </li>
-            <li className=" col-5 col-sm-auto mt-2">
+            <li className=" col-4 col-sm-auto mt-2">
               <a href="#" className="font-sm ff_poppins text-dark">
                 Community
               </a>
             </li>
-            <li className=" col-5 col-sm-auto mt-2">
+            <li className=" col-4 col-sm-auto mt-2">
               <a href="#" className="font-sm ff_poppins text-dark">
                 RoadMap
               </a>
             </li>
-            <li className=" col-5 col-sm-auto mt-2">
+            <li className=" col-4 col-sm-auto mt-2">
               <a href="#" className="font-sm ff_poppins text-dark">
                 Faqs
               </a>
