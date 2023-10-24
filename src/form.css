@@ -65,3 +65,8 @@
     padding-left: 26px;
   }
 }
+/* side form start here */
+.SideForm {
+  box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.15);
+  height: 451px;
+}

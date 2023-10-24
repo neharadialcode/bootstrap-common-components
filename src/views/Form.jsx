@@ -1,10 +1,19 @@
 import React from "react";
 import FullForm from "../components/form/FullForm";
+import SideForm from "../components/form/SideForm";
 
 const Form = () => {
   return (
     <>
-      <FullForm />
+      <div className="mb-5 text-center pb-5 pt-5 vh-100 d-flex flex-column justify-content-center">
+        <h1 className="mb-5">Full form</h1>
+        <FullForm />
+        <h2 className="text-center">Side form⬇⬇⬇</h2>
+      </div>
+      <div className="vh-100 d-flex flex-column justify-content-center">
+        <h2 className="text-center">Side Form</h2>
+        <SideForm />
+      </div>
     </>
   );
 };
