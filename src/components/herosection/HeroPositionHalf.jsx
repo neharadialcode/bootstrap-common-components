@@ -13,11 +13,11 @@ const HeroPositionHalf = () => {
                 <span className="ff_poppins font-md text-black">
                   A nice headline
                 </span>
-                <h1 className=" ff_poppins fw-medium font-xl text-black">
+                <h1 className=" ff_poppins fw-medium fs_xl text-black">
                   Goes here
                 </h1>
 
-                <p className=" ff_poppins fw-normal text_primary font-sm   mb-0">
+                <p className=" ff_poppins fw-normal text_primary fs_sm   mb-0">
                   Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                   eget consectetur mi. Vulputate sapien a a bibendum suspendisse
                   quam. Hac posuere eget nam diam velit urna adipiscing diam.
@@ -25,10 +25,10 @@ const HeroPositionHalf = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-5">
                   Button
                 </button>
-                <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn mt-2 ms-3 mt-sm-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-2 ms-3 mt-sm-5">
                   Button
                 </button>
               </div>

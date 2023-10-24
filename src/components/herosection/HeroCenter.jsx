@@ -3,7 +3,7 @@ import Headercenter from "../headersection/Headercenter"
 const HeroCenter = () => {
   return (
     <>
-      {/* <span className=" text-center font-xl d-flex justify-content-center ff_poppins text_linear_gradient fw-semibold">
+      {/* <span className=" text-center fs_xl d-flex justify-content-center ff_poppins text_linear_gradient fw-semibold">
         Hero Center
       </span> */}
       <div>
@@ -12,15 +12,15 @@ const HeroCenter = () => {
           <div className=" container ">
             <div className=" text-center">
          
-              <h1 className=" text-center fw-semibold font_md ff_poppins  mx-auto">
+              <h1 className=" text-center fw-semibold fs_md ff_poppins  mx-auto">
                 Lorem ipsum Lorem ipsum
               </h1>
-              <p className=" ff_poppins fw-normal font-sm  mx-auto pt-2 max_w_hero_par mx-auto">
+              <p className=" ff_poppins fw-normal fs_sm  mx-auto pt-2 max_w_hero_par mx-auto">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn">
+              <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn">
                 Button
               </button>
             </div>

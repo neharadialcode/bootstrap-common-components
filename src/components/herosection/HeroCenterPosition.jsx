@@ -8,18 +8,18 @@ const HeroCenterPosition = () => {
         <HeaderRightAlign />
         <div className=" d-flex hero_custom_height align-items-center">
           <div className=" container mt-4">
-            <h1 className=" text-center mb-4 font_md ff_poppins text_linear_gradient fw-semibold">
+            <h1 className=" text-center mb-4 fs_md ff_poppins text_linear_gradient fw-semibold">
               Hero Center Position
             </h1>
-            <h2 className=" text-center fw-semibold font_md ff_poppins  mx-auto">
+            <h2 className=" text-center fw-semibold fs_md ff_poppins  mx-auto">
               Lorem ipsum Lorem ipsum
             </h2>
-            <p className=" ff_poppins fw-normal font-sm  mx-auto pt-2 max_w_hero_par mx-auto text-center">
+            <p className=" ff_poppins fw-normal fs_sm  mx-auto pt-2 max_w_hero_par mx-auto text-center">
               Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
               Hac posuere eget nam diam velit urna adipiscing diam.
             </p>
-            <button className="ff_poppins fw-normal font-sm  mx-auto  button_btn d-flex align-items-center justify-content-center">
+            <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn d-flex align-items-center justify-content-center">
               Button
             </button>
             <div className=" mt-5 pt-4">
