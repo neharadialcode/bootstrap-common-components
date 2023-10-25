@@ -264,3 +264,14 @@ button:focus {
 .bg_logo {
   background-color: #c5c2c2 !important;
 }
+.hover_sclae{
+  transition: all 200ms linear;
+}
+.hover_sclae:hover{
+transform: scale(1.11) !important;
+transition: all 200ms linear;
+}
+
+ div ul li a {
+  color: #4D4D4D !important;
+ }

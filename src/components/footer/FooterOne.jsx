@@ -8,7 +8,10 @@ const FooterOne = () => {
       <div className=" container">
         <div className=" row justify-content-between ">
           <div className=" col-xl-3">
-            <a href="#" className=" fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3">
+            <a
+              href="#"
+              className=" fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3"
+            >
               Logo
             </a>
             <p className=" font-sm ff_poppins">
@@ -22,27 +25,27 @@ const FooterOne = () => {
                 <ul className=" ps-0">
                   <li className="font-sm ff_poppins text-dark">Quick links</li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       Home
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       About
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       Community
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       RoadMap
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       Faqs
                     </a>
                   </li>
@@ -52,12 +55,12 @@ const FooterOne = () => {
                 <ul className=" ps-0">
                   <li className="font-sm ff_poppins text-dark">Links</li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       Terms & conditions
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-black">
+                    <a href="#" className="font-sm ff_poppins ">
                       Privacy Policy
                     </a>
                   </li>
@@ -81,14 +84,18 @@ const FooterOne = () => {
                 </form>
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
                 <div>
-                  <a href="#">
-                    <img src={twitter} alt="twitter" />
+                  <a href="#" className=" ">
+                    <img src={twitter} alt="twitter" className="hover_sclae" />
                   </a>
-                  <a href="#" className=" mx-2">
-                    <img src={fackbook} alt="fackbook" />
+                  <a href="#" className=" mx-2 ">
+                    <img
+                      src={fackbook}
+                      alt="fackbook"
+                      className="hover_sclae"
+                    />
                   </a>
                   <a href="#">
-                    <img src={be} alt="be" />
+                    <img src={be} alt="be" className="hover_sclae" />
                   </a>
                 </div>
               </div>
