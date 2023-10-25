@@ -8,9 +8,9 @@ const FooterOne = () => {
       <div className=" container">
         <div className=" row justify-content-between ">
           <div className=" col-xl-3">
-            <p className=" fw-semibold fs-5 bg-danger d-inline-block py-2 px-3 ">
+            <a href="#" className=" fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3">
               Logo
-            </p>
+            </a>
             <p className=" font-sm ff_poppins">
               Discover Stellar blockchain's unrivaled speed, security, &
               scalability with Volag. Revolutionize finance.
@@ -18,52 +18,52 @@ const FooterOne = () => {
           </div>
           <div className="col-xl-8">
             <div className=" row justify-content-between">
-              <div className=" col-6 col-lg-3">
+              <div className=" col-sm-6 col-md-3">
                 <ul className=" ps-0">
                   <li className="font-sm ff_poppins text-dark">Quick links</li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       Home
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       About
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       Community
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       RoadMap
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       Faqs
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className=" col-6 col-lg-3">
+              <div className=" col-sm-6 col-md-3">
                 <ul className=" ps-0">
                   <li className="font-sm ff_poppins text-dark">Links</li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       Terms & conditions
                     </a>
                   </li>
                   <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins text-danger">
+                    <a href="#" className="font-sm ff_poppins text-black">
                       Privacy Policy
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-6 col-lg-4 col-xl-5">
+              <div className=" col-sm-6 col-md-5">
                 <p className="font-sm ff_poppins">Get in Touch</p>
                 <form>
                   <div className=" mt-0">

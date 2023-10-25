@@ -176,7 +176,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    padding: 16px 24px !important;
     color: #3C278D !important;
 font-size: 20px !important;
 font-weight: 400px !important;
@@ -203,16 +203,14 @@ font-weight: 400px !important;
     box-shadow: transparent !important;
       font-weight: 600px !important;
 }
-
 .accordion-item {
     color: var(--bs-accordion-color);
     background-color: transparent !important;
     border: transparent !important;
-        border: 2px solid #3C278D !important;
+        border: 1px solid #3C278D !important;
+            border-radius: 10px !important;
 
-}
-.accordion-item {
-    border-radius: 10px !important;
+
 }
 button:focus{
     outline: none !important;
@@ -224,7 +222,7 @@ button:focus{
 
     margin-left: auto;
     content: "";
-    background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg");
+    background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important   ;
     background-repeat: no-repeat;
 }
 .border_top{
@@ -247,4 +245,8 @@ background: #3C278D;
 }
 .footer_bordeer_top{
     border-top: 2px solid #3C278D;
+}
+/*===============colors===============*/
+.bg_logo{
+  background-color:#C5C2C2 !important;
 }

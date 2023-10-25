@@ -29,6 +29,9 @@ const Main = () => {
         >
           Footer
         </a>
+        <a href="/vedio" className="py-2 px-4 bg-info border-0 text-white ms-3">
+          Vedio
+        </a>
       </div>
     </>
   );

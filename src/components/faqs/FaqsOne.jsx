@@ -13,10 +13,9 @@ const FaqsOne = () => {
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
-              1. What is a cryptocurrency token?
+              1. <span> What is a cryptocurrency token?</span>
             </Accordion.Header>
-            <Accordion.Body>
-              <span className='border_top'></span>
+            <Accordion.Body className="">
               Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
               porttitor quam sed aliquet. Sodales vulputate elementum arcu
               donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -27,7 +26,7 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="1" className=" mt-3">
             <Accordion.Header>
-              2. How can I buy cryptocurrency tokens?
+              2. <span> How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -41,7 +40,7 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2" className=" mt-3">
             <Accordion.Header>
-              3. How can I buy cryptocurrency tokens?
+              3. <span>How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,7 +54,7 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="3" className=" mt-3">
             <Accordion.Header>
-              4. How can I buy cryptocurrency tokens?
+              4. <span>How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
             <Accordion.Body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
