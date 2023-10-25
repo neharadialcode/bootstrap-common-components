@@ -16,16 +16,16 @@ const SideForm = () => {
     if (
       touchForm.name !== "" &&
       touchForm.email !== "" &&
-      touchForm.aboutus !== "" &&
-      touchForm.workup !== "" &&
+      touchForm.contact !== "" &&
+      touchForm.message !== "" &&
       regex.test(touchForm.email)
     ) {
       setError(false);
       setTouchForm({
         name: "",
         email: "",
-        aboutus: "",
-        workup: "",
+        contact: "",
+        message: "",
       });
     }
   };
@@ -55,20 +55,45 @@ const SideForm = () => {
               </div>
               <input
                 type="text"
-                className="sideFormInput overflow-hidden fs_sm"
+                className={`sideFormInput overflow-hidden fs_sm ${
+                  error && touchForm.email === ""
+                    ? "border-danger"
+                    : error && regex.test(touchForm.email) === false
+                    ? "border-danger"
+                    : ""
+                }`}
+                onChange={(e) =>
+                  setTouchForm({ ...touchForm, email: e.target.value })
+                }
+                value={touchForm.email}
                 placeholder="Email address"
               />
               <input
-                type="text"
-                className="sideFormInput overflow-hidden fs_sm"
+                type="number"
                 placeholder="Contact"
+                className={`sideFormInput overflow-hidden fs_sm w-100 ${
+                  error && touchForm.contact === ""
+                    ? "border-danger"
+                    : touchForm !== ""
+                }`}
+                onChange={(e) =>
+                  setTouchForm({ ...touchForm, contact: e.target.value })
+                }
+                value={touchForm.contact}
               />
               <textarea
-                type="text"
-                className="sideFormInput overflow-hidden fs_sm TextAreaSide overflow-hidden"
+                className={`sideFormInput overflow-hidden fs_sm TextAreaSide overflow-hidden ${
+                  error && touchForm.message === ""
+                    ? "border-danger"
+                    : touchForm !== ""
+                }`}
                 placeholder="Message"
+                onChange={(e) =>
+                  setTouchForm({ ...touchForm, message: e.target.value })
+                }
+                value={touchForm.message}
               />
-              <button className="text-white d-flex justify-content-center align-items-center submitBtn bg_purple border-0 mt-3">
+              <button className="text-white d-flex justify-content-center align-items-center submitBtn bg_purple buttonHover mt-3">
                 Submit
               </button>
             </form>
@@ -85,7 +110,7 @@ const SideForm = () => {
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum.
               </p>
-              <button className="text-white d-flex justify-content-center align-items-center TouchBtn bg_purple border-0">
+              <button className="text-white d-flex justify-content-center align-items-center TouchBtn bg_purple buttonHover">
                 Get in Touch
               </button>
             </div>

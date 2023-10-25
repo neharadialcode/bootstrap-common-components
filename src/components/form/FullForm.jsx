@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 const FullForm = () => {
-  const [typicalform, setTypicalForm] = useState({
+  const [typicalForm, setTypicalForm] = useState({
     name: "",
     email: "",
-    aboutus: "",
-    workup: "",
-    myYou: "",
+    project: "",
+    budget: "",
+    design: "",
   });
   const [error, setError] = useState(false);
   const regex =
@@ -15,49 +15,49 @@ const FullForm = () => {
     e.preventDefault();
     setError(true);
     if (
-      typicalform.name !== "" &&
-      typicalform.email !== "" &&
-      typicalform.aboutus !== "" &&
-      typicalform.workup !== "" &&
-      typicalform.myYou !== "" &&
-      regex.test(typicalform.email)
+      typicalForm.name !== "" &&
+      typicalForm.email !== "" &&
+      typicalForm.project !== "" &&
+      typicalForm.budget !== "" &&
+      typicalForm.design !== "" &&
+      regex.test(typicalForm.email)
     ) {
       setError(false);
       setTypicalForm({
         name: "",
         email: "",
-        aboutus: "",
-        workup: "",
-        myYou: "",
+        project: "",
+        budget: "",
+        design: "",
       });
     }
   };
   return (
     <>
       <form onSubmit={(e) => OnsubmitHandler(e)} className="container">
-        <p className="ff_inter fs_2xl headingMaxWidth fw-medium text-start lh_120 text-black mb-4 pb-2">
+        <p className="ff_inter fs_2xl headingMaxWidth fw-medium text-start lh_120 text-black mb-4 pb-2 pt-5">
           Love to hear from you, Get in touch
         </p>
         <div className="row inputBottomSpaceSm">
           <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black mb-2 text-start">
+            <p className=" ff_inter fw-medium fs_sm text-black text-start mb-2">
               Your name
             </p>
             <input
               type="text"
-              placeholder="Edward Snowden"
+              placeholder="Edward SnowDen"
               className="w-100 loveInput"
               onChange={(e) =>
-                setTypicalForm({ ...typicalform, name: e.target.value })
+                setTypicalForm({ ...typicalForm, name: e.target.value })
               }
-              value={typicalform.name}
+              value={typicalForm.name}
             />
-            {error && typicalform.name === "" ? (
+            {error && typicalForm.name === "" ? (
               <p className="font-medium position-absolute text-danger ps-1">
                 Name is required
               </p>
             ) : (
-              typicalform !== ""
+              typicalForm !== ""
             )}
           </div>
           <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
@@ -70,16 +70,16 @@ const FullForm = () => {
               className="w-100 loveInput"
               onChange={(e) =>
                 setTypicalForm({
-                  ...typicalform,
+                  ...typicalForm,
                   email: e.target.value,
                 })
               }
-              value={typicalform.email}
+              value={typicalForm.email}
             />
             <p className="mb-0 text-danger font-medium pointer-events-none position-absolute ps-1">
-              {error && typicalform.email === "" ? (
+              {error && typicalForm.email === "" ? (
                 "Email is required"
-              ) : error && regex.test(typicalform.email) === false ? (
+              ) : error && regex.test(typicalForm.email) === false ? (
                 <p className="text-danger font-medium">Email Not Valid</p>
               ) : (
                 ""
@@ -98,16 +98,16 @@ const FullForm = () => {
               placeholder="Design & Branding"
               className="w-100 loveInput"
               onChange={(e) =>
-                setTypicalForm({ ...typicalform, myYou: e.target.value })
+                setTypicalForm({ ...typicalForm, design: e.target.value })
               }
-              value={typicalform.myYou}
+              value={typicalForm.design}
             />
-            {error && typicalform.myYou === "" ? (
+            {error && typicalForm.design === "" ? (
               <p className="text-danger ps-1 position-absolute font-medium">
                 Text is required
               </p>
             ) : (
-              typicalform !== ""
+              typicalForm !== ""
             )}
           </div>
           <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
@@ -119,21 +119,21 @@ const FullForm = () => {
               placeholder="select your budget"
               className="w-100 loveInput"
               onChange={(e) =>
-                setTypicalForm({ ...typicalform, workup: e.target.value })
+                setTypicalForm({ ...typicalForm, budget: e.target.value })
               }
-              value={typicalform.workup}
+              value={typicalForm.budget}
             />
-            {error && typicalform.workup === "" ? (
+            {error && typicalForm.budget === "" ? (
               <p className="text-danger ps-1 position-absolute font-medium">
                 Text is required
               </p>
             ) : (
-              typicalform !== ""
+              typicalForm !== ""
             )}
           </div>
         </div>
         {/* textarea */}
-        <div className="w-100 inputBottomSpace position-relative mb-4 pb-4">
+        <div className="w-100 inputBottomSpace position-relative pb-2">
           <p className=" ff_inter fw-medium fs_16 text-black mb-2 text-start">
             Message
           </p>
@@ -142,19 +142,19 @@ const FullForm = () => {
             placeholder="Let tell us know your project about"
             className="w-100 loveInput textAreaHeight"
             onChange={(e) =>
-              setTypicalForm({ ...typicalform, aboutus: e.target.value })
+              setTypicalForm({ ...typicalForm, project: e.target.value })
             }
-            value={typicalform.aboutus}
+            value={typicalForm.project}
           />
-          {error && typicalform.aboutus === "" ? (
+          {error && typicalForm.project === "" ? (
             <p className="text-danger font-medium position-absolute ps-1">
               Text is required
             </p>
           ) : (
-            typicalform !== ""
+            typicalForm !== ""
           )}
         </div>
-        <button className=" text-white fs_sm fw-bold lh_157 border-0 bg_purple justBtn d-flex justify-content-center align-items-center mt-4">
+        <button className=" text-white fs_sm fw-bold lh_157 bg_purple justBtn d-flex justify-content-center align-items-center mt-4 buttonHover">
           Just Send
         </button>
       </form>
