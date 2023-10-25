@@ -27,9 +27,6 @@ const SideForm = () => {
         aboutus: "",
         workup: "",
       });
-        setTimeout(() => {
-          setSubmitVal("Submit Now");
-        }, 3000);
     }
   };
   return (
