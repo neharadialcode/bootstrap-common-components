@@ -7,10 +7,10 @@ const HeroHalfContentHalfImage = () => {
       <div>
         <HeaderFull />
         <div className="hero_custom_height d-flex align-items-center">
-          <div className=" container">
-            <div className=" row flex-column-reverse flex-md-row align-items-center">
+          <div className=" container py-5">
+            <div className=" row flex-column-reverse flex-md-row align-items-center justify-content-between">
               <div className="  col-md-6 mt-5">
-                <h1 className=" ff_poppins fw-medium fs_xl text-black">
+                <h1 className=" ff_poppins fw-medium fs_2xl text-black">
                   Lorem ipsum dolor sit{" "}
                 </h1>
 
@@ -22,11 +22,11 @@ const HeroHalfContentHalfImage = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-4">
                   Button
                 </button>
               </div>
-              <div className=" col-md-6 text-center text-md-start">
+              <div className=" col-md-5 text-center text-md-start">
                 <img
                   src={heroImag}
                   alt="heroImag"

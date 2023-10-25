@@ -18,7 +18,7 @@ import Slider from "./views/Slider";
 
 function App() {
   return (
-    <>
+    <div className=" overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -32,7 +32,7 @@ function App() {
           <Route path="/slider" element={<Slider />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
