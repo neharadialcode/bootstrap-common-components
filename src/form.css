@@ -68,5 +68,55 @@
 /* side form start here */
 .SideForm {
   box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.15);
-  height: 451px;
+  border-radius: 12px;
+  padding-left: 13px;
+  padding-right: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sideFormInput {
+  border: 1px solid rgba(0, 0, 0, 0.44);
+  height: 46px;
+  padding-left: 12px;
+  color: #8f8f8f;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+.sideFormInput:focus-visible {
+  outline: none !important;
+}
+.TextAreaSide {
+  height: 90px;
+  padding-top: 11px;
+  resize: none;
+}
+.submitBtn {
+  width: 103px;
+  height: 43px;
+  border-radius: 12px;
+  padding-bottom: 1px;
+}
+.TouchBtn {
+  width: 146px;
+  height: 48px;
+  border-radius: 12px;
+  margin-top: 22px;
+}
+@media (min-width: 992px) {
+  .paraMaxWidth {
+    max-width: 420px;
+  }
+  /* .sideFormInput {
+    max-width: 425px;
+  } */
+  .SideForm {
+    padding-left: 33px;
+    padding-right: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 451px;
+  }
+  .TouchBtn {
+    margin-top: 32px;
+  }
 }
