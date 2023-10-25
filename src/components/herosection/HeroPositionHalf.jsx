@@ -6,10 +6,10 @@ const HeroPositionHalf = () => {
     <>
       <div className=" overflow-hidden">
         <Headercenter />
-        <div className="hero_custom_height d-flex align-items-center">
-          <div className=" container py-5">
+        <div className="hero_custom_height d-flex align-items-center pb-5">
+          <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
-              <div className="  col-md-8 col-lg-5 mt-5">
+              <div className="  col-md-8 col-lg-5 mt-5 mt-xl-0">
                 <span className="ff_poppins font-md text-black">
                   A nice headline
                 </span>
@@ -32,7 +32,7 @@ const HeroPositionHalf = () => {
                   Button
                 </button>
               </div>
-              <div className=" col-md-8 col-lg-7 text-center text-md-start position-relative">
+              <div className=" col-md-8 col-lg-7 text-center text-md-start position-relative mt-5">
                 <img
                   src={heroImagPosition}
                   alt="heroImagPosition"

@@ -136,9 +136,9 @@
   }
   .hero_Img_position {
     position: absolute;
-    bottom: -290px;
+    bottom: -310px;
     right: -240px !important;
-    width: 800px !important;
+    width: 860px !important;
   }
 }
 
