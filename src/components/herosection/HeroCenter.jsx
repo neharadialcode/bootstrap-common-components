@@ -3,9 +3,6 @@ import Headercenter from "../headersection/Headercenter"
 const HeroCenter = () => {
   return (
     <>
-      {/* <span className=" text-center fs_xl d-flex justify-content-center ff_poppins text_linear_gradient fw-semibold">
-        Hero Center
-      </span> */}
       <div>
         <Headercenter />
         <div className=" hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">

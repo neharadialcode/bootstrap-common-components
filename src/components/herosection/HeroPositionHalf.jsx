@@ -7,7 +7,7 @@ const HeroPositionHalf = () => {
       <div className=" overflow-hidden">
         <Headercenter />
         <div className="hero_custom_height d-flex align-items-center">
-          <div className=" container">
+          <div className=" container py-5">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
               <div className="  col-md-8 col-lg-5 mt-5">
                 <span className="ff_poppins font-md text-black">
@@ -25,10 +25,10 @@ const HeroPositionHalf = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto button_btn mt-4">
                   Button
                 </button>
-                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-2 ms-3 mt-sm-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn  mt-2 ms-3 mt-sm-4">
                   Button
                 </button>
               </div>

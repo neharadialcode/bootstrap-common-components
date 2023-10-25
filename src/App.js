@@ -17,7 +17,7 @@ import Vedio from "./components/vedio/Vedio";
 
 function App() {
   return (
-    <>
+    <div className=" overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/vedio" element={<Vedio/>} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
