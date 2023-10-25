@@ -154,7 +154,7 @@
 .centerFormBtn {
   height: 52px;
   width: 135px;
-  border-radius: 12px;
+  border-radius: 11px;
 }
 .centerInputBox {
   border-radius: 12px;
@@ -171,7 +171,7 @@
 }
 /* button hover here */
 .buttonHover {
-  border-color: transparent;
+  border: 2px solid transparent !important;
   transition: all 0.4s linear;
 }
 .buttonHover:hover {

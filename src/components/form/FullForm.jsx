@@ -40,7 +40,7 @@ const FullForm = () => {
         </p>
         <div className="row inputBottomSpaceSm">
           <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black text-start">
+            <p className=" ff_inter fw-medium fs_sm text-black text-start mb-2">
               Your name
             </p>
             <input
