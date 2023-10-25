@@ -4,9 +4,9 @@ const FullForm = () => {
   const [typicalform, setTypicalForm] = useState({
     name: "",
     email: "",
-    aboutus: "",
-    workup: "",
-    myYou: "",
+    project: "",
+    budget: "",
+    design: "",
   });
   const [error, setError] = useState(false);
   const regex =
@@ -17,30 +17,30 @@ const FullForm = () => {
     if (
       typicalform.name !== "" &&
       typicalform.email !== "" &&
-      typicalform.aboutus !== "" &&
-      typicalform.workup !== "" &&
-      typicalform.myYou !== "" &&
+      typicalform.project !== "" &&
+      typicalform.budget !== "" &&
+      typicalform.design !== "" &&
       regex.test(typicalform.email)
     ) {
       setError(false);
       setTypicalForm({
         name: "",
         email: "",
-        aboutus: "",
-        workup: "",
-        myYou: "",
+        project: "",
+        budget: "",
+        design: "",
       });
     }
   };
   return (
     <>
       <form onSubmit={(e) => OnsubmitHandler(e)} className="container">
-        <p className="ff_inter fs_2xl headingMaxWidth fw-medium text-start lh_120 text-black mb-4 pb-2">
+        <p className="ff_inter fs_2xl headingMaxWidth fw-medium text-start lh_120 text-black mb-4 pb-2 pt-5">
           Love to hear from you, Get in touch
         </p>
         <div className="row inputBottomSpaceSm">
           <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black mb-2 text-start">
+            <p className=" ff_inter fw-medium fs_sm text-black text-start">
               Your name
             </p>
             <input
@@ -98,11 +98,11 @@ const FullForm = () => {
               placeholder="Design & Branding"
               className="w-100 loveInput"
               onChange={(e) =>
-                setTypicalForm({ ...typicalform, myYou: e.target.value })
+                setTypicalForm({ ...typicalform, design: e.target.value })
               }
-              value={typicalform.myYou}
+              value={typicalform.design}
             />
-            {error && typicalform.myYou === "" ? (
+            {error && typicalform.design === "" ? (
               <p className="text-danger ps-1 position-absolute font-medium">
                 Text is required
               </p>
@@ -119,11 +119,11 @@ const FullForm = () => {
               placeholder="select your budget"
               className="w-100 loveInput"
               onChange={(e) =>
-                setTypicalForm({ ...typicalform, workup: e.target.value })
+                setTypicalForm({ ...typicalform, budget: e.target.value })
               }
-              value={typicalform.workup}
+              value={typicalform.budget}
             />
-            {error && typicalform.workup === "" ? (
+            {error && typicalform.budget === "" ? (
               <p className="text-danger ps-1 position-absolute font-medium">
                 Text is required
               </p>
@@ -142,11 +142,11 @@ const FullForm = () => {
             placeholder="Let tell us know your project about"
             className="w-100 loveInput textAreaHeight"
             onChange={(e) =>
-              setTypicalForm({ ...typicalform, aboutus: e.target.value })
+              setTypicalForm({ ...typicalform, project: e.target.value })
             }
-            value={typicalform.aboutus}
+            value={typicalform.project}
           />
-          {error && typicalform.aboutus === "" ? (
+          {error && typicalform.project === "" ? (
             <p className="text-danger font-medium position-absolute ps-1">
               Text is required
             </p>

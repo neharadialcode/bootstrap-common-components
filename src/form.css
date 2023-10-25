@@ -106,9 +106,6 @@
   .paraMaxWidth {
     max-width: 420px;
   }
-  /* .sideFormInput {
-    max-width: 425px;
-  } */
   .SideForm {
     padding-left: 33px;
     padding-right: 34px;
@@ -118,5 +115,45 @@
   }
   .TouchBtn {
     margin-top: 32px;
+  }
+}
+/* center form start here */
+.centerFormInput {
+  padding-left: 19px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+}
+.InputWidthHeight {
+  height: 52px;
+}
+.centerFormInput::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 17px;
+  font-weight: 500;
+}
+.centerTextarea {
+  max-width: 606px;
+  height: 107px;
+  resize: none;
+}
+.centerInputNumber {
+  height: 51px;
+}
+.centerFormBtn {
+  height: 52px;
+  width: 135px;
+  border-radius: 12px;
+}
+.centerInputBox {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.49);
+  width: 606px;
+}
+.requiredHeight{
+  height: 16px;
+}
+@media (min-width: 576px) {
+  .InputWidthHeight {
+    max-width: 291px;
   }
 }
