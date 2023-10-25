@@ -133,8 +133,8 @@
   .hero_Img_position {
     position: absolute;
     bottom: -268px;
-    right: -85px !important;
-    width: 100%;
+    right: -100px !important;
+    width: 123%;
   }
 
   .max_w_position_hero_img {
@@ -149,7 +149,7 @@
   .hero_Img_position {
     position: absolute;
     bottom: -340px;
-    right: -264px !important;
+    right: -274px !important;
     width: 860px !important;
   }
 }
