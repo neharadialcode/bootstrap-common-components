@@ -1,8 +1,8 @@
 import "./App.css";
-import "./aboutUs.css"
+import "./aboutUs.css";
 import "./hero.css";
 import "./header.css";
-import './form.css'
+import "./form.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./views/Header";
@@ -14,6 +14,7 @@ import FaqsOne from "./components/faqs/FaqsOne";
 import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
 import Vedio from "./components/vedio/Vedio";
+import Slider from "./views/Slider";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Route path="/form" element={<Form />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/footer" element={<Footer />} />
-          <Route path="/vedio" element={<Vedio/>} />
+          <Route path="/vedio" element={<Vedio />} />
+          <Route path="/slider" element={<Slider />} />
         </Routes>
       </BrowserRouter>
     </>
