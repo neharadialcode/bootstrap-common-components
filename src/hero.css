@@ -112,6 +112,9 @@
   border: 2px solid #3c278d;
   transition: all 300ms ease-in-out;
 }
+.min_h_vedio{
+  min-height: 200px !important;
+}
 }
 @media (min-width:576px) {
     .button_btn {
@@ -123,8 +126,10 @@
   border: 2px solid #3c278d;
   transition: all 300ms ease-in-out;
 }
+.min_h_vedio{
+  min-height: 380px !important;
 }
-
+}
 @media (min-width: 992px) {
   .min_h_hero_img {
     height: 566px !important;
@@ -136,7 +141,9 @@
     right: -100px !important;
     width: 123%;
   }
-
+.min_h_vedio{
+  min-height: 700px !important;
+ }
   .max_w_position_hero_img {
     max-width: 220px;
   }
@@ -152,6 +159,9 @@
     right: -274px !important;
     width: 860px !important;
   }
+  .min_h_vedio{
+  min-height: 680px !important;
+ }
 }
 
 @media (min-width: 1400px) {
@@ -274,4 +284,10 @@ transition: all 200ms linear;
 
  div ul li a {
   color: #4D4D4D !important;
+  transition: all 200ms linear !important;
+
+ }
+  div ul li a:hover {
+  color: #000 !important;
+  transition: all 200ms linear !important;
  }
