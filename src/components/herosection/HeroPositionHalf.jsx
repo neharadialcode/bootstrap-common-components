@@ -6,18 +6,18 @@ const HeroPositionHalf = () => {
     <>
       <div className=" overflow-hidden">
         <Headercenter />
-        <div className="hero_custom_height d-flex align-items-center">
+        <div className="hero_custom_height d-flex align-items-center pb-5 mb-xl-5 ">
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
-              <div className="  col-md-8 col-lg-5 mt-5">
-                <span className="ff_poppins font-md text-black">
+              <div className="  col-md-8 col-lg-6 mt-5 pb-xl-5  mt-lg-0">
+                <span className="ff_poppins fs_xl text-black">
                   A nice headline
                 </span>
-                <h1 className=" ff_poppins fw-medium fs_xl text-black">
+                <h1 className=" ff_poppins fw-medium fs_2xl text-black">
                   Goes here
                 </h1>
 
-                <p className=" ff_poppins fw-normal text_primary fs_sm   mb-0">
+                <p className=" ff_poppins fw-normal text_primary fs_sm mb-0">
                   Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                   eget consectetur mi. Vulputate sapien a a bibendum suspendisse
                   quam. Hac posuere eget nam diam velit urna adipiscing diam.
@@ -25,18 +25,18 @@ const HeroPositionHalf = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto button_btn mt-4">
                   Button
                 </button>
-                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-2 ms-3 mt-sm-5">
+                <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn  mt-2 ms-3 mt-sm-4">
                   Button
                 </button>
               </div>
-              <div className=" col-md-8 col-lg-7 text-center text-md-start position-relative">
+              <div className=" col-md-8 col-lg-6 text-center text-md-start position-relative mt-5 mt-lg-0 mt-xl-5">
                 <img
                   src={heroImagPosition}
                   alt="heroImagPosition"
-                  className=" w-100 hero_Img_position"
+                  className=" hero_Img_position"
                 />
               </div>
             </div>

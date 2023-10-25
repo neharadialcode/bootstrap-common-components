@@ -11,29 +11,29 @@ const FooterTwo = () => {
           >
             Logo
           </a>
-          <ul className=" d-flex ps-0 flex-wrap gap-5 align-items-center justify-content-center mt-4">
-            <li className="mt-2">
-              <a href="#" className="font-sm ff_poppins text-dark text-start">
+          <ul className=" d-flex ps-0 flex-wrap gap-3 gap-sm-5 align-items-center justify-content-center mt-4">
+            <li>
+              <a href="#" className="font-sm ff_poppins  text-start">
                 Home
               </a>
             </li>
-            <li className="mt-2">
-              <a href="#" className="font-sm ff_poppins text-dark text-start">
+            <li>
+              <a href="#" className="font-sm ff_poppins  text-start">
                 About
               </a>
             </li>
-            <li className="mt-2">
-              <a href="#" className="font-sm ff_poppins text-dark text-start">
+            <li>
+              <a href="#" className="font-sm ff_poppins  text-start">
                 Community
               </a>
             </li>
-            <li className="mt-2">
-              <a href="#" className="font-sm ff_poppins text-dark text-start">
+            <li>
+              <a href="#" className="font-sm ff_poppins  text-start">
                 RoadMap
               </a>
             </li>
-            <li className="mt-2">
-              <a href="#" className="font-sm ff_poppins text-dark text-start">
+            <li>
+              <a href="#" className="font-sm ff_poppins  text-start"> 
                 Faqs
               </a>
             </li>

@@ -3,14 +3,14 @@ import leftImagLeft from "../../assetsFolder/images/png/hero_left_img.png";
 import leftImagRight from "../../assetsFolder/images/png/hero_right _img.png";
 import leftImagRightBottom from "../../assetsFolder/images/png/hero_right _bottom_img.png";
 import leftImagLeftBottom from "../../assetsFolder/images/png/hero_left_bottom_img.png";
-import HeaderRightAlign from "../headersection/HeaderRightAlign";
+import Headercenter from "../headersection/Headercenter";
 
 const HeroPosition = () => {
   return (
     <>
       <div className=" overflow-hidden">
-        <HeaderRightAlign />
-        <div className="d-flex align-items-center justify-content-center  hero_custom_height position-relative">
+        <Headercenter />
+        <div className="d-flex align-items-center justify-content-center  hero_custom_height position-relative z-1">
           <img
             src={leftImagLeft}
             alt="leftImag"
@@ -36,7 +36,7 @@ const HeroPosition = () => {
               <span className="ff_poppins font-md text-black">
                 A nice headline
               </span>
-              <h1 className=" ff_poppins fw-medium fs_xl text-black">
+              <h1 className=" ff_poppins fw-medium fs_2xl text-black">
                 Goes here
               </h1>
 
@@ -48,10 +48,10 @@ const HeroPosition = () => {
                 vitae sed.
               </p>
 
-              <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-5">
+              <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-4">
                 Button
               </button>
-              <button className="ff_poppins fw-normal fs_sm  button_btn mt-5 ms-3 ms-sm-5">
+              <button className="ff_poppins fw-normal fs_sm  button_btn mt-4 ms-3">
                 Button
               </button>
             </div>
