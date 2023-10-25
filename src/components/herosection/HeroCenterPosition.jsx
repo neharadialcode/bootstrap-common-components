@@ -1,6 +1,7 @@
 import React from 'react'
 import heroCenterPosition from "../../assetsFolder/images/png/center_position_img.png"
-import HeaderRightAlign from "../headersection/HeaderRightAlign"
+import Headercenter from "../headersection/Headercenter";
+
 const HeroCenterPosition = () => {
   return (
     <>
@@ -8,7 +9,7 @@ const HeroCenterPosition = () => {
         Hero Center Position
       </h1>
       <div>
-        <HeaderRightAlign />
+        <Headercenter />
         <div className=" d-flex hero_custom_height align-items-center">
           <div className=" container mt-4">
             <h2 className=" text-center fw-semibold fs_2xl ff_poppins  mx-auto">

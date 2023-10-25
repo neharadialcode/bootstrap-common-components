@@ -6,7 +6,7 @@ const HeroPositionHalf = () => {
     <>
       <div className=" overflow-hidden">
         <Headercenter />
-        <div className="hero_custom_height d-flex align-items-center pb-5">
+        <div className="hero_custom_height d-flex align-items-center pb-5 mb-xl-5 ">
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
               <div className="  col-md-8 col-lg-5 mt-5 pb-5 mt-xl-0">
@@ -17,7 +17,7 @@ const HeroPositionHalf = () => {
                   Goes here
                 </h1>
 
-                <p className=" ff_poppins fw-normal text_primary fs_sm   mb-0">
+                <p className=" ff_poppins fw-normal text_primary fs_sm mb-0">
                   Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                   eget consectetur mi. Vulputate sapien a a bibendum suspendisse
                   quam. Hac posuere eget nam diam velit urna adipiscing diam.
