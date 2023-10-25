@@ -32,7 +32,7 @@ const HeroPositionHalf = () => {
                   Button
                 </button>
               </div>
-              <div className=" col-md-8 col-lg-6 text-center text-md-start position-relative mt-xl-5">
+              <div className=" col-md-8 col-lg-6 text-center text-md-start position-relative mt-5 mt-lg-0 mt-xl-5">
                 <img
                   src={heroImagPosition}
                   alt="heroImagPosition"
