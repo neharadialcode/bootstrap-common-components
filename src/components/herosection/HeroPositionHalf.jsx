@@ -36,7 +36,7 @@ const HeroPositionHalf = () => {
                 <img
                   src={heroImagPosition}
                   alt="heroImagPosition"
-                  className=" w-100 hero_Img_position"
+                  className=" hero_Img_position"
                 />
               </div>
             </div>
