@@ -118,6 +118,9 @@
   }
 }
 /* center form start here */
+.centerFormContainer {
+  max-width: 606px !important;
+}
 .centerFormInput {
   padding-left: 19px;
   border-radius: 12px;
@@ -139,6 +142,9 @@
 .centerInputNumber {
   height: 51px;
 }
+.focusNone:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px !important;
+}
 .centerFormBtn {
   height: 52px;
   width: 135px;
@@ -147,9 +153,9 @@
 .centerInputBox {
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.49);
-  width: 606px;
+  max-width: 606px;
 }
-.requiredHeight{
+.requiredHeight {
   height: 16px;
 }
 @media (min-width: 576px) {

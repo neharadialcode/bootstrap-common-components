@@ -18,7 +18,7 @@ const Form = () => {
         <SideForm />
       </div>
       <div className="vh-100 d-flex flex-column justify-content-center">
-        <h2 className="text-center mb-5 pb-5 pt-5">Center Form</h2>
+        <h2 className="text-center pt-5">Center Form</h2>
         <CenterForm />
       </div>
     </>
