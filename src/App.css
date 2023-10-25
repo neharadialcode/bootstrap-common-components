@@ -30,6 +30,9 @@
 .clr_lightBrown {
   color: var(--clr-lightBrown);
 }
+.clr_purple{
+  color: var(--clr-purple);
+}
 /* bg color */
 .bg_purple {
   background: var(--clr-purple);

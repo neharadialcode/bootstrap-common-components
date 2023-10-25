@@ -13,6 +13,7 @@ import Form from "./views/Form";
 import FaqsOne from "./components/faqs/FaqsOne";
 import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
+import Vedio from "./components/vedio/Vedio";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/form" element={<Form />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/footer" element={<Footer />} />
+          <Route path="/vedio" element={<Vedio/>} />
         </Routes>
       </BrowserRouter>
     </>
