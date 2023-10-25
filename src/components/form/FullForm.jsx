@@ -133,7 +133,7 @@ const FullForm = () => {
           </div>
         </div>
         {/* textarea */}
-        <div className="w-100 inputBottomSpace position-relative mb-4 pb-4">
+        <div className="w-100 inputBottomSpace position-relative pb-2">
           <p className=" ff_inter fw-medium fs_16 text-black mb-2 text-start">
             Message
           </p>
@@ -154,7 +154,7 @@ const FullForm = () => {
             typicalform !== ""
           )}
         </div>
-        <button className=" text-white fs_sm fw-bold lh_157 border-0 bg_purple justBtn d-flex justify-content-center align-items-center mt-4">
+        <button className=" text-white fs_sm fw-bold lh_157 bg_purple justBtn d-flex justify-content-center align-items-center mt-4 buttonHover">
           Just Send
         </button>
       </form>

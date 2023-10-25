@@ -68,7 +68,7 @@ const SideForm = () => {
                 className="sideFormInput overflow-hidden fs_sm TextAreaSide overflow-hidden"
                 placeholder="Message"
               />
-              <button className="text-white d-flex justify-content-center align-items-center submitBtn bg_purple border-0 mt-3">
+              <button className="text-white d-flex justify-content-center align-items-center submitBtn bg_purple buttonHover mt-3">
                 Submit
               </button>
             </form>
@@ -85,7 +85,7 @@ const SideForm = () => {
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum.
               </p>
-              <button className="text-white d-flex justify-content-center align-items-center TouchBtn bg_purple border-0">
+              <button className="text-white d-flex justify-content-center align-items-center TouchBtn bg_purple buttonHover">
                 Get in Touch
               </button>
             </div>

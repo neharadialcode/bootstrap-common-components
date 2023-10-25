@@ -110,7 +110,7 @@ const CenterForm = () => {
                   }
                   value={typicalform.number}
                 />
-                <button className="centerFormBtn d-flex justify-content-center align-items-center text-white fs_sm fw-bold   bg_purple border-0">
+                <button className="centerFormBtn d-flex justify-content-center align-items-center text-white fs_sm fw-bold   bg_purple buttonHover">
                   Submit
                 </button>
               </div>
