@@ -10,7 +10,7 @@ const HeroHalfContentHalfImage = () => {
           <div className=" container py-5">
             <div className=" row flex-column-reverse flex-md-row align-items-center justify-content-between">
               <div className="  col-md-6 mt-5">
-                <h1 className=" ff_poppins fw-medium fs_xl text-black">
+                <h1 className=" ff_poppins fw-medium fs_2xl text-black">
                   Lorem ipsum dolor sit{" "}
                 </h1>
 

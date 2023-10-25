@@ -11,8 +11,7 @@ const HeroCenter = () => {
         <div className=" hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">
           <div className=" container ">
             <div className=" text-center">
-         
-              <h1 className=" text-center fw-semibold fs_md ff_poppins  mx-auto">
+              <h1 className=" text-center fw-semibold fs_2xl ff_poppins  mx-auto">
                 Lorem ipsum Lorem ipsum
               </h1>
               <p className=" ff_poppins fw-normal fs_sm  mx-auto pt-2 max_w_hero_par mx-auto">

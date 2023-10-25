@@ -36,7 +36,7 @@ const HeroPosition = () => {
               <span className="ff_poppins font-md text-black">
                 A nice headline
               </span>
-              <h1 className=" ff_poppins fw-medium fs_xl text-black">
+              <h1 className=" ff_poppins fw-medium fs_2xl text-black">
                 Goes here
               </h1>
 
