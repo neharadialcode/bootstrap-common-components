@@ -33,7 +33,7 @@ const FooterTwo = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="font-sm ff_poppins  text-start">
+              <a href="#" className="font-sm ff_poppins  text-start"> 
                 Faqs
               </a>
             </li>
