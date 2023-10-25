@@ -9,8 +9,8 @@ const HeroPositionHalf = () => {
         <div className="hero_custom_height d-flex align-items-center pb-5">
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
-              <div className="  col-md-8 col-lg-5 mt-5 mt-xl-0">
-                <span className="ff_poppins font-md text-black">
+              <div className="  col-md-8 col-lg-5 mt-5 pb-5 mt-xl-0">
+                <span className="ff_poppins fs_xl text-black">
                   A nice headline
                 </span>
                 <h1 className=" ff_poppins fw-medium fs_2xl text-black">

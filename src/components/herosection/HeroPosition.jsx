@@ -51,7 +51,7 @@ const HeroPosition = () => {
               <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-4">
                 Button
               </button>
-              <button className="ff_poppins fw-normal fs_sm  button_btn mt-4 ms-3 ms-sm-5">
+              <button className="ff_poppins fw-normal fs_sm  button_btn mt-4 ms-3">
                 Button
               </button>
             </div>
