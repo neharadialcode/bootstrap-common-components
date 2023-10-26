@@ -32,6 +32,9 @@ const Main = () => {
         <a href="/slider" className="py-2 px-4 bg-info border-0 text-white ">
           slider
         </a>
+        <a href="/team" className="py-2 px-4 bg-info border-0 text-white ">
+          team
+        </a>
       </div>
     </>
   );

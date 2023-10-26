@@ -15,6 +15,7 @@ import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
 import Vedio from "./components/vedio/Vedio";
 import Slider from "./views/Slider";
+import OurTeam from "./components/team/OurTeam";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/vedio" element={<Vedio />} />
           <Route path="/slider" element={<Slider />} />
+          <Route path="/team" element={<OurTeam/>} />
         </Routes>
       </BrowserRouter>
     </div>
