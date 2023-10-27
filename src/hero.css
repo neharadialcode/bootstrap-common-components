@@ -19,6 +19,7 @@
 .ff_poppins {
   font-family: "Poppins", sans-serif !important;
 }
+
 .text_primary {
   color: var(--clr-primary) !important;
 }
@@ -103,36 +104,101 @@
   .max_w_position_hero_img {
     max-width: 100px !important;
   }
+
   .button_btn {
-  width: 150px;
-  height: 48px;
-  color: #fff;
-  border-radius: 12px;
-  background: #3c278d;
-  border: 1px solid #3c278d;
-  transition: all 300ms ease-in-out;
-}
-.min_h_vedio{
-  min-height: 200px !important;
-}
+    width: 150px;
+    height: 48px;
+    color: #fff;
+    border-radius: 12px;
+    background: #3c278d;
+    border: 1px solid #3c278d;
+    transition: all 300ms ease-in-out;
+  }
+
+  .min_h_vedio {
+    min-height: 200px !important;
+  }
 }
 
-@media (min-width:576px) {
-    .button_btn {
-  width: 164px;
-  height: 48px;
-  color: #fff;
-  border-radius: 12px;
-  background: #3c278d;
-  border: 1px solid #3c278d;
-  transition: all 300ms ease-in-out;
+@media (min-width: 576px) {
+  .button_btn {
+    width: 164px;
+    height: 48px;
+    color: #fff;
+    border-radius: 12px;
+    background: #3c278d;
+    border: 1px solid #3c278d;
+    transition: all 300ms ease-in-out;
+  }
+
+  .min_h_vedio {
+    min-height: 380px !important;
+  }
 }
-.min_h_vedio{
-  min-height: 380px !important;
-}
+
+@media (min-width:768px) {
+  .max_w_RoadMap {
+    max-width: 768px;
+  }
+
+  .center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 815px !important;
+    width: 2px !important;
+    top: 63%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
+  }
+
+  .numberOne_img_Setup {
+    top: 30px;
+    left: 7.9%;
+  }
+
+  .numberTwo_img_setup {
+    left: 7.9%;
+
+    top: 30%;
+  }
+
+  .numberThree_img_setup {
+    top: 55%;
+    left: 7.9%;
+
+  }
+
+  .numberfour_img_setup {
+    bottom: 95px;
+    left: 7.9%;
+  }
+
+  /*============================= ROAD ALL MAP TEXT SETUP ====================*/
+  .roadMap_numberOne_Setup {
+    right: 0;
+    top: 9px;
+  }
+
+  .roadMap_numberTwo_Setup {
+    top: 22%;
+  }
+
+  .roadMap_numberThree_Setup {
+    right: 0;
+    top: 52%;
+  }
+
+  .roadMap_numberFour_Setup {
+    bottom: -60px;
+  }
 }
 
 @media (min-width: 992px) {
+  .max_w_RoadMap {
+    max-width: 951px;
+  }
+
   .min_h_hero_img {
     height: 566px !important;
   }
@@ -143,11 +209,44 @@
     right: -100px !important;
     width: 123%;
   }
-.min_h_vedio{
-  min-height: 700px !important;
- }
+
+  .min_h_vedio {
+    min-height: 700px !important;
+  }
+
   .max_w_position_hero_img {
     max-width: 220px;
+  }
+
+  .center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 930px !important;
+    width: 2px !important;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
+  }
+
+  .numberOne_img_Setup {
+    left: 34.9%;
+    top: 25px;
+  }
+
+  .numberTwo_img_setup {
+    right: 34.9%;
+    top: 29%;
+  }
+
+  .numberThree_img_setup {
+    top: 55%;
+    left: 34.9%;
+  }
+
+  .numberfour_img_setup {
+    bottom: 90px;
+    right: 34.9%;
   }
 }
 
@@ -155,22 +254,80 @@
   .max_w_position_hero_img {
     max-width: 350px;
   }
+
+  .max_w_RoadMap {
+    max-width: 951px;
+  }
+
+  .center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 822px !important;
+    width: 2px !important;
+    top: 80%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg,
+        #3c278d 0%,
+        rgba(60, 39, 141, 0.23) 100%) !important;
+  }
+
   .hero_Img_position {
     position: absolute;
     bottom: -340px;
     right: -274px !important;
     width: 860px !important;
   }
-  .min_h_vedio{
-  min-height: 680px !important;
- }
-}
 
-@media (min-width: 1400px) {
-  .max_w_position_hero_img {
-    max-width: 100%;
+  .min_h_vedio {
+    min-height: 680px !important;
+  }
+
+  /*=========================== NUMBER ALL IMAGES SETUP ================== */
+  .numberOne_img_Setup {
+    left: 34.9%;
+    top: 25px;
+  }
+
+  .numberTwo_img_setup {
+    right: 37.5%;
+    top: 29%;
+  }
+
+  .numberThree_img_setup {
+    top: 55%;
+    left: 34.9%;
+  }
+
+  .numberfour_img_setup {
+    bottom: 101px;
+    right: 37.5%;
+  }
+
+  @media (min-width: 1400px) {
+    .max_w_position_hero_img {
+      max-width: 100%;
+    }
   }
 }
+
+@media (min-width: 1900px) {
+  .center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 822px !important;
+    width: 2px !important;
+    top: 57%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg,
+        #3c278d 0%,
+        rgba(60, 39, 141, 0.23) 100%) !important;
+  }
+}
+
 
 /* =====================HERO CENTER======================== */
 
@@ -200,6 +357,7 @@
   border: 2px solid #3c278d !important;
   border: #3c278d;
 }
+
 .accordion-button {
   position: relative;
   display: flex;
@@ -219,6 +377,7 @@
 .accordion-item:last-of-type {
   border-radius: 10px !important;
 }
+
 .accordion-button:focus {
   z-index: 3;
   font-weight: 600px !important;
@@ -226,12 +385,14 @@
   outline: none !important;
   box-shadow: transparent !important;
 }
+
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
   background-color: transparent !important;
   box-shadow: transparent !important;
   font-weight: 600px !important;
 }
+
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: transparent !important;
@@ -239,57 +400,75 @@
   border: 1px solid #3c278d !important;
   border-radius: 10px !important;
 }
+
 button:focus {
   outline: none !important;
   border: 0 !important;
   box-shadow: 0 0 0 !important;
   font-weight: 600px !important;
 }
+
 .accordion-button::after {
   margin-left: auto;
   content: "";
-  background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important   ;
+  background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important;
   background-repeat: no-repeat;
 }
+
 .border_top {
   background: rgba(0, 0, 0, 0.4);
   width: 786px !important;
   height: 1px !important;
 }
+
 .footer_input_clr {
   max-width: 290px !important;
   border-radius: 12px !important;
   background: rgba(60, 39, 141, 0.11) !important;
 }
+
 .Search_btn {
   border-radius: 12px;
   border: 1px solid rgba(60, 39, 141, 0.52);
   background: #3c278d;
 }
+
 .footer_input {
   outline: none !important;
 }
+
 .footer_bordeer_top {
   border-top: 1px solid #3c278d;
 }
-/*===============colors===============*/
+
+/*===============COLORS===============*/
 .bg_logo {
   background-color: #c5c2c2 !important;
 }
-.hover_sclae{
+
+.hover_sclae {
   transition: all 200ms linear;
 }
-.hover_sclae:hover{
-transform: scale(1.11) !important;
-transition: all 200ms linear;
+
+.hover_sclae:hover {
+  transform: scale(1.11) !important;
+  transition: all 200ms linear;
 }
 
- div ul li a {
-  color: #4D4D4D !important;
+div ul li a {
+  color: #4d4d4d !important;
   transition: all 200ms linear !important;
+}
 
- }
-  div ul li a:hover {
+div ul li a:hover {
   color: #000 !important;
   transition: all 200ms linear !important;
- }
+}
+
+/* ==================ROAD MAP====================== */
+
+
+
+.RoadMap_par {
+  max-width: 431px;
+}
