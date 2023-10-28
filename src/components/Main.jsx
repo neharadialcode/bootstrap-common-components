@@ -22,7 +22,7 @@ const Main = () => {
         </a>
         <a href="/faqs" className="py-2 px-4 bg-info border-0 text-white ms-3">
           Faq's
-        </a> 
+        </a>
         <a
           href="/footer"
           className="py-2 px-4 bg-info border-0 text-white ms-3"

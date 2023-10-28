@@ -16,6 +16,7 @@ import Footer from "./components/footer/Footer";
 import Vedio from "./components/vedio/Vedio";
 import RoadMap from "./components/roadMap/RoadMap";
 
+
 function App() {
   return (
     <div className=" overflow-hidden">
@@ -29,7 +30,7 @@ function App() {
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/vedio" element={<Vedio />} />
-          <Route path="/roadMap" element={<RoadMap/>} />
+          <Route path="/roadMap" element={<RoadMap />} />
         </Routes>
       </BrowserRouter>
     </div>
