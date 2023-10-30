@@ -14,6 +14,7 @@
   /*============COLORS========= */
 
   --clr-primary: #555858;
+  --clr-secondary:#4D4D4D;
 }
 
 .ff_poppins {
@@ -23,7 +24,9 @@
 .text_primary {
   color: var(--clr-primary) !important;
 }
-
+.text_secondary{
+  color: var(--clr-secondary);
+}
 /* ==============WIDTH============= */
 .max_width_par {
   max-width: 380px;
@@ -37,7 +40,7 @@
 }
 
 .max_w_hero_par {
-  max-width: 777px;
+  max-width: 790px;
 }
 
 .max_w_Hero_Position {
@@ -101,6 +104,9 @@
 }
 
 @media (max-width: 575.98px) {
+  .max_width_hero_img{
+    max-width: 500px;
+  }
   .max_w_position_hero_img {
     max-width: 100px !important;
   }
