@@ -104,7 +104,6 @@
   .max_w_position_hero_img {
     max-width: 100px !important;
   }
-
   .button_btn {
     width: 150px;
     height: 48px;
@@ -122,16 +121,7 @@
         max-width: 63px;
     height: 32px;
   }
-.center_line::after {
-    content: "";
-    position: absolute !important;
-    height: 880px !important;
-    width: 2px !important;
-    top: 103%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
-}
+
 }
 
 @media (min-width: 576px) {
