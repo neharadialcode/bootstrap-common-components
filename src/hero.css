@@ -379,3 +379,13 @@ div ul li a:hover {
 .RoadMap_par {
   max-width: 431px;
 }
+.roadMapTwo_box{
+  max-width: 216px;
+  background-color: #0000 !important;
+  border: 1px solid #0000;
+  border-radius: 12px;
+}
+.roadMap_heading{
+  background-color: #0000;
+  border-radius:12px 12px 0 0;
+}
