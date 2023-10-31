@@ -10,7 +10,7 @@ const HeroPositionHalf = () => {
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
               <div className="  col-md-8 col-lg-6 mt-5 pb-xl-5  mt-lg-0">
-                <p className="fs_xl text-black">A nice headline</p>
+                <p className="fs_xl text-black mb-0">A nice headline</p>
                 <h1 className=" fw-semibold fs_3xl lh_mainHeading">
                   Goes here
                 </h1>
@@ -23,10 +23,10 @@ const HeroPositionHalf = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="fw-normal fs_sm  mx-auto button_btn mt-4">
+                <button className=" fw-semibold fs_sm  mx-auto button_btn mt-4">
                   Button
                 </button>
-                <button className="fw-normal fs_sm  mx-auto  button_btn  mt-2 ms-3 mt-sm-4">
+                <button className=" fw-semibold fs_sm  mx-auto  button_btn  mt-2 ms-3 mt-sm-4">
                   Button
                 </button>
               </div>

@@ -33,7 +33,7 @@ const HeroPosition = () => {
           />
           <div className=" d-flex align-items-center justify-content-center ">
             <div className=" max_w_Hero_Position text-center">
-              <p className=" fs_xl text-black pb-0">A nice headline</p>
+              <p className=" fs_xl text-black mb-0">A nice headline</p>
               <h1 className=" fw-semibold fs_3xl lh_mainHeading text-black">
                 Goes here
               </h1>
@@ -45,10 +45,10 @@ const HeroPosition = () => {
                 vitae sed.
               </p>
               <div className=" pt-2">
-                <button className=" fs_sm  mx-auto  button_btn mt-4">
+                <button className=" fw-semibold fs_sm mx-auto button_btn mt-4">
                   Button
                 </button>
-                <button className=" fs_sm  button_btn mt-4 ms-3">Button</button>
+                <button className=" fw-semibold fs_sm button_btn mt-4 ms-3">Button</button>
               </div>
             </div>
           </div>
