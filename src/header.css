@@ -39,7 +39,7 @@
   width: 100%;
   left: 0;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .nav_show {
     position: fixed;
     height: 0vh;

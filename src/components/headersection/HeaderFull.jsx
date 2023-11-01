@@ -44,6 +44,7 @@ const HeaderFull = () => {
                   <li>
                     <a
                       href="#"
+                      onClick={clickshow}
                       className="text-white hoverLine position-relative me-lg-4"
                     >
                       Explore
@@ -52,6 +53,7 @@ const HeaderFull = () => {
                   <li>
                     <a
                       href="#"
+                      onClick={clickshow}
                       className="text-white hoverLine position-relative me-lg-4"
                     >
                       Build
@@ -60,6 +62,7 @@ const HeaderFull = () => {
                   <li>
                     <a
                       href="#"
+                      onClick={clickshow}
                       className="text-white hoverLine position-relative me-lg-4"
                     >
                       Community
@@ -68,6 +71,7 @@ const HeaderFull = () => {
                   <li>
                     <a
                       href="#"
+                      onClick={clickshow}
                       className="text-white hoverLine position-relative"
                     >
                       Content

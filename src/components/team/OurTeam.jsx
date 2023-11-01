@@ -11,16 +11,18 @@ const OurTeam = () => {
             Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
             fames. Cursus libero nec facilisis
           </p>
-          <div className="row">
+          <div className="row pb-5">
             {teamData.map((teamData, i) => {
               return (
                 <div
                   className={`col-lg-3 col-md-4 col-sm-6 h-100 ${
-                    i === 0 ? "" :''
+                    i === 0 ? "" : ""
                   }`}
                   key={i}
                 >
-                  <div className="team_card  d-flex flex-column align-items-center pt-3 px-2 pb-3">
+                  <div
+                    className={`team_card  d-flex flex-column align-items-center pt-3 px-2 pb-3 ${teamData.space}`}
+                  >
                     <img
                       className="pb-3"
                       src={teamData.img}
