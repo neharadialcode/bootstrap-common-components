@@ -14,15 +14,19 @@
   /*============COLORS========= */
 
   --clr-primary: #555858;
+  --clr-secondary:#4D4D4D;
 }
 
 .ff_poppins {
   font-family: "Poppins", sans-serif !important;
 }
+
 .text_primary {
   color: var(--clr-primary) !important;
 }
-
+.text_secondary{
+  color: var(--clr-secondary);
+}
 /* ==============WIDTH============= */
 .max_width_par {
   max-width: 380px;
@@ -36,7 +40,7 @@
 }
 
 .max_w_hero_par {
-  max-width: 777px;
+  max-width: 790px;
 }
 
 .max_w_Hero_Position {
@@ -87,45 +91,142 @@
   transition: all 300ms ease-in-out;
 }
 
-
-
 .button_btn:hover {
   color: #3c278d;
   border-radius: 12px;
   background: #fff;
-  border: 2px solid #3c278d;
+  border: 1px solid #3c278d;
   transition: all 300ms ease-in-out;
 }
+
 .hero_Img_position {
   width: 100%;
 }
+
 @media (max-width: 575.98px) {
+ 
   .max_w_position_hero_img {
     max-width: 100px !important;
   }
   .button_btn {
-  width: 150px;
-  height: 48px;
-  color: #fff;
-  border-radius: 12px;
-  background: #3c278d;
-  border: 2px solid #3c278d;
-  transition: all 300ms ease-in-out;
+   padding:14px 40px;
+    color: #fff;
+      line-height: 19px;
+    border-radius: 12px;
+    background: #3c278d;
+    border: 1px solid #3c278d;
+    transition: all 300ms ease-in-out;
+  }
+
+  .min_h_vedio {
+    min-height: 200px !important;
+  }
+  .rodMap_img_w_h{
+        max-width: 63px;
+    height: 32px;
+  }
+.center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 2px !important;
+    width: 100%;
+    height: 85% !important;
+    top: 45px;
+    left: 17px;
+    z-index: -1;
+    flex-shrink: 0;
+    background: #C5C2C2;
 }
 }
-@media (min-width:576px) {
-    .button_btn {
-  width: 164px;
-  height: 48px;
-  color: #fff;
-  border-radius: 12px;
-  background: #3c278d;
-  border: 2px solid #3c278d;
-  transition: all 300ms ease-in-out;
+
+@media (min-width: 576px) {
+  .button_btn {
+  padding: 13.5px 55.1px;
+    color: #fff;
+      line-height: 19px;
+    border-radius: 12px;
+    background: #3c278d;
+    border: 1px solid #3c278d;
+    transition: all 300ms ease-in-out;
+  }
+
+  .min_h_vedio {
+    min-height: 380px !important;
+  }
+.center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 2px !important;
+    width: 100%;
+    height: 85% !important;
+    top: 45px;
+    left: 17px;
+    z-index: -1;
+    flex-shrink: 0;
+    background: #C5C2C2;
+}
+}
+
+@media (min-width:768px) {
+.center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 980px !important;
+    width: 2px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
+}
+.center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 551px !important;
+    width: 100%;
+    height: 1px !important;
+    top: 47%;
+    left: 91px;
+    flex-shrink: 0;
+    background: #C5C2C2;
+}
+.roadMapIamge_one{
+    top: -53px;
+    left: 80px;
+    z-index: 1;
+}
+.roadMapIamge_two{
+    bottom: -30px;
+    left: 85px;
+    display: none;
+    z-index: 2;
+}
+.roadMapIamge_three{
+    left: 88px;
+    top: -55px;
+    display: none;
+    z-index: 1;
+}
+.roadMapIamge_four{
+    left: 80px;
+    top: 126px;
+    z-index: 1;
+}
+.roadMapIamge_five {
+    top: -55px;
+    left: 85px;
+    z-index: 1;
+    display: none;
+}
+.roadMapIamge_six {
+ 
+    top: 126px;
+    left: 85px;
+    z-index: 1;
 }
 }
 
 @media (min-width: 992px) {
+
   .min_h_hero_img {
     height: 566px !important;
   }
@@ -137,28 +238,123 @@
     width: 123%;
   }
 
+  .min_h_vedio {
+    min-height: 700px !important;
+  }
+
   .max_w_position_hero_img {
     max-width: 220px;
   }
+.center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 800px !important;
+    width: 2px !important;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
+}
+
+.center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 899px !important;
+    width: 100%;
+    height: 1px !important;
+    top: 47%;
+    left: 110px;
+    flex-shrink: 0;
+    background: #C5C2C2;
+}
+.roadMapIamge_one{
+    top: -53px;
+    left: 80px;
+    z-index: 1;
+}
+.roadMapIamge_two{
+    bottom: -30px;
+    left: 85px;
+    z-index: 2;
+    display: inline-block;
+}
+.roadMapIamge_three{
+    left: 88px;
+    top: -55px;
+    z-index: 1;
+    display: inline-block;
+}
+.roadMapIamge_four{
+    left: 80px;
+    top: 126px;
+    z-index: 1;
+}
+.roadMapIamge_five {
+    top: -55px;
+    left: 85px;
+    z-index: 1;
+    display: inline-block;
+}
+.roadMapIamge_six {
+ 
+    top: 126px;
+    left: 85px;
+    z-index: 1;
+}
 }
 
 @media (min-width: 1200px) {
   .max_w_position_hero_img {
     max-width: 350px;
   }
+.center_line::after {
+    content: "";
+    position: absolute !important;
+    height: 715px !important;
+    width: 2px !important;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(180deg, #3c278d 0%, rgba(60, 39, 141, 0.23) 100%) !important;
+}
+
   .hero_Img_position {
     position: absolute;
     bottom: -340px;
     right: -274px !important;
     width: 860px !important;
   }
-}
 
-@media (min-width: 1400px) {
-  .max_w_position_hero_img {
-    max-width: 100%;
+  .min_h_vedio {
+    min-height: 680px !important;
+  }
+
+  /*=========================== NUMBER ALL IMAGES SETUP ================== */
+  .numberOne_img_Setup {
+    left: 34.9%;
+    top: 25px;
+  }
+
+  .numberTwo_img_setup {
+left: 48.9%;    top: 29%;
+  }
+
+  .numberThree_img_setup {
+    top: 55%;
+    left: 34.9%;
+  }
+
+  .numberfour_img_setup {
+    bottom: 101px;
+left: 48.9%;  }
+
+  @media (min-width: 1400px) {
+    .max_w_position_hero_img {
+      max-width: 100%;
+    }
   }
 }
+
 
 /* =====================HERO CENTER======================== */
 
@@ -188,6 +384,7 @@
   border: 2px solid #3c278d !important;
   border: #3c278d;
 }
+
 .accordion-button {
   position: relative;
   display: flex;
@@ -207,6 +404,7 @@
 .accordion-item:last-of-type {
   border-radius: 10px !important;
 }
+
 .accordion-button:focus {
   z-index: 3;
   font-weight: 600px !important;
@@ -214,12 +412,14 @@
   outline: none !important;
   box-shadow: transparent !important;
 }
+
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
   background-color: transparent !important;
   box-shadow: transparent !important;
   font-weight: 600px !important;
 }
+
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: transparent !important;
@@ -227,51 +427,108 @@
   border: 1px solid #3c278d !important;
   border-radius: 10px !important;
 }
+
 button:focus {
   outline: none !important;
   border: 0 !important;
   box-shadow: 0 0 0 !important;
   font-weight: 600px !important;
 }
+
 .accordion-button::after {
   margin-left: auto;
   content: "";
-  background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important   ;
+  background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important;
   background-repeat: no-repeat;
 }
+
 .border_top {
   background: rgba(0, 0, 0, 0.4);
   width: 786px !important;
   height: 1px !important;
 }
+
 .footer_input_clr {
   max-width: 290px !important;
   border-radius: 12px !important;
   background: rgba(60, 39, 141, 0.11) !important;
 }
+
 .Search_btn {
   border-radius: 12px;
   border: 1px solid rgba(60, 39, 141, 0.52);
   background: #3c278d;
 }
+
 .footer_input {
   outline: none !important;
 }
+
 .footer_bordeer_top {
   border-top: 1px solid #3c278d;
 }
-/*===============colors===============*/
+
+/*===============COLORS===============*/
 .bg_logo {
   background-color: #c5c2c2 !important;
 }
-.hover_sclae{
+
+.hover_sclae {
   transition: all 200ms linear;
 }
-.hover_sclae:hover{
-transform: scale(1.11) !important;
-transition: all 200ms linear;
+
+.hover_sclae:hover {
+  transform: scale(1.11) !important;
+  transition: all 200ms linear;
 }
 
- div ul li a {
-  color: #4D4D4D !important;
- }
+div ul li a {
+  color: #4d4d4d !important;
+  transition: all 200ms linear !important;
+}
+
+div ul li a:hover {
+  color: #000 !important;
+  transition: all 200ms linear !important;
+}
+
+/* ==================ROAD MAP====================== */
+
+.RoadMap_par {
+  max-width: 431px;
+}
+.roadMap_main_box{
+  max-width: 216px;
+}
+.roadMap_heading_box{
+  border-radius: 12px 12px 0px 0px;
+  padding: 10px 0;
+border: 1px solid #0000;
+transition: all 300ms ease-in-out;
+}
+.roadMap_pra_box{
+      padding: 10px 0px !important;
+ border-radius: 0px 0px 12px 12px ;
+ border: 1px solid #0000;
+ transition: all 300ms ease-in-out;
+}
+.roadMap_main_box:hover .roadMap_pra_box{
+border: 1px solid rgba(60, 39, 141, 0.22);
+background: rgba(30, 30, 30, 0.07);
+}
+.roadMap_main_box:hover .roadMap_heading_box{
+  color: #fff;
+background: rgba(60, 39, 141, 0.76); 
+border: 1px solid rgba(60, 39, 141, 0.22);
+}
+
+
+@media (max-width:767.98px) {
+   .max_width_hero_img{
+    max-width: 500px  !important;
+  }
+  .hero_Img_position{
+        max-width: 450px  !important;
+
+  }
+}

@@ -4,7 +4,7 @@ const Vedio = () => {
   return (
     <>
       <div className=" container mt-5">
-        <iframe src={vedioRandom} className=' w-100 min-vh-100'/>
+        <iframe src={vedioRandom} className=' w-100 min_h_vedio m-0'/>
         {/* <iframe frameborder="0"></iframe> */}
       </div>
     </>

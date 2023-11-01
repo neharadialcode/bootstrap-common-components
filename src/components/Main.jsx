@@ -29,11 +29,19 @@ const Main = () => {
         <a href="/vedio" className="py-2 px-4 bg-info border-0 text-white ">
           Vedio
         </a>
+<<<<<<< HEAD
         <a href="/slider" className="py-2 px-4 bg-info border-0 text-white ">
           slider
         </a>
         <a href="/team" className="py-2 px-4 bg-info border-0 text-white ">
           team
+=======
+        <a
+          href="/roadMap"
+          className="py-2 px-4 bg-info border-0 text-white ms-3"
+        >
+          Road Map
+>>>>>>> 3caaf5837762533421889ef94300a103f94ec536
         </a>
       </div>
     </>

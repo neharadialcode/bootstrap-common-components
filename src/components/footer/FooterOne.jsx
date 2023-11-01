@@ -14,7 +14,7 @@ const FooterOne = () => {
             >
               Logo
             </a>
-            <p className=" font-sm ff_poppins">
+            <p className=" font-sm ff_poppins opacity-75">
               Discover Stellar blockchain's unrivaled speed, security, &
               scalability with Volag. Revolutionize finance.
             </p>
@@ -23,7 +23,7 @@ const FooterOne = () => {
             <div className=" row justify-content-between">
               <div className=" col-sm-6 col-md-3">
                 <ul className=" ps-0">
-                  <li className="font-sm ff_poppins text-dark">Quick links</li>
+                  <li className="font-sm ff_poppins text-black">Quick links</li>
                   <li className=" mt-2">
                     <a href="#" className="font-sm ff_poppins ">
                       Home
@@ -53,7 +53,7 @@ const FooterOne = () => {
               </div>
               <div className=" col-sm-6 col-md-3">
                 <ul className=" ps-0">
-                  <li className="font-sm ff_poppins text-dark">Links</li>
+                  <li className="font-sm ff_poppins text-black">Links</li>
                   <li className=" mt-2">
                     <a href="#" className="font-sm ff_poppins ">
                       Terms & conditions
@@ -67,7 +67,7 @@ const FooterOne = () => {
                 </ul>
               </div>
               <div className=" col-sm-6 col-md-5">
-                <p className="font-sm ff_poppins">Get in Touch</p>
+                <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
                   <div className=" mt-0">
                     <div className="footer_input_clr  px-4 py-1 d-flex align-items-center">
