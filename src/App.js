@@ -14,14 +14,7 @@ import FaqsOne from "./components/faqs/FaqsOne";
 import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
 import Vedio from "./components/vedio/Vedio";
-<<<<<<< HEAD
-import Slider from "./views/Slider";
-import OurTeam from "./components/team/OurTeam";
-=======
 import RoadMap from "./components/roadMap/RoadMap";
-
->>>>>>> 3caaf5837762533421889ef94300a103f94ec536
-
 function App() {
   return (
     <div className=" overflow-hidden">
@@ -35,12 +28,7 @@ function App() {
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/footer" element={<Footer />} />
           <Route path="/vedio" element={<Vedio />} />
-<<<<<<< HEAD
-          <Route path="/slider" element={<Slider />} />
-          <Route path="/team" element={<OurTeam/>} />
-=======
           <Route path="/roadMap" element={<RoadMap />} />
->>>>>>> 3caaf5837762533421889ef94300a103f94ec536
         </Routes>
       </BrowserRouter>
     </div>
