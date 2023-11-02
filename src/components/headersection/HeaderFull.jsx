@@ -15,7 +15,7 @@ const HeaderFull = () => {
     <>
       <div className="">
         {/* btn */}
-        <div className=" d-flex justify-content-between d-lg-none align-items-center px-3 py-3 bg-info">
+        <div className="d-flex justify-content-between d-lg-none align-items-center px-3 py-3 bg-info">
           <span>
             <a href="#">
               <img src={logo} alt="logo" className="w-100" />
@@ -33,7 +33,7 @@ const HeaderFull = () => {
           <div className="bg-info py-4 vh_100_1920 position-relative">
             {/* nav bar container */}
             <div className="container-fluid">
-              <div className=" d-flex align-items-center flex-lg-row flex-column justify-content-center justify-content-lg-between vh_100_992">
+              <div className="d-flex align-items-center flex-lg-row flex-column justify-content-center justify-content-lg-between vh_100_992">
                 <span className=" d-lg-block d-none">
                   <a href="#">
                     <img src={logo} alt="logo" />

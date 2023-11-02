@@ -129,7 +129,6 @@
   .btn {
     display: block;
   }
-
   .nav-fix {
     position: fixed;
     width: 100%;
@@ -144,12 +143,10 @@
     justify-content: center;
     z-index: 999 !important;
   }
-
   .nav-fix div {
     flex-direction: column;
     gap: 20px;
   }
-
   .show-nav {
     position: fixed;
     width: 100%;
@@ -164,12 +161,10 @@
     align-items: center;
     justify-content: center;
   }
-
   .show-nav div {
     flex-direction: column;
     gap: 20px !important;
   }
-
   .crossIconset {
     position: absolute;
     top: 20px;

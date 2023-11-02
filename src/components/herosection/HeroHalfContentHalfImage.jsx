@@ -7,14 +7,14 @@ const HeroHalfContentHalfImage = () => {
       <div>
         <HeaderFull />
         <div className="hero_custom_height d-flex align-items-center">
-          <div className=" container py-5">
-            <div className=" row flex-column-reverse flex-md-row  justify-content-between">
+          <div className="container py-5">
+            <div className="row flex-column-reverse flex-md-row  justify-content-between">
               <div className="col-md-6  col-lg-5 mt-3">
-                <h1 className=" ff_poppins fw-bold fs_3xl lh_mainHeading text_secondary">
+                <h1 className="ff_poppins fw-bold fs_3xl lh_mainHeading text_secondary">
                   Lorem ipsum dolor sit{" "}
                 </h1>
 
-                <p className=" ff_poppins fw-normal text_primary fs_sm lh_All_par mb-0">
+                <p className="ff_poppins fw-normal text_primary fs_sm lh_All_par mb-0">
                   Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                   eget consectetur mi. Vulputate sapien a a bibendum suspendisse
                   quam. Hac posuere eget nam diam velit urna adipiscing diam.
@@ -22,15 +22,15 @@ const HeroHalfContentHalfImage = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className=" fw-semibold fs_sm  mx-auto   button_btn mt-4">
+                <button className="fw-semibold fs_sm  mx-auto   button_btn mt-4">
                   Button
                 </button>
               </div>
-              <div className=" col-md-6 text-center text-md-start">
+              <div className="col-md-6 text-center text-md-start">
                 <img
                   src={heroImag}
                   alt="heroImag"
-                  className=" w-100 mx-auto max_width_hero_img"
+                  className="w-100 mx-auto max_width_hero_img"
                 />
               </div>
             </div>

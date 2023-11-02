@@ -1,11 +1,11 @@
-import React from 'react'
-import Accordion from "react-bootstrap/Accordion";  
+import React from "react";
+import Accordion from "react-bootstrap/Accordion";
 const FaqsOne = () => {
   return (
     <>
-      <div className=" container mt-5">
-        <h1 className=" ff_poppins fw-medium text-center">FAQ's </h1>
-        <p className=" text-center fs-5 mt-2">
+      <div className="container mt-5">
+        <h1 className="ff_poppins fw-medium text-center">FAQ's </h1>
+        <p className="text-center fs-5 mt-2">
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
           consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac
           posuere eget nam diam velit urna adipiscing diam.{" "}
@@ -24,7 +24,7 @@ const FaqsOne = () => {
               ligula.bh
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1" className=" mt-3">
+          <Accordion.Item eventKey="1" className="mt-3">
             <Accordion.Header>
               2. <span> How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
@@ -38,7 +38,7 @@ const FaqsOne = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2" className=" mt-3">
+          <Accordion.Item eventKey="2" className="mt-3">
             <Accordion.Header>
               3. <span>How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
@@ -52,7 +52,7 @@ const FaqsOne = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="3" className=" mt-3">
+          <Accordion.Item eventKey="3" className="mt-3">
             <Accordion.Header>
               4. <span>How can I buy cryptocurrency tokens?</span>
             </Accordion.Header>
@@ -70,6 +70,6 @@ const FaqsOne = () => {
       </div>
     </>
   );
-}
+};
 
-export default FaqsOne
+export default FaqsOne;

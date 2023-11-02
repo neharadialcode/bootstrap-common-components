@@ -1,80 +1,80 @@
 import React from "react";
-import twitter from "../../assetsFolder/images/svg/twitter.svg"
-import fackbook from "../../assetsFolder/images/svg/facebook.svg"
-import be from "../../assetsFolder/images/svg/Be.svg"
+import twitter from "../../assetsFolder/images/svg/twitter.svg";
+import fackbook from "../../assetsFolder/images/svg/facebook.svg";
+import be from "../../assetsFolder/images/svg/Be.svg";
 const FooterOne = () => {
   return (
-    <div className=" py-5 my-5 ">
-      <div className=" container">
-        <div className=" row justify-content-between ">
-          <div className=" col-xl-3">
+    <div className="py-5 my-5">
+      <div className="container">
+        <div className="row justify-content-between">
+          <div className="col-xl-3">
             <a
               href="#"
-              className=" fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3"
+              className="fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3"
             >
               Logo
             </a>
-            <p className=" font-sm ff_poppins opacity-75">
+            <p className="font-sm ff_poppins opacity-75">
               Discover Stellar blockchain's unrivaled speed, security, &
               scalability with Volag. Revolutionize finance.
             </p>
           </div>
           <div className="col-xl-8">
-            <div className=" row justify-content-between">
-              <div className=" col-sm-6 col-md-3">
-                <ul className=" ps-0">
+            <div className="row justify-content-between">
+              <div className="col-sm-6 col-md-3">
+                <ul className="ps-0">
                   <li className="font-sm ff_poppins text-black">Quick links</li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       Home
                     </a>
                   </li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       About
                     </a>
                   </li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       Community
                     </a>
                   </li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       RoadMap
                     </a>
                   </li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       Faqs
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-6 col-md-3">
-                <ul className=" ps-0">
+              <div className="col-sm-6 col-md-3">
+                <ul className="ps-0">
                   <li className="font-sm ff_poppins text-black">Links</li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       Terms & conditions
                     </a>
                   </li>
-                  <li className=" mt-2">
-                    <a href="#" className="font-sm ff_poppins ">
+                  <li className="mt-2">
+                    <a href="#" className="font-sm ff_poppins">
                       Privacy Policy
                     </a>
                   </li>
                 </ul>
               </div>
-              <div className=" col-sm-6 col-md-5">
+              <div className="col-sm-6 col-md-5">
                 <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
-                  <div className=" mt-0">
+                  <div className="mt-0">
                     <div className="footer_input_clr  px-4 py-1 d-flex align-items-center">
                       <input
                         type="text"
                         placeholder="Type Your Mail"
-                        className=" bg-transparent border-0 footer_input "
+                        className="bg-transparent border-0 footer_input"
                       />
                       <button className="Search_btn text-white py-1 px-3">
                         Search
@@ -84,10 +84,10 @@ const FooterOne = () => {
                 </form>
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
                 <div>
-                  <a href="#" className=" ">
+                  <a href="#" className="">
                     <img src={twitter} alt="twitter" className="hover_sclae" />
                   </a>
-                  <a href="#" className=" mx-2 ">
+                  <a href="#" className="mx-2">
                     <img
                       src={fackbook}
                       alt="fackbook"

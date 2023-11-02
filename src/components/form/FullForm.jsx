@@ -39,8 +39,8 @@ const FullForm = () => {
           Love to hear from you, Get in touch
         </p>
         <div className="row inputBottomSpaceSm">
-          <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black text-start mb-2">
+          <div className="col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
+            <p className="ff_inter fw-medium fs_sm text-black text-start mb-2">
               Your name
             </p>
             <input
@@ -89,8 +89,8 @@ const FullForm = () => {
         </div>
         {/* input 2 */}
         <div className="row inputBottomSpaceSm position-relative">
-          <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black mb-2 text-start">
+          <div className="col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
+            <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
               What you are interested
             </p>
             <input
@@ -110,8 +110,8 @@ const FullForm = () => {
               typicalForm !== ""
             )}
           </div>
-          <div className=" col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_16 text-black mb-2 text-start">
+          <div className="col-sm-6 col-12 inputBottomSpace mb-sm-0 position-relative">
+            <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start">
               Project Budget
             </p>
             <input
@@ -134,7 +134,7 @@ const FullForm = () => {
         </div>
         {/* textarea */}
         <div className="w-100 inputBottomSpace position-relative pb-2">
-          <p className=" ff_inter fw-medium fs_16 text-black mb-2 text-start">
+          <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start">
             Message
           </p>
           <textarea

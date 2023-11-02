@@ -100,7 +100,7 @@ const SideForm = () => {
           </div>
           <div className="col-lg-6 col-12 d-lg-flex flex-column align-items-center mb-lg-0 mb-5">
             <div>
-              <p className=" fs_2xl text-black fw-bold mb-lg-3 mb-1">
+              <p className="fs_2xl text-black fw-bold mb-lg-3 mb-1">
                 Get In Touch
               </p>
               <p className="text-black opacity-75 paraMaxWidth">
