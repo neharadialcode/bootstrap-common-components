@@ -13,7 +13,7 @@ const AboutCenter = () => {
             vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae
             sed.
           </p>
-          <button className="button_btn">Button</button>
+          <button className="about_btn">Button</button>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const AboutRowCol = () => {
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
               Hac posuere eget nam diam velit urna adipiscing diam.
             </p>
-            <button className="button_btn">Button</button>
+            <button className="about_btn">Button</button>
           </div>
         </div>
       </div>

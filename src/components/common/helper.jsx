@@ -45,7 +45,7 @@ export const AboutSliderData = [
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. ",
     para2:
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae sed. Proin urna ornare dolor mauris convallis varius nunc.",
-    Button: "button",
+    Button: "Button",
   },
   {
     image: About2,
@@ -54,7 +54,7 @@ export const AboutSliderData = [
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. ",
     para2:
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae sed. Proin urna ornare dolor mauris convallis varius nunc.",
-    Button: "button",
+    Button: "Button",
   },
   {
     image: About3,
@@ -63,7 +63,7 @@ export const AboutSliderData = [
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. ",
     para2:
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae sed. Proin urna ornare dolor mauris convallis varius nunc.",
-    Button: "button",
+    Button: "Button",
   },
   {
     image: About4,
@@ -72,7 +72,7 @@ export const AboutSliderData = [
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. ",
     para2:
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae sed. Proin urna ornare dolor mauris convallis varius nunc.",
-    Button: "button",
+    Button: "Button",
   },
   {
     image: About5,
@@ -81,7 +81,7 @@ export const AboutSliderData = [
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. ",
     para2:
       "Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum suspendisse quam. Hac posuere eget nam diam velit urna adipiscing diam. Dis velit nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem vitae sed. Proin urna ornare dolor mauris convallis varius nunc.",
-    Button: "button",
+    Button: "Button",
   },
   {
     image: About3,
