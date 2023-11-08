@@ -5,22 +5,19 @@ import Headercenter from "../headersection/Headercenter";
 const HeroCenterPosition = () => {
   return (
     <>
-      <h1 className=" text-center mb-4 fs_2xl ff_poppins text_linear_gradient fw-semibold">
-        Hero Center Position
-      </h1>
       <div>
         <Headercenter />
         <div className=" d-flex hero_custom_height align-items-center">
-          <div className=" container mt-4">
-            <h2 className=" text-center fw-semibold fs_2xl ff_poppins  mx-auto">
+          <div className=" container mt-lg-5 pt-2">
+            <h1 className=" text-center fw-bold fs_3xl lh_mainHeading mx-auto">
               Lorem ipsum Lorem ipsum
-            </h2>
-            <p className=" ff_poppins fw-normal fs_sm  mx-auto pt-2 max_w_hero_par mx-auto text-center">
+            </h1>
+            <p className="  fw-normal fs_sm lh_All_par mx-auto pt-2 max_w_hero_par mx-auto text-center">
               Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
               Hac posuere eget nam diam velit urna adipiscing diam.
             </p>
-            <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn d-flex align-items-center justify-content-center">
+            <button className=" fw-semibold fs_sm  mx-auto  button_btn d-flex align-items-center justify-content-center mt-2">
               Button
             </button>
             <div className=" mt-4 pt-md-4">

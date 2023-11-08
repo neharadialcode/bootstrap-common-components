@@ -33,27 +33,23 @@ const HeroPosition = () => {
           />
           <div className=" d-flex align-items-center justify-content-center ">
             <div className=" max_w_Hero_Position text-center">
-              <span className="ff_poppins font-md text-black">
-                A nice headline
-              </span>
-              <h1 className=" ff_poppins fw-medium fs_2xl text-black">
+              <p className=" fs_xl text-black mb-0">A nice headline</p>
+              <h1 className=" fw-semibold fs_3xl lh_mainHeading text-black">
                 Goes here
               </h1>
-
-              <p className=" ff_poppins fw-normal text_primary fs_sm   mb-0">
+              <p className="text_primary lh_All_pra fs_sm mb-0">
                 Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
                 nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
                 vitae sed.
               </p>
-
-              <button className="ff_poppins fw-normal fs_sm  mx-auto  button_btn mt-4">
-                Button
-              </button>
-              <button className="ff_poppins fw-normal fs_sm  button_btn mt-4 ms-3">
-                Button
-              </button>
+              <div className=" pt-2">
+                <button className=" fw-semibold fs_sm mx-auto button_btn mt-4">
+                  Button
+                </button>
+                <button className=" fw-semibold fs_sm button_btn mt-4 ms-3">Button</button>
+              </div>
             </div>
           </div>
         </div>
