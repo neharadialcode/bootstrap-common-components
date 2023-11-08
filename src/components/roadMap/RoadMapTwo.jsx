@@ -4,7 +4,7 @@ const RoadMapTwo = () => {
   return (
     <div div className="py-5">
       <div className="container">
-        <div className="text-center mb-5 pb-3">
+        <div className="text-center mb-md-5 pb-3">
           <h2 className="fw-semibold fs_2xl ff_poppins">Road Map</h2>
           <p className="fs_sm ff_poppins text-black opacity_70">
             Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero

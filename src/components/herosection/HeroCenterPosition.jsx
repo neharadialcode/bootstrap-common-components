@@ -17,7 +17,7 @@ const HeroCenterPosition = () => {
               consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
               Hac posuere eget nam diam velit urna adipiscing diam.
             </p>
-            <button className="fw-semibold fs_sm  mx-auto  button_btn d-flex align-items-center justify-content-center mt-2">
+            <button className="fw-semibold fs_sm  about_btn mx-auto d-flex align-items-center justify-content-center mt-2">
               Button
             </button>
             <div className="mt-4 pt-md-4">

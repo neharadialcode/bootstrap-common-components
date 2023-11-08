@@ -26,12 +26,14 @@ const HeroPositionHalf = () => {
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec.
                 </p>
-                <button className="fw-semibold fs_sm  mx-auto about_btn mt-4">
-                  Button
-                </button>
-                <button className="fw-semibold fs_sm  mx-auto  about_btn  mt-2 ms-3 mt-sm-4">
-                  Button
-                </button>
+                <div className=" d-flex">
+                  <button className="fw-semibold fs_sm about_btn mt-4">
+                    Button
+                  </button>
+                  <button className="fw-semibold fs_sm about_btn  mt-2 ms-3 mt-sm-4">
+                    Button
+                  </button>
+                </div>
               </div>
               <div className=" col-md-8 col-lg-6 text-center text-md-start position-relative mt-5 mt-lg-0">
                 <img

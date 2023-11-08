@@ -16,7 +16,7 @@ const HeroCenter = () => {
                 consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
                 Hac posuere eget nam diam velit urna adipiscing diam.
               </p>
-              <button className="fw-semibold fs_sm  mx-auto  button_btn mt-3">
+              <button className="fw-semibold fs_sm  mx-auto about_btn mt-3">
                 Button
               </button>
             </div>

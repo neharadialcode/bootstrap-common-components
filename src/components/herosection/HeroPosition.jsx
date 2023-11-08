@@ -44,11 +44,13 @@ const HeroPosition = () => {
                 nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
                 vitae sed.
               </p>
-              <div className="pt-2">
-                <button className="fw-semibold fs_sm mx-auto button_btn mt-4">
+              <div className="pt-2 d-flex justify-content-center">
+                <button className="fw-semibold fs_sm  about_btn mt-4">
                   Button
                 </button>
-                <button className="fw-semibold fs_sm button_btn mt-4 ms-3">Button</button>
+                <button className="fw-semibold fs_sm about_btn mt-4 ms-3">
+                  Button
+                </button>
               </div>
             </div>
           </div>

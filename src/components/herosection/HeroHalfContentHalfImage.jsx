@@ -22,7 +22,7 @@ const HeroHalfContentHalfImage = () => {
                   at sed lorem vitae sed.
                 </p>
 
-                <button className="fw-semibold fs_sm  mx-auto   button_btn mt-4">
+                <button className="fw-semibold fs_sm  about_btn mt-4">
                   Button
                 </button>
               </div>
