@@ -10,12 +10,12 @@ import Hero from "./views/Hero";
 import Main from "./components/Main";
 import AboutUs from "./views/AboutUs";
 import Form from "./views/Form";
-import FaqsOne from "./components/faqs/FaqsOne";
 import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
 import Vedio from "./components/vedio/Vedio";
 import Slider from "./views/Slider";
-import OurTeam from "./components/team/OurTeam";
+import RoadMap from "./components/roadMap/RoadMap";
+
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/vedio" element={<Vedio />} />
           <Route path="/slider" element={<Slider />} />
-          <Route path="/team" element={<OurTeam/>} />
+          <Route path="/roadMap" element={<RoadMap />} />
         </Routes>
       </BrowserRouter>
     </div>
