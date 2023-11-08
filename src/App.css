@@ -51,8 +51,7 @@
 .lh_All_par{
   line-height: 24px;
 }
-.button_lh{
-}
+
 /* responsive */
 
 @media (max-width: 575.98px) {
@@ -97,7 +96,7 @@ font-family: 'Inter', sans-serif !important;
 }
 @media (max-width: 575.98px) {
 .lh_mainHeading{
-  line-height: 59px;
+  line-height: 45px;
 }
 }
 @media (min-width: 576px) {
