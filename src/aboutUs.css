@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 100px;
+  border-radius: 12px;
   border: 1px solid transparent;
 }
 .about_btn:hover {
@@ -48,12 +48,18 @@
 .aboutus_bottom_slider {
   max-width: 1008px;
 }
+@media (min-width:768px) {
+  .about_big_sliders{width: 100% !important;}
+  
+}
 @media (min-width: 992px) {
   .about_big_sliders {
-    min-height: 387px;
+    height: 387px;
+    width:531px;
   }
   .about_btn {
     height: 48px;
     width: 164px;
   }
+  .about_heading{font-size: 48px;}
 }
