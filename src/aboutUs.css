@@ -1,6 +1,22 @@
 .about_card {
   min-height: 366px;
 }
+.about_btn {
+  background-color: #3c278d;
+  color: white;
+  width: 154px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid transparent;
+}
+.about_btn:hover {
+  background-color: transparent;
+  border: 1px solid #3c278d !important;
+  color: #3c278d;
+}
 .header_bg {
   background-image: url(../src/assets/images/webp/about-img.webp);
   background-repeat: no-repeat;
@@ -35,5 +51,9 @@
 @media (min-width: 992px) {
   .about_big_sliders {
     min-height: 387px;
+  }
+  .about_btn {
+    height: 48px;
+    width: 164px;
   }
 }
