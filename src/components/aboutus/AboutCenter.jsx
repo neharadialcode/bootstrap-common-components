@@ -4,7 +4,7 @@ const AboutCenter = () => {
   return (
     <div className="header_bg">
       <div className="container">
-        <div className="mt-4 about_card  d-flex flex-column justify-content-center align-items-center">
+        <div className="about_card  d-flex flex-column justify-content-center align-items-center">
           <h2 className="text-center text-black">Lorem ipsum</h2>
           <p className="text-center text-black about_para px-3 fw-normal pb-md-3 opacity_70">
             Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget

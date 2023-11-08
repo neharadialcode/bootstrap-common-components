@@ -2,9 +2,9 @@ import React from "react";
 import img from "../../assets/images/png/about_wallpaper.png";
 const AboutRowCol = () => {
   return (
-    <div>
+    <>
       <div className="container py-5">
-        <div className="d-flex flex-column flex-lg-row align-items-center">
+        <div className="d-flex flex-column py-lg-5 flex-lg-row align-items-center">
           <div className="col-lg-6 pe-lg-5">
             <img className="w-100" src={img} alt="wallpaper-img" />
           </div>
@@ -25,7 +25,7 @@ const AboutRowCol = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

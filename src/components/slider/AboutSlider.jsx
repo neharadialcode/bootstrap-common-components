@@ -8,6 +8,7 @@ import Slider_small_4 from "../../assets/images/png/about_slider_4.png";
 import Slider_small_5 from "../../assets/images/png/about_slider_5.png";
 import left_arrow from "../../assets/images/png/aboutus_slider_left_arrow.png";
 import right_arrow from "../../assets/images/png/aboutus_slider_right_arrow.png";
+import { AboutSliderData } from "../common/helper";
 const SliderSlick = () => {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
@@ -18,39 +19,37 @@ const SliderSlick = () => {
     setNav2(slider2.current);
   }, []);
   return (
-    <div className="container py-5">
-      <Slider className="mainSlider" asNavFor={nav2} ref={slider1}>
-        <div className="align-items-center d-flex pb-4 mb-3">
-          <div className="col-6 pe-5">
-            <img
-              className="w-100 about_big_sliders"
-              src={Slider_small_1}
-              alt="Slider-img"
-            />
-          </div>
-          <div className="col-6 pe-5">
-            <h2 className="fs_2xl fw-semibold">Lorem ipsum </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
-              consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
-              Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
-              nam vitae hendrerit at egestas.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget
-              consectetur mi. Vulputate sapien a a bibendum suspendisse quam.
-              Hac posuere eget nam diam velit urna adipiscing diam. Dis velit
-              nam vitae hendrerit at egestas. Tellus velit turpis at sed lorem
-              vitae sed. Proin urna ornare dolor mauris convallis varius nunc.
-            </p>
-            <button className="button_btn">Button</button>
-          </div>
-        </div>
+    <div className="container py-5 px-0">
+      <Slider className="mainSlider" asNavFor={nav2} ref={slider1} fade={true}>
+        {AboutSliderData.map((SlideData, index) => {
+          return (
+            <>
+              <div
+                className="align-items-center d-flex flex-wrap pb-4 mb-3"
+                key={index}
+              >
+                <div className="col-lg-6 col-md-8 col-12 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-3">
+                  <img
+                    className="w-100 about_big_sliders"
+                    src={SlideData.image}
+                    alt="Slider-img"
+                  />
+                </div>
+                <div className="col-lg-6 col-12 pe-lg-5">
+                  <h2 className="fs_2xl fw-semibold">{SlideData.heading}</h2>
+                  <p className="fs_sm">{SlideData.para1}</p>
+                  <p className="fs_sm">{SlideData.para2}</p>
+                  <button className="button_btn">{SlideData.Button}</button>
+                </div>
+              </div>
+            </>
+          );
+        })}
       </Slider>
       <div className="position-relative">
         <div
           onClick={() => slider2.current?.slickNext()}
-          className="position-absolute about_left_arrow"
+          className="position-absolute about_left_arrow d-xl-block d-none"
         >
           <img height={38} width={40} src={left_arrow} alt="arrow" />
         </div>
@@ -61,6 +60,28 @@ const SliderSlick = () => {
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
+          autoplay={true}
+          autoplaySpeed={2000}
+          responsive={[
+            {
+              breakpoint: 1124,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+          ]}
         >
           <div>
             <img
@@ -113,7 +134,7 @@ const SliderSlick = () => {
         </Slider>
         <div
           onClick={() => slider2.current?.slickPrev()}
-          className="position-absolute about_right_arrow"
+          className="position-absolute about_right_arrow d-xl-block d-none"
         >
           <img height={38} width={40} src={right_arrow} alt="arrow" />
         </div>
