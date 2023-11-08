@@ -95,7 +95,7 @@
   color: #3c278d;
   border-radius: 12px;
   background: #fff;
-  border: 1px solid #3c278d;
+  border: 1px solid #3c278d !important;
   transition: all 300ms ease-in-out;
 }
 
@@ -114,7 +114,7 @@
       line-height: 19px;
     border-radius: 12px;
     background: #3c278d;
-    border: 1px solid #3c278d;
+    border: 1px solid #3c278d !important;
     transition: all 300ms ease-in-out;
   }
 
@@ -146,7 +146,7 @@
       line-height: 19px;
     border-radius: 12px;
     background: #3c278d;
-    border: 1px solid #3c278d;
+    border: 1px solid #3c278d !important;
     transition: all 300ms ease-in-out;
   }
 
