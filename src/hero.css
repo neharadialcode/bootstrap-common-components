@@ -196,6 +196,10 @@
   }
 }
 @media (min-width: 992px) {
+
+  .hero_custom_height {
+  min-height: calc(100vh - 95px) !important;
+}
   .min_h_hero_img {
     height: 566px !important;
   }
