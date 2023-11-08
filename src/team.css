@@ -2,6 +2,15 @@
   border-radius: 12px;
   background: rgba(30, 30, 30, 0.08);
 }
-.txt_offBlack{color: rgba(0, 0, 0, 0.70);}
-.mw_934{max-width: 934px;}
-.textPurple{color: #3C278D;}
+.txt_offBlack {
+  color: rgba(0, 0, 0, 0.7);
+}
+.mw_934 {
+  max-width: 934px;
+}
+.textPurple {
+  color: #3c278d;
+}
+.mt_24 {
+  margin-top: 24px;
+}

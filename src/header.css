@@ -39,7 +39,7 @@
   width: 100%;
   left: 0;
 }
-@media (max-width: 768.98px) {
+@media (max-width: 767.98px) {
   .nav_show {
     position: fixed;
     height: 0vh;
@@ -68,6 +68,9 @@
 .hoverLine:hover::after {
   width: 100%;
   left: 0;
+}
+.hoverLine:hover {
+  color: white !important;
 }
 .hoverLine::after {
   content: "";
@@ -129,7 +132,6 @@
   .btn {
     display: block;
   }
-
   .nav-fix {
     position: fixed;
     width: 100%;
@@ -144,12 +146,10 @@
     justify-content: center;
     z-index: 999 !important;
   }
-
   .nav-fix div {
     flex-direction: column;
     gap: 20px;
   }
-
   .show-nav {
     position: fixed;
     width: 100%;
@@ -164,12 +164,10 @@
     align-items: center;
     justify-content: center;
   }
-
   .show-nav div {
     flex-direction: column;
     gap: 20px !important;
   }
-
   .crossIconset {
     position: absolute;
     top: 20px;

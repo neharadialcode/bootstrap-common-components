@@ -10,17 +10,17 @@ import imageFour from "../../assetsFolder/images/png/Image_four.png";
 const RoadMapOne = () => {
   return (
     <div className="py-5">
-      <div className=" container">
-        <div className=" text-center mb-5 pb-3">
+      <div className="container">
+        <div className="text-center mb-5 pb-3">
           <h2 className="fw-semibold fs_2xl ff_poppins">Road Map</h2>
-          <p className=" fs_sm ff_poppins text-black opacity_70">
+          <p className="fs_sm ff_poppins text-black opacity_70">
             Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
             porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
             Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
             fames. Cursus libero nec facilisis
           </p>
         </div>
-        <div className=" row position-relative center_line d-none d-md-flex">
+        <div className="row position-relative center_line d-none d-md-flex">
           {/* ================NUMBER ONE IMG AND TAXT==================== */}
           <div className=" col-md-6 text-md-end p-0 mt-4">
             <img
@@ -43,7 +43,7 @@ const RoadMapOne = () => {
             </p>
           </div>
           {/* ================NUMBER TWO IMG AND TAXT==================== */}
-          <div className=" col-md-6 text-md-end pe-md-5">
+          <div className="col-md-6 text-md-end pe-md-5">
             <h4>Inception and prepration</h4>
             <p className="RoadMa p_par text-black opacity_70 fs_sm">
               Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
@@ -63,18 +63,18 @@ const RoadMapOne = () => {
             />
           </div>
           {/* ================NUMBER THREE IMG AND TAXT==================== */}
-          <div className=" col-md-6 text-md-end p-0 mt-4">
+          <div className="col-md-6 text-md-end p-0 mt-4">
             <img
               height={71}
               width={156}
               src={numaberThree}
               alt="numaberThree"
-              className=" rodMap_img_w_h"
+              className="rodMap_img_w_h"
             />
           </div>
           <div className="col-md-6 ps-md-5">
             <h4>Inception and prepration</h4>
-            <p className=" text-black opacity_70 fs_sm">
+            <p className="text-black opacity_70 fs_sm">
               Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
               porttitor quam sed aliquet. Sodales vulputate elementum arcu
               donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -86,7 +86,7 @@ const RoadMapOne = () => {
           {/* ================NUMBER FOUR IMG AND TAXT==================== */}
           <div className="col-md-6 text-md-end pe-5">
             <h4>Product and development</h4>
-            <p className=" text-black opacity_70 fs_sm">
+            <p className="text-black opacity_70 fs_sm">
               Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
               porttitor quam sed aliquet. Sodales vulputate elementum arcu
               donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -95,7 +95,7 @@ const RoadMapOne = () => {
               ligula.bh{" "}
             </p>
           </div>
-          <div className=" col-md-6 p-0 mt-4">
+          <div className="col-md-6 p-0 mt-4">
             <img
               src={numberFour}
               alt="numberFour"
@@ -105,14 +105,14 @@ const RoadMapOne = () => {
           </div>
         </div>
       </div>
-      <div className=" position-relative center_line d-md-none">
-          <div className=" d-flex ">
-            <div className=" ps-2">
+      <div className="position-relative center_line d-md-none">
+          <div className="d-flex ">
+            <div className="ps-2">
               <img src={imageOne} alt="imageOne" className=" w-100" />
             </div>
-            <div className=" px-3">
+            <div className="px-3">
               <h4>Inception and prepration</h4>
-              <p className=" text-black opacity_70 fs_sm">
+              <p className="text-black opacity_70 fs_sm">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -122,13 +122,13 @@ const RoadMapOne = () => {
               </p>
             </div>
           </div>
-          <div className=" d-flex ">
-            <div className=" ps-2">
+          <div className="d-flex">
+            <div className="ps-2">
               <img src={imagetwo} alt="imagetwo" className=" w-100" />
             </div>
-            <div className=" px-3">
+            <div className="px-3">
               <h4>Inception and prepration</h4>
-              <p className=" text-black opacity_70 fs_sm">
+              <p className="text-black opacity_70 fs_sm">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -138,13 +138,13 @@ const RoadMapOne = () => {
               </p>
             </div>
           </div>
-          <div className=" d-flex ">
+          <div className="d-flex">
             <div className=" ps-2">
-              <img src={imagethree} alt="imagethree" className=" w-100" />
+              <img src={imagethree} alt="imagethree" className="w-100" />
             </div>
-            <div className=" px-3">
+            <div className="px-3">
               <h4>Inception and prepration</h4>
-              <p className=" text-black opacity_70 fs_sm">
+              <p className="text-black opacity_70 fs_sm">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
@@ -154,13 +154,13 @@ const RoadMapOne = () => {
               </p>
             </div>
           </div>
-          <div className=" d-flex ">
-            <div className=" ps-2">
+          <div className="d-flex">
+            <div className="ps-2">
               <img src={imageFour} alt="imageFour" className=" w-100" />
             </div>
-            <div className=" px-3">
+            <div className="px-3">
               <h4>Inception and prepration</h4>
-              <p className=" text-black opacity_70 fs_sm">
+              <p className="text-black opacity_70 fs_sm">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap");
 :root {
   /* font size */
   --fs-sm: 16px;
@@ -6,7 +6,7 @@
   --fs-lg: 24px;
   --fs-xl: 32px;
   --fs-2xl: 48px;
-  --fs-3xl:58px;
+  --fs-3xl: 58px;
   /* color */
   --clr-purple: #3c278d;
   --clr-lightPurple: #6b5ba9;
@@ -24,17 +24,17 @@
 .fs_xl {
   font-size: var(--fs-xl);
 }
-.fs_2xl{
+.fs_2xl {
   font-size: var(--fs-2xl) !important;
 }
-.fs_3xl{
+.fs_3xl {
   font-size: var(--fs-3xl);
 }
 /* font-color */
 .clr_lightBrown {
   color: var(--clr-lightBrown);
 }
-.clr_purple{
+.clr_purple {
   color: var(--clr-purple);
 }
 /* bg color */
@@ -45,15 +45,14 @@
   background: var(--clr-lightPurple);
 }
 /* Line-HEIGHT */
-.lh_mainHeading{
+.lh_mainHeading {
   line-height: 69px;
 }
-.lh_All_par{
+.lh_All_par {
   line-height: 24px;
 }
 
 /* responsive */
-
 @media (max-width: 575.98px) {
   :root {
     /* font size */
@@ -62,8 +61,7 @@
     --fs-lg: 22px;
     --fs-xl: 28px;
     --fs-2xl: 38px;
-      --fs-3xl:42px;
-
+    --fs-3xl: 42px;
   }
 }
 @media (min-width: 576px) {
@@ -74,38 +72,35 @@
     --fs-lg: 22px;
     --fs-xl: 28px;
     --fs-2xl: 38px;
-      --fs-3xl:42px;
-
+    --fs-3xl: 42px;
   }
-}
-@media (min-width:768px) {
-  :root{
-      --fs-sm: 16px;
-  --fs-md: 20px;
-  --fs-lg: 24px;
-  --fs-xl: 32px;
-  --fs-2xl: 48px;
-  --fs-3xl:58px;
-  }
-}
-
-/* font family */
-body {
-font-family: 'Inter', sans-serif !important;
-/* font-family: 'Poppins', sans-serif; */
-}
-@media (max-width: 575.98px) {
-.lh_mainHeading{
-  line-height: 45px;
-}
-}
-@media (min-width: 576px) {
-.lh_mainHeading{
-  line-height: 59px;
-}
 }
 @media (min-width: 768px) {
-.lh_mainHeading{
-  line-height: 69px;
+  :root {
+    --fs-sm: 16px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+    --fs-3xl: 58px;
+  }
 }
+/* font family */
+body {
+  font-family: "Inter", sans-serif !important;
+}
+@media (max-width: 575.98px) {
+  .lh_mainHeading {
+    line-height: 59px;
+  }
+}
+@media (min-width: 576px) {
+  .lh_mainHeading {
+    line-height: 59px;
+  }
+}
+@media (min-width: 768px) {
+  .lh_mainHeading {
+    line-height: 69px;
+  }
 }
