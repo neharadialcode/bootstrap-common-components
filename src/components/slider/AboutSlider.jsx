@@ -63,7 +63,7 @@ const SliderSlick = () => {
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
-          autoplay={false}
+          autoplay={true}
           autoplaySpeed={2000}
           responsive={[
             {
