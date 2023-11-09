@@ -26,7 +26,11 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="1" className="mt-3">
             <Accordion.Header>
-              2. <span className="ps-1"> How can I buy cryptocurrency tokens?</span>
+              2.{" "}
+              <span className="ps-1">
+                {" "}
+                How can I buy cryptocurrency tokens?
+              </span>
             </Accordion.Header>
             <Accordion.Body className="activeBorder">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -40,7 +44,11 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2" className="mt-3">
             <Accordion.Header>
-              3. <span className="ps-1"> How can I buy cryptocurrency tokens?</span>
+              3.{" "}
+              <span className="ps-1">
+                {" "}
+                How can I buy cryptocurrency tokens?
+              </span>
             </Accordion.Header>
             <Accordion.Body className="activeBorder">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -54,7 +62,11 @@ const FaqsOne = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="3" className="mt-3">
             <Accordion.Header>
-              4. <span className="ps-1"> How can I buy cryptocurrency tokens?</span>
+              4.{" "}
+              <span className="ps-1">
+                {" "}
+                How can I buy cryptocurrency tokens?
+              </span>
             </Accordion.Header>
             <Accordion.Body className="activeBorder">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
