@@ -1,16 +1,15 @@
-
 import React from "react";
 import heroCenterPosition from "../../assetsFolder/images/png/center_position_img.png";
-import Headercenter from "../headersection/Headercenter";
+import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 const HeroCenterPosition = () => {
   return (
     <>
       <div className="min_vh_custom mb-4 d-flex flex-column">
-        <Headercenter />
+        <HeaderCenterAlign />
         <div className=" d-flex align-items-center flex-grow-1 justify-content-center align-items-center my-4 my-xl-0 ">
           <div className=" container">
             <h1 className=" text-center fw-bold fs_3xl lh_mainHeading mx-auto">
-              Lorem ipsum Lorem ipsum 
+              Lorem ipsum Lorem ipsum
             </h1>
             <p className="fw-normal fs_sm lh_All_par mx-auto pt-2 max_w_hero_par mx-auto text-center">
               Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget

@@ -1,13 +1,13 @@
 import React from "react";
-import Headercenter from "../headersection/Headercenter"
+import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 const HeroCenter = () => {
   return (
     <>
       <div>
-        <Headercenter />
-        <div className="hero_center d-flex hero_custom_height align-items-center justify-content-center">
-          <div className="container text-center">
-            
+        <HeaderCenterAlign />
+        <div className="hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">
+          <div className="container">
+            <div className="text-center">
               <h1 className="text-center fw-bold fs_3xl lh_mainHeading mx-auto">
                 Lorem ipsum Lorem ipsum
               </h1>
@@ -22,7 +22,8 @@ const HeroCenter = () => {
          
           </div>
         </div>
-      </div>
+        </div>
+        </div>
     </>
   );
 };

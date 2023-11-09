@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SideForm = () => {
+const side_form = () => {
   const [touchForm, setTouchForm] = useState({
     name: "",
     email: "",
@@ -36,12 +36,12 @@ const SideForm = () => {
           <div className="col-lg-6 col-12">
             <form
               onSubmit={(e) => OnsubmitHandler(e)}
-              className="SideForm flex-column d-flex justify-content-center"
+              className="side_form flex-column d-flex justify-content-center"
             >
               <div className="w-100">
                 <input
                   type="text"
-                  className={`sideFormInput overflow-hidden fs_sm w-100 ${
+                  className={`side_form_input overflow-hidden fs_sm w-100 ${
                     error && touchForm.name === ""
                       ? "border-danger"
                       : touchForm !== ""
@@ -55,7 +55,7 @@ const SideForm = () => {
               </div>
               <input
                 type="text"
-                className={`sideFormInput overflow-hidden fs_sm ${
+                className={`side_form_input overflow-hidden fs_sm ${
                   error && touchForm.email === ""
                     ? "border-danger"
                     : error && regex.test(touchForm.email) === false
@@ -71,7 +71,7 @@ const SideForm = () => {
               <input
                 type="number"
                 placeholder="Contact"
-                className={`sideFormInput overflow-hidden fs_sm w-100 ${
+                className={`side_form_input overflow-hidden fs_sm w-100 ${
                   error && touchForm.contact === ""
                     ? "border-danger"
                     : touchForm !== ""
@@ -82,7 +82,7 @@ const SideForm = () => {
                 value={touchForm.contact}
               />
               <textarea
-                className={`sideFormInput overflow-hidden fs_sm TextAreaSide overflow-hidden ${
+                className={`side_form_input overflow-hidden fs_sm text_area_side overflow-hidden ${
                   error && touchForm.message === ""
                     ? "border-danger"
                     : touchForm !== ""
@@ -93,7 +93,7 @@ const SideForm = () => {
                 }
                 value={touchForm.message}
               />
-              <button className="text-white d-flex justify-content-center align-items-center submitBtn bg_purple buttonHover mt-3">
+              <button className="text-white d-flex justify-content-center align-items-center submit_btn bg_purple button_hover mt-3">
                 Submit
               </button>
             </form>
@@ -103,14 +103,14 @@ const SideForm = () => {
               <p className="fs_2xl text-black fw-bold mb-lg-3 mb-1">
                 Get In Touch
               </p>
-              <p className="text-black opacity-75 paraMaxWidth">
+              <p className="text-black opacity-75 para_max_width">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
                 ullamcorper fames. Cursus libero nec facilisis risus malesuada
                 arcu cum.
               </p>
-              <button className="text-white d-flex justify-content-center align-items-center TouchBtn bg_purple buttonHover">
+              <button className="text-white d-flex justify-content-center align-items-center touch_btn bg_purple button_hover">
                 Get in Touch
               </button>
             </div>
@@ -121,4 +121,4 @@ const SideForm = () => {
   );
 };
 
-export default SideForm;
+export default side_form;

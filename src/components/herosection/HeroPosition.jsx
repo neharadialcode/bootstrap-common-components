@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 import leftImagLeft from "../../assetsFolder/images/png/hero_left_img.png";
 import leftImagRight from "../../assetsFolder/images/png/hero_right _img.png";
 import leftImagRightBottom from "../../assetsFolder/images/png/hero_right _bottom_img.png";
 import leftImagLeftBottom from "../../assetsFolder/images/png/hero_left_bottom_img.png";
-import Headercenter from "../headersection/Headercenter";
+import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 
 const HeroPosition = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <Headercenter />
+        <HeaderCenterAlign />
         <div className="d-flex align-items-center justify-content-center  hero_custom_height position-relative z-1">
           <img
             src={leftImagLeft}
@@ -58,6 +58,6 @@ const HeroPosition = () => {
       </div>
     </>
   );
-}
+};
 
-export default HeroPosition
+export default HeroPosition;
