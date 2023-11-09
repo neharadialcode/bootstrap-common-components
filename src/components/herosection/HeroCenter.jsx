@@ -5,7 +5,7 @@ const HeroCenter = () => {
     <>
       <div>
         <Headercenter />
-        <div className="hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">
+        <div className="hero_center d-flex hero_custom_height align-items-center justify-content-center">
           <div className="container text-center">
             
               <h1 className="text-center fw-bold fs_3xl lh_mainHeading mx-auto">
