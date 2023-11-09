@@ -30,7 +30,7 @@ const HeroPositionHalf = () => {
                   <button className="fw-semibold fs_sm about_btn mt-4">
                     Button
                   </button>
-                  <button className="fw-semibold fs_sm about_btn  mt-2 ms-3 mt-sm-4">
+                  <button className="fw-semibold fs_sm about_btn  mt-4 ms-3 mt-sm-4">
                     Button
                   </button>
                 </div>

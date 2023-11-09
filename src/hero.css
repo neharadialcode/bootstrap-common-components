@@ -280,7 +280,7 @@
   .center_line_two::after {
     content: "";
     position: absolute;
-    max-width: 790px !important;
+    max-width: 787px !important;
     width: 100%;
     height: 1px !important;
     top: 47%;
@@ -321,6 +321,16 @@
     left: 85px;
     z-index: 1;
   }
+  .roadMapTwo_transform_one{
+    transform: translate(45px, -2px);
+}
+.roadMapTwo_transform_five {
+    transform: translate(-50px, 3px);
+}
+.roadMapTwo_transform_six {
+     transform: translate(-59px, 2px);
+
+}
 }
 @media (min-width: 1200px) {
    .min_vh_custom {
@@ -380,6 +390,16 @@
     flex-shrink: 0;
     background: #c5c2c2;
 }
+.roadMapTwo_transform_one{
+    transform: translate(22px, -2px);
+}
+.roadMapTwo_transform_five {
+    transform: translate(-40px, 3px);
+}
+.roadMapTwo_transform_six {
+        transform: translate(-49px, 2px);
+
+}
 }
 @media (min-width: 1400px) {
     .max_w_position_hero_img {
@@ -388,7 +408,7 @@
     .center_line_two::after {
     content: "";
     position: absolute;
-    max-width: 1076px !important;
+    max-width: 900px !important;
     width: 100%;
     height: 1px !important;
     top: 47%;
@@ -524,6 +544,7 @@ div ul li a:hover {
   background: rgba(60, 39, 141, 0.76);
   border: 1px solid rgba(60, 39, 141, 0.22);
 }
+
 .max_width_roadMapTwo_par{
   max-width: 994px;
 }
