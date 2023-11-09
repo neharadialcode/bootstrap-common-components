@@ -25,7 +25,7 @@ const SliderSlick = () => {
           return (
             <>
               <div
-                className="align-items-center justify-content-center d-flex flex-wrap pb-4 mb-3"
+                className="align-items-center justify-content-center d-flex flex-wrap"
                 key={index}
               >
                 <div className="col-lg-6 col-md-10 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-lg-3">
@@ -36,7 +36,9 @@ const SliderSlick = () => {
                   />
                 </div>
                 <div className="col-lg-6 pe-lg-5">
-                  <h2 className="fs_2xl fw-semibold about_heading">{SlideData.heading}</h2>
+                  <h2 className="fs_2xl fw-semibold about_heading">
+                    {SlideData.heading}
+                  </h2>
                   <p className="fs_sm">{SlideData.para1}</p>
                   <p className="fs_sm">{SlideData.para2}</p>
                   <button className="about_btn">Button</button>
@@ -60,34 +62,34 @@ const SliderSlick = () => {
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
-          autoplay={true}
+          autoplay={false}
           autoplaySpeed={2000}
           responsive={[
             {
               breakpoint: 1124,
               settings: {
                 slidesToShow: 4,
-                dots:true,
+                dots: true,
               },
             },
             {
               breakpoint: 768,
               settings: {
                 slidesToShow: 3,
-                dots:true,
+                dots: true,
               },
             },
             {
               breakpoint: 480,
-              
+
               settings: {
                 slidesToShow: 2,
-                dots:true,
+                dots: true,
               },
             },
           ]}
         >
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}
@@ -95,7 +97,7 @@ const SliderSlick = () => {
               alt="Slider-img"
             />
           </div>
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}
@@ -103,7 +105,7 @@ const SliderSlick = () => {
               alt="Slider-img"
             />
           </div>
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}
@@ -111,7 +113,7 @@ const SliderSlick = () => {
               alt="Slider-img"
             />
           </div>
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}
@@ -119,7 +121,7 @@ const SliderSlick = () => {
               alt="Slider-img"
             />
           </div>
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}
@@ -127,7 +129,7 @@ const SliderSlick = () => {
               alt="Slider-img"
             />
           </div>
-          <div>
+          <div className="py-4">
             <img
               className="w-100 rounded-3"
               height={162}

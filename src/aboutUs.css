@@ -1,22 +1,24 @@
+.mainSlider .slick-active {
+  z-index: 10 !important;
+}
 .about_card {
   min-height: 366px;
 }
 .about_btn {
   background-color: #3c278d;
   color: white;
-  width: 154px;
-  height: 42px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 12px 24px;
   border-radius: 12px;
   border: 1px solid transparent;
   transition: all 300ms linear;
 }
 .about_btn:hover {
-  background-color: transparent;
+  background-color: transparent !important;
   border: 1px solid #3c278d !important;
-  color: #3c278d;
+  color: #3c278d !important;
+}
+.accordion-button:not(.collapsed) span{
+  font-weight: 600 !important;
 }
 .header_bg {
   background-image: url(../src/assets/images/webp/about-img.webp);
@@ -73,7 +75,6 @@
     width: 531px;
   }
   .about_btn {
-    height: 48px;
     width: 164px;
   }
   .about_heading {
