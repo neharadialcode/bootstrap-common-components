@@ -55,12 +55,7 @@ const RoadMapOne = () => {
             </p>
           </div>
           <div className="col-md-6 p-0 mt-4">
-            <img
-              src={numaberTwo}
-              alt="numaberTwo"
-              height={71}
-              width={156}
-            />
+            <img src={numaberTwo} alt="numaberTwo" height={71} width={156} />
           </div>
           {/* ================NUMBER THREE IMG AND TAXT==================== */}
           <div className="col-md-6 text-md-end p-0 mt-4">
@@ -96,80 +91,75 @@ const RoadMapOne = () => {
             </p>
           </div>
           <div className="col-md-6 p-0 mt-4">
-            <img
-              src={numberFour}
-              alt="numberFour"
-              height={71}
-              width={156}
-            />
+            <img src={numberFour} alt="numberFour" height={71} width={156} />
           </div>
         </div>
       </div>
       <div className="position-relative roadmap_line d-md-none max_w_roadmap_sm mx-auto">
-          <div className="d-flex ">
-            <div className="ps-2">
-              <img src={imageOne} alt="imageOne" className=" w-100" />
-            </div>
-            <div className="px-3">
-              <h4>Inception and prepration</h4>
-              <p className="text-black opacity_70 fs_sm">
-                Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
-                porttitor quam sed aliquet. Sodales vulputate elementum arcu
-                donec. Feugiat nibh ullamcorper egestas lectus risus ornare
-                ullamcorper fames. Cursus libero nec facilisis risus malesuada
-                arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
-              </p>
-            </div>
+        <div className="d-flex ">
+          <div className="ps-2">
+            <img src={imageOne} alt="imageOne" className=" w-100 bg-white" />
           </div>
-          <div className="d-flex">
-            <div className="ps-2">
-              <img src={imagetwo} alt="imagetwo" className=" w-100" />
-            </div>
-            <div className="px-3">
-              <h4>Inception and prepration</h4>
-              <p className="text-black opacity_70 fs_sm">
-                Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
-                porttitor quam sed aliquet. Sodales vulputate elementum arcu
-                donec. Feugiat nibh ullamcorper egestas lectus risus ornare
-                ullamcorper fames. Cursus libero nec facilisis risus malesuada
-                arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
-              </p>
-            </div>
+          <div className="px-3">
+            <h4>Inception and prepration</h4>
+            <p className="text-black opacity_70 fs_sm">
+              Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
+              porttitor quam sed aliquet. Sodales vulputate elementum arcu
+              donec. Feugiat nibh ullamcorper egestas lectus risus ornare
+              ullamcorper fames. Cursus libero nec facilisis risus malesuada
+              arcu cum. Gravida massa scelerisque sociis nulla diam nisl
+              ligula.bh{" "}
+            </p>
           </div>
-          <div className="d-flex">
-            <div className=" ps-2">
-              <img src={imagethree} alt="imagethree" className="w-100" />
-            </div>
-            <div className="px-3">
-              <h4>Inception and prepration</h4>
-              <p className="text-black opacity_70 fs_sm">
-                Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
-                porttitor quam sed aliquet. Sodales vulputate elementum arcu
-                donec. Feugiat nibh ullamcorper egestas lectus risus ornare
-                ullamcorper fames. Cursus libero nec facilisis risus malesuada
-                arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
-              </p>
-            </div>
+        </div>
+        <div className="d-flex">
+          <div className="ps-2">
+            <img src={imagetwo} alt="imagetwo" className=" w-100 bg-white" />
           </div>
-          <div className="d-flex">
-            <div className="ps-2">
-              <img src={imageFour} alt="imageFour" className=" w-100" />
-            </div>
-            <div className="px-3">
-              <h4>Inception and prepration</h4>
-              <p className="text-black opacity_70 fs_sm">
-                Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
-                porttitor quam sed aliquet. Sodales vulputate elementum arcu
-                donec. Feugiat nibh ullamcorper egestas lectus risus ornare
-                ullamcorper fames. Cursus libero nec facilisis risus malesuada
-                arcu cum. Gravida massa scelerisque sociis nulla diam nisl
-                ligula.bh{" "}
-              </p>
-            </div>
+          <div className="px-3">
+            <h4>Inception and prepration</h4>
+            <p className="text-black opacity_70 fs_sm">
+              Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
+              porttitor quam sed aliquet. Sodales vulputate elementum arcu
+              donec. Feugiat nibh ullamcorper egestas lectus risus ornare
+              ullamcorper fames. Cursus libero nec facilisis risus malesuada
+              arcu cum. Gravida massa scelerisque sociis nulla diam nisl
+              ligula.bh{" "}
+            </p>
           </div>
+        </div>
+        <div className="d-flex">
+          <div className=" ps-2">
+            <img src={imagethree} alt="imagethree" className="w-100 bg-white" />
+          </div>
+          <div className="px-3">
+            <h4>Inception and prepration</h4>
+            <p className="text-black opacity_70 fs_sm">
+              Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
+              porttitor quam sed aliquet. Sodales vulputate elementum arcu
+              donec. Feugiat nibh ullamcorper egestas lectus risus ornare
+              ullamcorper fames. Cursus libero nec facilisis risus malesuada
+              arcu cum. Gravida massa scelerisque sociis nulla diam nisl
+              ligula.bh{" "}
+            </p>
+          </div>
+        </div>
+        <div className="d-flex">
+          <div className="ps-2">
+            <img src={imageFour} alt="imageFour" className=" w-100 bg-white" />
+          </div>
+          <div className="px-3">
+            <h4>Inception and prepration</h4>
+            <p className="text-black opacity_70 fs_sm">
+              Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
+              porttitor quam sed aliquet. Sodales vulputate elementum arcu
+              donec. Feugiat nibh ullamcorper egestas lectus risus ornare
+              ullamcorper fames. Cursus libero nec facilisis risus malesuada
+              arcu cum. Gravida massa scelerisque sociis nulla diam nisl
+              ligula.bh{" "}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

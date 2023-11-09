@@ -242,7 +242,9 @@
   }
 }
 @media (min-width: 992px) {
-
+ .min_vh_custom {
+    min-height: 80vh;
+  }
   .hero_custom_height {
   min-height: calc(100vh - 95px) !important;
 }
@@ -278,7 +280,7 @@
   .center_line_two::after {
     content: "";
     position: absolute;
-    max-width: 899px !important;
+    max-width: 790px !important;
     width: 100%;
     height: 1px !important;
     top: 47%;
@@ -321,6 +323,9 @@
   }
 }
 @media (min-width: 1200px) {
+   .min_vh_custom {
+    min-height: 100vh;
+  }
   .max_w_position_hero_img {
     max-width: 350px;
   }
@@ -364,12 +369,34 @@
     bottom: 101px;
     left: 48.9%;
   }
-  @media (min-width: 1400px) {
+  .center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 904px !important;
+    width: 100%;
+    height: 1px !important;
+    top: 47%;
+    left: 110px;
+    flex-shrink: 0;
+    background: #c5c2c2;
+}
+}
+@media (min-width: 1400px) {
     .max_w_position_hero_img {
       max-width: 100%;
     }
-  }
+    .center_line_two::after {
+    content: "";
+    position: absolute;
+    max-width: 1076px !important;
+    width: 100%;
+    height: 1px !important;
+    top: 47%;
+    left: 110px;
+    flex-shrink: 0;
+    background: #c5c2c2;
 }
+  }
 /* =====================HERO CENTER======================== */
 .hero_center {
   background-image: url("../src/assetsFolder/images/png/hero_bg.png");
@@ -497,6 +524,9 @@ div ul li a:hover {
   background: rgba(60, 39, 141, 0.76);
   border: 1px solid rgba(60, 39, 141, 0.22);
 }
+.max_width_roadMapTwo_par{
+  max-width: 994px;
+}
 @media (max-width: 767.98px) {
   .max_width_hero_img {
     max-width: 500px !important;
@@ -505,3 +535,8 @@ div ul li a:hover {
     max-width: 450px !important;
   }
 }
+
+
+
+
+

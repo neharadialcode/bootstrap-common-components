@@ -3,10 +3,10 @@ import roadMapIamge from "../../assetsFolder/images/svg/RoadMap two.svg"
 const RoadMapTwo = () => {
   return (
     <div div className="py-5">
-      <div className="container">
+      <div className=" container-xl">
         <div className="text-center mb-lg-5 pb-3">
           <h2 className="fw-semibold fs_2xl ff_poppins">Road Map</h2>
-          <p className="fs_sm ff_poppins text-black opacity_70 mb-0">
+          <p className="fs_sm ff_poppins text-black opacity_70 mb-0 max_width_roadMapTwo_par">
             Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
             porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
             Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
