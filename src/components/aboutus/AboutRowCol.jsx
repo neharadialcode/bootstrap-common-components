@@ -1,12 +1,12 @@
 import React from "react";
-import img from "../../assets/images/png/about_wallpaper.png";
+import about_wallpaper from "../../assets/images/png/about_wallpaper.png";
 const AboutRowCol = () => {
   return (
     <>
       <div className="container py-5">
         <div className="d-flex flex-column py-lg-5 flex-lg-row align-items-center">
           <div className="col-lg-6 pe-lg-5">
-            <img className="w-100" src={img} alt="wallpaper-img" />
+            <img className="w-100" src={about_wallpaper} alt="wallpaper-img" />
           </div>
           <div className="col-lg-6 pe-xl-4 pt-4 pt-lg-0">
             <h2 className="mb-0">Lorem ipsum </h2>
