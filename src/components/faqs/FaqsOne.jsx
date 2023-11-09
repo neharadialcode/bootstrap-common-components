@@ -13,7 +13,7 @@ const FaqsOne = () => {
         <Accordion className="mw_834 mx-auto" defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header className="fs_md">
-              1.<span className="ps-1"> What is a cryptocurrency token?</span>
+              1.<span className="ps-1" data-bs-toggle="collapse"> What is a cryptocurrency token?</span>
             </Accordion.Header>
             <Accordion.Body className="activeBorder">
               Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero

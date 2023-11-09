@@ -17,9 +17,6 @@
   border: 1px solid #3c278d !important;
   color: #3c278d !important;
 }
-.accordion-button:not(.collapsed) span{
-  font-weight: 600 !important;
-}
 .header_bg {
   background-image: url(../src/assets/images/webp/about-img.webp);
   background-repeat: no-repeat;
