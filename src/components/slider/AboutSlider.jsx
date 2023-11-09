@@ -28,14 +28,14 @@ const SliderSlick = () => {
                 className="align-items-center justify-content-center d-flex flex-wrap pb-4 mb-3"
                 key={index}
               >
-                <div className="col-lg-6 col-md-10 col-12 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-lg-3">
+                <div className="col-lg-6 col-md-10 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-lg-3">
                   <img
                     className="w-100 about_big_sliders"
                     src={SlideData.image}
                     alt="Slider-img"
                   />
                 </div>
-                <div className="col-lg-6 col-12 pe-lg-5">
+                <div className="col-lg-6 pe-lg-5">
                   <h2 className="fs_2xl fw-semibold about_heading">{SlideData.heading}</h2>
                   <p className="fs_sm">{SlideData.para1}</p>
                   <p className="fs_sm">{SlideData.para2}</p>
@@ -54,7 +54,7 @@ const SliderSlick = () => {
           <img height={38} width={40} src={left_arrow} alt="arrow" />
         </div>
         <Slider
-          className="aboutus_bottom_slider mx-auto"
+          className="aboutUs_bottom_slider mx-auto"
           asNavFor={nav1}
           ref={slider2}
           slidesToShow={5}
