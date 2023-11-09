@@ -417,6 +417,17 @@
     background: #c5c2c2;
 }
   }
+  @media (min-width: 1900px) {
+  .hero_Img_position {
+    position: absolute;
+    bottom: -490px;
+    right: -543px !important;
+    width: 1175px !important;
+    /* width: 200% !important; */
+}
+  }
+
+  
 /* =====================HERO CENTER======================== */
 .hero_center {
   background-image: url("../src/assetsFolder/images/png/hero_bg.png");
