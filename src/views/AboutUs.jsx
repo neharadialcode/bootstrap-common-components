@@ -1,6 +1,6 @@
 import React from "react";
-import AboutCenter from "../components/aboutUs/AboutCenter";
-import AboutRowCol from "../components/aboutUs/AboutRowCol";
+import AboutCenter from "../components/aboutus/AboutCenter";
+import AboutRowCol from "../components/aboutus/AboutRowCol";
 
 const AboutUs = () => {
   return (
