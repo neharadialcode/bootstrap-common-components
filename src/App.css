@@ -57,7 +57,7 @@
   :root {
     /* font size */
     --fs-sm: 13px;
-    --fs-md: 18px;
+    --fs-md: 15px;
     --fs-lg: 22px;
     --fs-xl: 28px;
     --fs-2xl: 38px;
@@ -68,7 +68,7 @@
   :root {
     /* font size */
     --fs-sm: 13px;
-    --fs-md: 18px;
+    --fs-md: 20px;
     --fs-lg: 22px;
     --fs-xl: 28px;
     --fs-2xl: 38px;

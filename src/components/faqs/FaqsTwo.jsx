@@ -18,7 +18,7 @@ const FaqsTwo = () => {
                 <Accordion.Header>
                   1. What is a cryptocurrency token?
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -28,7 +28,7 @@ const FaqsTwo = () => {
                 <Accordion.Header>
                   2. How can I buy cryptocurrency tokens?
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -38,7 +38,7 @@ const FaqsTwo = () => {
                 <Accordion.Header>
                   3. What is a token wallet, why do I need one?
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -48,7 +48,7 @@ const FaqsTwo = () => {
                 <Accordion.Header>
                   4. Are cryptocurrency tokens secure?
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
