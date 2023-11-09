@@ -105,7 +105,7 @@ const RoadMapOne = () => {
           </div>
         </div>
       </div>
-      <div className="position-relative center_line d-md-none">
+      <div className="position-relative roadmap_line d-md-none max_w_roadmap_sm mx-auto">
           <div className="d-flex ">
             <div className="ps-2">
               <img src={imageOne} alt="imageOne" className=" w-100" />
