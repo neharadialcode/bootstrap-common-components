@@ -39,7 +39,7 @@ const SliderSlick = () => {
                   <h2 className="fs_2xl fw-semibold about_heading">{SlideData.heading}</h2>
                   <p className="fs_sm">{SlideData.para1}</p>
                   <p className="fs_sm">{SlideData.para2}</p>
-                  <button className="about_btn">{SlideData.Button}</button>
+                  <button className="about_btn">Button</button>
                 </div>
               </div>
             </>
@@ -67,18 +67,22 @@ const SliderSlick = () => {
               breakpoint: 1124,
               settings: {
                 slidesToShow: 4,
+                dots:true,
               },
             },
             {
               breakpoint: 768,
               settings: {
                 slidesToShow: 3,
+                dots:true,
               },
             },
             {
               breakpoint: 480,
+              
               settings: {
                 slidesToShow: 2,
+                dots:true,
               },
             },
           ]}

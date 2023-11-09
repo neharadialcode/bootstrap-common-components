@@ -2,7 +2,7 @@ import { teamData } from "../common/helper";
 const OurTeam = () => {
   return (
     <>
-      <div className="container">
+      <div className="container py-5">
         <h1 className="text-center fw-semibold lh-base">Our Team</h1>
         <p className="text-center fw-normal lh-base txt_offBlack mw_934 mx-auto pb-4">
           Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
@@ -10,7 +10,7 @@ const OurTeam = () => {
           Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
           fames. Cursus libero nec facilisis
         </p>
-        <div className="row pb-5">
+        <div className="row pb-5 justify-content-center">
           {teamData.map((teamData, i) => {
             return (
               <div
