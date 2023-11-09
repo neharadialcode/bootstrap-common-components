@@ -5,7 +5,7 @@
 .text40 {
   font-size: 40px;
 }
-.headingMaxWidth {
+.heading_max_width {
   max-width: 494px;
 }
 .lh_120 {
@@ -17,7 +17,7 @@
 .max-w-559 {
   max-width: 559px;
 }
-.loveInput {
+.love_input {
   border-radius: 12px;
   background-color: rgba(138, 138, 138, 0.17);
   border: 1px solid transparent;
@@ -26,14 +26,14 @@
   padding-right: 16px;
   padding-bottom: 2px;
 }
-.loveInput::placeholder {
+.love_input::placeholder {
   color: #474747;
 }
-.loveInput:active {
+.love_input:active {
   background-color: white !important;
   border: 1px solid #000 !important;
 }
-.textAreaHeight {
+.text_area_height {
   height: 130px !important;
   padding-top: 17px;
   resize: none;
@@ -43,34 +43,34 @@
 .lh_157 {
   line-height: 157%;
 }
-.justBtn {
+.just_btn {
   width: 180px;
   height: 48px;
   border-radius: 12px;
 }
-.loveInput:focus-visible {
+.love_input:focus-visible {
   outline: black auto 1px !important;
 }
-.inputBottomSpace {
+.input_bottom_space {
   margin-bottom: 20px;
 }
 @media (min-width: 576px) {
-  .inputBottomSpaceSm {
+  .input_bottom_space_sm {
     margin-bottom: 31px;
   }
-  .justBtn {
+  .just_btn {
     width: 410px;
     height: 52px;
     border-radius: 12px;
   }
-  .loveInput {
+  .love_input {
     height: 52px;
     padding-bottom: 2px;
     padding-left: 26px;
   }
 }
 /* side form start here */
-.SideForm {
+.side_form {
   box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   padding-left: 13px;
@@ -78,7 +78,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.sideFormInput {
+.side_form_input {
   border: 1px solid rgba(0, 0, 0, 0.44);
   height: 46px;
   padding-left: 12px;
@@ -87,114 +87,114 @@
   margin-bottom: 16px;
   border-radius: 12px;
 }
-.sideFormInput:focus-visible {
+.side_form_input:focus-visible {
   outline: none !important;
 }
-.TextAreaSide {
+.text_area_side {
   height: 90px;
   padding-top: 11px;
   resize: none;
 }
-.submitBtn {
+.submit_btn {
   width: 103px;
   height: 43px;
   border-radius: 12px;
   padding-bottom: 1px;
 }
-.TouchBtn {
+.touch_btn {
   width: 146px;
   height: 48px;
   border-radius: 12px;
   margin-top: 22px;
 }
 @media (min-width: 992px) {
-  .paraMaxWidth {
+  .para_max_width {
     max-width: 420px;
   }
-  .SideForm {
+  .side_form {
     padding-left: 33px;
     padding-right: 34px;
     padding-top: 0;
     padding-bottom: 0;
     height: 451px;
   }
-  .TouchBtn {
+  .touch_btn {
     margin-top: 32px;
   }
 }
 /* center form start here */
-.centerFormContainer {
+.center_form_input {
   max-width: 606px !important;
 }
-.centerFormInput {
+.center_form_input {
   padding-left: 19px;
   padding-right: 19px;
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.49);
 }
-.InputWidthHeight {
+.input_width_height {
   height: 52px;
 }
-.centerFormInput::placeholder {
+.center_form_input::placeholder {
   color: rgba(0, 0, 0, 0.7);
   font-size: 17px;
   font-weight: 500;
 }
-.centerTextarea {
+.center_textarea {
   max-width: 606px;
   height: 107px;
   resize: none;
 }
-.centerInputNumber {
+.center_input_number {
   height: 51px;
 }
-.focusNone:focus-visible {
+.focus_none:focus-visible {
   outline: -webkit-focus-ring-color auto 0px !important;
 }
-.centerFormBtn {
+.center_form_btn {
   height: 51px;
   min-width: 135px;
   border-radius: 11px;
 }
-.centerInputBox {
+.center_input_box {
   border-radius: 12px;
   border: 1px solid rgba(0, 0, 0, 0.49);
   max-width: 606px;
 }
-.requiredHeight {
+.required_height {
   height: 16px;
 }
 @media (min-width: 576px) {
-  .InputWidthHeight {
+  .input_width_height {
     max-width: 291px;
   }
 }
 /* button hover here */
-.buttonHover {
+.button_hover {
   border: 2px solid transparent !important;
   transition: all 0.4s linear;
 }
-.buttonHover:hover {
+.button_hover:hover {
   border: 2px solid #3c278d !important;
   background: white;
   color: #3c278d !important;
 }
 /* get in touch form */
-.touchBg {
+.touch_bg {
   background-image: url(./assets/images/png/getTouchBg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.touchBtn {
+.touch_btn {
   width: 191px;
   height: 48px;
   border: 1px solid white;
   border-radius: 12px;
   transition: all 0.4s ease-in-out;
 }
-.touchBtn:hover {
+.touch_btn:hover {
   background: white !important;
   color: #000 !important;
 }

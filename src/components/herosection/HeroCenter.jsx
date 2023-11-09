@@ -1,10 +1,10 @@
 import React from "react";
-import Headercenter from "../headersection/Headercenter"
+import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 const HeroCenter = () => {
   return (
     <>
       <div>
-        <Headercenter />
+        <HeaderCenterAlign />
         <div className="hero_center d-flex ali min-vh100 hero_custom_height align-items-center justify-content-center">
           <div className="container">
             <div className="text-center">

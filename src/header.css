@@ -94,9 +94,6 @@
     transition: all 0.6s linear;
     left: 0%;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     z-index: -4;
     clip-path: circle(0px at calc(100% - 45px) 45px);
     top: 0;

@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import heroImagPosition from "../../assetsFolder/images/png/hero_half_position.png";
-import Headercenter from "../headersection/Headercenter"
+import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 const HeroPositionHalf = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <Headercenter />
+        <HeaderCenterAlign />
         <div className="hero_custom_height d-flex align-items-center pb-5">
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
@@ -48,6 +48,6 @@ const HeroPositionHalf = () => {
       </div>
     </>
   );
-}
+};
 
-export default HeroPositionHalf
+export default HeroPositionHalf;
