@@ -20,7 +20,7 @@ const SliderSlick = () => {
   }, []);
   return (
     <div className="container py-5 px-0">
-      <Slider className="mainSlider" asNavFor={nav2} ref={slider1} fade={true}>
+      <Slider className="mainSlider" asNavFor={nav2} arrows={false} ref={slider1} fade={true}>
         {AboutSliderData.map((SlideData, index) => {
           return (
             <>
@@ -59,6 +59,7 @@ const SliderSlick = () => {
           className="aboutUs_bottom_slider mx-auto"
           asNavFor={nav1}
           ref={slider2}
+          arrows={false}
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
