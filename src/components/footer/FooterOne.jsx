@@ -1,7 +1,7 @@
 import React from "react";
 import twitter from "../../assetsFolder/images/svg/twitter.svg";
-import fackbook from "../../assetsFolder/images/svg/facebook.svg";
-import be from "../../assetsFolder/images/svg/Be.svg";
+import fackbook from "../../assetsFolder/images/svg/fackbook.svg";
+import be from "../../assetsFolder/images/svg/be.svg";
 const FooterOne = () => {
   return (
     <div className="py-5 my-5">
@@ -70,7 +70,7 @@ const FooterOne = () => {
                 <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
                   <div className="mt-0">
-                    <div className="footer_input_clr  ps-4 pe-1 py-1 d-flex align-items-center">
+                    <div className="footer_input_clr  ps-2 pe-1 py-1 d-flex align-items-center">
                       <input
                         type="text"
                         placeholder="Type Your Mail"
@@ -85,17 +85,17 @@ const FooterOne = () => {
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
                 <div className=" d-flex gap-2">
                   <a href="#" className="">
-                    <img src={twitter} alt="twitter" className="hover_sclae" />
+                    <img src={twitter} alt="twitter" className="hover_scale" />
                   </a>
                   <a href="#" className="">
                     <img
                       src={fackbook}
                       alt="fackbook"
-                      className="hover_sclae"
+                      className="hover_scale"
                     />
                   </a>
                   <a href="#">
-                    <img src={be} alt="be" className="hover_sclae" />
+                    <img src={be} alt="be" className="hover_scale" />
                   </a>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const FooterOne = () => {
           </div>
         </div>
       </div>
-      <div className="footer_bordeer_top mt-5">
+      <div className="footer_border_top mt-5">
         <p className="font-sm ff_poppins text-dark text-center pt-3">
           © 2023 Copyright company name. All Right Reserved.{" "}
         </p>

@@ -40,7 +40,7 @@ const FooterTwo = () => {
           </ul>
         </div>
       </div>
-      <div className="footer_bordeer_top mt-5">
+      <div className="footer_border_top mt-5">
         <p className="font-sm ff_poppins text-dark text-center pt-3">
           © 2023 Copyright company name. All Right Reserved.{" "}
         </p>

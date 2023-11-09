@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 /*===================HEROHALF============= */
 :root {
   /*============COLORS========= */
@@ -421,6 +420,17 @@
     background: #c5c2c2;
 }
   }
+  @media (min-width: 1900px) {
+  .hero_Img_position {
+    position: absolute;
+    bottom: -490px;
+    right: -543px !important;
+    width: 1175px !important;
+    /* width: 200% !important; */
+}
+  }
+
+  
 /* =====================HERO CENTER======================== */
 .hero_center {
   background-image: url("../src/assetsFolder/images/png/hero_bg.png");
@@ -514,17 +524,17 @@ button:focus {
 .footer_input {
   outline: none !important;
 }
-.footer_bordeer_top {
+.footer_border_top {
   border-top: 1px solid #3c278d;
 }
 /*===============COLORS===============*/
 .bg_logo {
   background-color: #c5c2c2 !important;
 }
-.hover_sclae {
+.hover_scale {
   transition: all 200ms linear;
 }
-.hover_sclae:hover {
+.hover_scale:hover {
   transform: scale(1.11) !important;
   transition: all 200ms linear;
 }

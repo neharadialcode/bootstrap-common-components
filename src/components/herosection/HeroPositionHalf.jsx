@@ -6,7 +6,7 @@ const HeroPositionHalf = () => {
     <>
       <div className="overflow-hidden">
         <Headercenter />
-        <div className="hero_custom_height d-flex align-items-center pb-5">
+        <div className="hero_custom_height d-flex align-items-center pb-3 mb-2">
           <div className=" container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
               <div className="  col-md-8 col-lg-6 mt-5 pb-xl-5  mt-lg-0">
