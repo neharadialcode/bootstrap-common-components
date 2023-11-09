@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const side_form = () => {
+const SideForm = () => {
   const [touchForm, setTouchForm] = useState({
     name: "",
     email: "",
@@ -121,4 +121,4 @@ const side_form = () => {
   );
 };
 
-export default side_form;
+export default SideForm;

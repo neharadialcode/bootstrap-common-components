@@ -1,7 +1,7 @@
 import React from "react";
 import twitter from "../../assetsFolder/images/svg/twitter.svg";
 import fackbook from "../../assetsFolder/images/svg/fackbook.svg";
-import be from "../../assetsFolder/images/svg/be.svg";
+import be from "../../assetsFolder/images/svg/Be.svg";
 const FooterOne = () => {
   return (
     <div className="py-5 my-5">
