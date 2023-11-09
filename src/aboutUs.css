@@ -49,20 +49,34 @@
 .aboutUs_bottom_slider {
   max-width: 1008px;
 }
-.team_card{transition: all 300ms linear;}
-.team_card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
-@media (min-width:768px) {
-  .about_big_sliders{width: 100% !important;}
-  
+.aboutUs_bottom_slider .slick-current img {
+  border: 2px solid white !important;
+  box-shadow: 6px 6px 15px 4px rgba(0, 0, 0, 0.35) !important;
+}
+.aboutUs_bottom_slider img {
+  border: 2px solid transparent !important;
+}
+.team_card {
+  transition: all 300ms linear;
+}
+.team_card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 768px) {
+  .about_big_sliders {
+    width: 100% !important;
+  }
 }
 @media (min-width: 992px) {
   .about_big_sliders {
     height: 387px;
-    width:531px;
+    width: 531px;
   }
   .about_btn {
     height: 48px;
     width: 164px;
   }
-  .about_heading{font-size: 48px;}
+  .about_heading {
+    font-size: 48px;
+  }
 }
