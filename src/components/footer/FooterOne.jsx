@@ -21,7 +21,7 @@ const FooterOne = () => {
           </div>
           <div className="col-xl-8">
             <div className="row justify-content-between">
-              <div className="col-sm-6 col-md-3">
+              <div className=" col-6 col-md-3">
                 <ul className="ps-0">
                   <li className="font-sm ff_poppins text-black">Quick links</li>
                   <li className="mt-2">
@@ -51,7 +51,7 @@ const FooterOne = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-3">
+              <div className=" col-6 col-md-3">
                 <ul className="ps-0">
                   <li className="font-sm ff_poppins text-black">Links</li>
                   <li className="mt-2">
@@ -66,7 +66,7 @@ const FooterOne = () => {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-6 col-md-5">
+              <div className=" col-sm-6 col-md-5">
                 <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
                   <div className="mt-0">
@@ -83,11 +83,11 @@ const FooterOne = () => {
                   </div>
                 </form>
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
-                <div>
+                <div className=" d-flex gap-2">
                   <a href="#" className="">
                     <img src={twitter} alt="twitter" className="hover_sclae" />
                   </a>
-                  <a href="#" className="mx-2">
+                  <a href="#" className="">
                     <img
                       src={fackbook}
                       alt="fackbook"
