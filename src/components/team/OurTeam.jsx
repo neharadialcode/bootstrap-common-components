@@ -20,9 +20,9 @@ const OurTeam = () => {
                 key={i}
               >
                 <div
-                  className={`team_card  d-flex flex-column align-items-center pt-3 px-2 pb-3 ${teamData.space}`}
+                  className={`team_card  d-flex flex-column align-items-center pt-3  px-2 pb-3 ${teamData.space}`}
                 >
-                  <img className="pb-3" src={teamData.img} alt="team-member" />
+                  <img className="py-3" src={teamData.img} alt="team-member" />
                   <h3 className="my-1">{teamData.bigHeading}</h3>
                   <h4 className="pb-2 mb-1 textPurple">
                     {teamData.smallHeading}
