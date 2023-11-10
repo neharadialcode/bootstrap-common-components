@@ -19,7 +19,7 @@ const SliderSlick = () => {
     setNav2(slider2.current);
   }, []);
   return (
-    <div className="container py-5 px-0">
+    <div className="container py-5">
       <Slider className="mainSlider" asNavFor={nav2} arrows={false} ref={slider1} fade={true}>
         {AboutSliderData.map((SlideData, index) => {
           return (
