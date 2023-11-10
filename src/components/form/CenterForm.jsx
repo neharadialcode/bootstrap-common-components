@@ -40,7 +40,7 @@ const CenterForm = () => {
             onSubmit={(e) => OnsubmitHandler(e)}
             className="row align-items-center"
           >
-            <div className="col-sm-6 col-12 d-flex flex-column align-items-end justify-content-center mb-sm-0 mb-2 pb-sm-0 pb-2">
+            <div className="col-sm-6 col-12 d-flex flex-column align-items-end justify-content-center mb-1">
               <input
                 type="text"
                 placeholder="Your name"
@@ -60,7 +60,7 @@ const CenterForm = () => {
                 )}
               </p>
             </div>
-            <div className="col-sm-6 col-12">
+            <div className="col-sm-6 col-12 mb-1">
               <input
                 type="email"
                 placeholder="Email"
