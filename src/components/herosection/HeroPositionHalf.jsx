@@ -4,10 +4,10 @@ import HeaderCenterAlign from "../headersection/HeaderCenterAlign";
 const HeroPositionHalf = () => {
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden ">
         <HeaderCenterAlign />
-        <div className="hero_custom_height d-flex align-items-center pb-5">
-          <div className="custom_container">
+        <div className="hero_custom_height d-flex align-items-center py-5 my-4 my-xl-0">
+          <div className="  custom_container">
             <div className=" row flex-column-reverse flex-lg-row align-items-center">
               <div className="  col-md-8 col-lg-6 mt-5 pb-xl-5  mt-lg-0">
                 <p className="fs_xl text-black mb-0">A nice headline</p>
