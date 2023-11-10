@@ -23,7 +23,7 @@ const HeaderFull = () => {
           </span>
           <h2
             onClick={clickshow}
-            className="pointer position-relative zFull text-white ps-4 mb-0"
+            className=" pointer-event position-relative zFull text-white ps-4 mb-0"
           >
             {First ? <MenuIcon /> : <CrossIcon />}
           </h2>
@@ -40,12 +40,12 @@ const HeaderFull = () => {
                   </a>
                 </span>
 
-                <ul className="d-flex align-items-center mb-lg-0 flex-lg-row flex-column ps-0 gap-lg-0 gap-2 mb-4">
+                <ul className="d-flex align-items-center mb-lg-0 flex-lg-row flex-column ps-0 gap-lg-0 gap-2 mb-4 list-unstyled">
                   <li>
                     <a
                       href="#"
                       onClick={clickshow}
-                      className="text-white hoverLine position-relative me-lg-4"
+                      className="text-white hoverLine position-relative me-lg-4 text-decoration-none"
                     >
                       Explore
                     </a>
@@ -54,7 +54,7 @@ const HeaderFull = () => {
                     <a
                       href="#"
                       onClick={clickshow}
-                      className="text-white hoverLine position-relative me-lg-4"
+                      className="text-white hoverLine position-relative me-lg-4 text-decoration-none"
                     >
                       Build
                     </a>
@@ -63,7 +63,7 @@ const HeaderFull = () => {
                     <a
                       href="#"
                       onClick={clickshow}
-                      className="text-white hoverLine position-relative me-lg-4"
+                      className="text-white hoverLine position-relative me-lg-4 text-decoration-none"
                     >
                       Community
                     </a>
@@ -72,7 +72,7 @@ const HeaderFull = () => {
                     <a
                       href="#"
                       onClick={clickshow}
-                      className="text-white hoverLine position-relative"
+                      className="text-white hoverLine position-relative text-decoration-none"
                     >
                       Content
                     </a>
@@ -80,11 +80,11 @@ const HeaderFull = () => {
                 </ul>
                 <div className="d-flex align-items-center">
                   <button
-                    className="dedcription-btn border-0"
+                    className="Subscribe_btn border-0"
                     href="#"
                     onClick={clickshow}
                   >
-                    <span className="name-descripeion position-relative">
+                    <span className="name-subscribe position-relative">
                       Subscribe
                     </span>
                     <span className="btn-icon"></span>

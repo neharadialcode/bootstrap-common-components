@@ -44,7 +44,7 @@ const CenterForm = () => {
               <input
                 type="text"
                 placeholder="Your name"
-                className="center_form_input w-100 input_width_height focus_none"
+                className="center_form_input w-100 center_form_input_h focus_none"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, name: e.target.value })
                 }
@@ -64,7 +64,7 @@ const CenterForm = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="center_form_input w-100 input_width_height focus_none"
+                className="center_form_input w-100 center_form_input_h focus_none"
                 onChange={(e) =>
                   setTypicalForm({
                     ...typicalForm,

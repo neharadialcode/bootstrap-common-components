@@ -28,14 +28,14 @@ const HeaderCenterAlign = () => {
                 </a>
                 <div className="d-flex align-items-center">
                   <ul
-                    className={`nav_show d-flex flex-md-row gap-2 flex-column align-items-center mb-0 p-0 flex-row z-3
+                    className={`nav_show list-unstyled d-flex flex-md-row gap-2 flex-column align-items-center mb-0 p-0 flex-row z-3
                       ${NavShow ? "" : "showw "}`}
                   >
                     <li>
                       <a
                         href="#"
                         onClick={clickshow}
-                        className="position-relative hover_line text-black"
+                        className="position-relative hover_line text-black text-decoration-none"
                       >
                         Home
                       </a>
@@ -44,7 +44,7 @@ const HeaderCenterAlign = () => {
                       <a
                         href="#"
                         onClick={clickshow}
-                        className="position-relative hover_line text-black mx-4"
+                        className="position-relative hover_line text-black text-decoration-none mx-4"
                       >
                         About
                       </a>
@@ -53,7 +53,7 @@ const HeaderCenterAlign = () => {
                       <a
                         href="#"
                         onClick={clickshow}
-                        className="position-relative hover_line text-black"
+                        className="position-relative hover_line text-black text-decoration-none"
                       >
                         News
                       </a>
@@ -61,8 +61,8 @@ const HeaderCenterAlign = () => {
                     <li>
                       <div className="d-block d-md-none">
                         <div className="d-flex align-items-center">
-                          <button className="dedcription-btn border-0" href="#">
-                            <span className="name-descripeion position-relative">
+                          <button className="Subscribe_btn border-0" href="#">
+                            <span className="name-subscribe position-relative">
                               Subscribe
                             </span>
                             <span className="btn-icon"></span>
@@ -75,11 +75,11 @@ const HeaderCenterAlign = () => {
                 <div className="d-none d-md-block">
                   <div className="d-flex align-items-center">
                     <button
-                      className="dedcription-btn border-0"
+                      className="Subscribe_btn border-0"
                       href="#"
                       onClick={clickshow}
                     >
-                      <span className="name-descripeion position-relative">
+                      <span className="name-subscribe position-relative">
                         Subscribe
                       </span>
                       <span className="btn-icon"></span>
@@ -87,7 +87,10 @@ const HeaderCenterAlign = () => {
                   </div>
                 </div>
                 <div className="z-10 d-md-none position-relative">
-                  <h3 className="text-black mb-0 w-100" onClick={clickshow}>
+                  <h3
+                    className="text-black text-decoration-none mb-0 w-100"
+                    onClick={clickshow}
+                  >
                     {NavShow ? <MenuIcon /> : <CrossIcon />}
                   </h3>
                 </div>

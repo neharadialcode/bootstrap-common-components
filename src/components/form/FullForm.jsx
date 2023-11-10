@@ -61,7 +61,7 @@ const FullForm = () => {
             )}
           </div>
           <div className=" col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_16 text-black mb-2 text-start">
+            <p className=" ff_inter fw-medium fs_sm text-black mb-2 text-start">
               Your email
             </p>
             <input
@@ -111,7 +111,7 @@ const FullForm = () => {
             )}
           </div>
           <div className="col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative">
-            <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start">
+            <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
               Project Budget
             </p>
             <input
@@ -134,13 +134,13 @@ const FullForm = () => {
         </div>
         {/* textarea */}
         <div className="w-100 input_bottom_space position-relative pb-2">
-          <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start">
+          <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
             Message
           </p>
           <textarea
             type="text"
             placeholder="Let tell us know your project about"
-            className="w-100 love_input text_area_height"
+            className="w-100 love_input full_form_textarea"
             onChange={(e) =>
               setTypicalForm({ ...typicalForm, project: e.target.value })
             }

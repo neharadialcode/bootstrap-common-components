@@ -36,39 +36,46 @@ const HeaderRightAlign = () => {
               >
                 <CrossIcon />
               </div>
-              <div className="d-flex gap-lg-4 gap-xl-5 align-items-center">
-                <a
-                  onClick={() => setMenu(false)}
-                  className="hoverLineAlign text-black position-relative"
-                  href="#"
-                >
-                  Home
-                </a>
-                <a
-                  onClick={() => setMenu(false)}
-                  className="hoverLineAlign text-black position-relative"
-                  href="#"
-                >
-                  Blog
-                </a>
-                <a
-                  onClick={() => setMenu(false)}
-                  className="hoverLineAlign text-black position-relative text-nowrap"
-                  href="#"
-                >
-                  Contact Us
-                </a>
+              <ul className="d-flex gap-lg-4 gap-xl-5 align-items-center list-unstyled">
+                <li>
+                  <a
+                    onClick={() => setMenu(false)}
+                    className="hoverLineAlign text-black position-relative text-decoration-none"
+                    href="#"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  {" "}
+                  <a
+                    onClick={() => setMenu(false)}
+                    className="hoverLineAlign text-black position-relative text-decoration-none"
+                    href="#"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    onClick={() => setMenu(false)}
+                    className="hoverLineAlign text-black position-relative text-decoration-none text-nowrap"
+                    href="#"
+                  >
+                    Contact Us
+                  </a>
+                </li>
                 <button
-                  className="dedcription-btn border-0"
+                  className="Subscribe_btn border-0"
                   href="#"
                   onClick={() => setMenu(false)}
                 >
-                  <span className="name-descripeion position-relative">
+                  <span className="name-subscribe position-relative">
                     Subscribe
                   </span>
                   <span className="btn-icon"></span>
                 </button>
-              </div>
+              </ul>
             </div>
             <div className="d-lg-none">
               <span onClick={() => setMenu(true)}>

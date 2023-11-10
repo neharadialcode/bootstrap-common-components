@@ -82,7 +82,7 @@ const SideForm = () => {
                 value={touchForm.contact}
               />
               <textarea
-                className={`side_form_input overflow-hidden fs_sm text_area_side overflow-hidden ${
+                className={`side_form_input overflow-hidden fs_sm side_form_textarea overflow-hidden ${
                   error && touchForm.message === ""
                     ? "border-danger"
                     : touchForm !== ""
@@ -103,7 +103,7 @@ const SideForm = () => {
               <p className="fs_2xl text-black fw-bold mb-lg-3 mb-1">
                 Get In Touch
               </p>
-              <p className="text-black opacity-75 para_max_width">
+              <p className="text-black opacity-75 max_w_420_lg">
                 Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                 porttitor quam sed aliquet. Sodales vulputate elementum arcu
                 donec. Feugiat nibh ullamcorper egestas lectus risus ornare
