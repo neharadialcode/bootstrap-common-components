@@ -31,7 +31,7 @@ const CenterForm = () => {
   return (
     <>
       <div className="vh-100 d-flex align-items-center">
-        <div className="container centerFormContainer">
+        <div className="container center_form_input">
           <p className="text-black text-center fs_2xl fw-medium lh-1 mb-5">
             Love to hear from you, <br className=" d-sm-block d-none" /> Get in
             touch
@@ -44,13 +44,13 @@ const CenterForm = () => {
               <input
                 type="text"
                 placeholder="Your name"
-                className="centerFormInput w-100 InputWidthHeight focusNone"
+                className="center_form_input w-100 input_width_height focus_none"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, name: e.target.value })
                 }
                 value={typicalForm.name}
               />
-              <p className="requiredHeight mb-2">
+              <p className="required_height mb-2">
                 {error && typicalForm.name === "" ? (
                   <p className="font-medium text-danger mb-0">
                     Name is required
@@ -64,7 +64,7 @@ const CenterForm = () => {
               <input
                 type="email"
                 placeholder="Email"
-                className="centerFormInput w-100 InputWidthHeight focusNone"
+                className="center_form_input w-100 input_width_height focus_none"
                 onChange={(e) =>
                   setTypicalForm({
                     ...typicalForm,
@@ -73,7 +73,7 @@ const CenterForm = () => {
                 }
                 value={typicalForm.email}
               />
-              <p className="requiredHeight mb-2 text-danger font-medium text-end">
+              <p className="required_height mb-2 text-danger font-medium text-end">
                 {error && typicalForm.email === "" ? (
                   "Email is required"
                 ) : error && regex.test(typicalForm.email) === false ? (
@@ -86,13 +86,13 @@ const CenterForm = () => {
             <div className="col-12 d-flex flex-column justify-content-center align-items-end">
               <textarea
                 placeholder="Message"
-                className="centerFormInput w-100 pt-2 centerTextarea focusNone"
+                className="center_form_input w-100 pt-2 center_textarea focus_none"
                 onChange={(e) =>
                   setTypicalForm({ ...typicalForm, message: e.target.value })
                 }
                 value={typicalForm.message}
               />
-              <p className="requiredHeight mb-1 text-danger font-medium text-end">
+              <p className="required_height mb-1 text-danger font-medium text-end">
                 {error && typicalForm.message === "" ? (
                   <p className="text-danger font-medium">Text is required</p>
                 ) : (
@@ -101,21 +101,21 @@ const CenterForm = () => {
               </p>
             </div>
             <div className="col-12 d-flex flex-column justify-content-center">
-              <div className="d-flex justify-content-center mt-2 centerInputBox">
+              <div className="d-flex justify-content-center mt-2 center_input_box">
                 <input
                   type="number"
                   placeholder="2990-8928-78"
-                  className="centerFormInput w-100 centerInputNumber border-0 focusNone"
+                  className="center_form_input w-100 center_input_number border-0 focus_none"
                   onChange={(e) =>
                     setTypicalForm({ ...typicalForm, number: e.target.value })
                   }
                   value={typicalForm.number}
                 />
-                <button className="centerFormBtn d-flex justify-content-center align-items-center text-white fs_sm fw-bold   bg_purple buttonHover">
+                <button className="center_form_btn d-flex justify-content-center align-items-center text-white fs_sm fw-bold   bg_purple button_hover">
                   Submit
                 </button>
               </div>
-              <p className="requiredHeight mb-2 text-danger font-medium text-end">
+              <p className="required_height mb-2 text-danger font-medium text-end">
                 {error && typicalForm.number === "" ? (
                   <p className="text-danger font-medium">Number is required</p>
                 ) : (

@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assetsFolder/images/svg/headerLogo.svg";
 import { Container, Nav } from "react-bootstrap";
 import { CrossIcon, MenuIcon } from "../common/Icons";
-const Headercenter = () => {
+const HeaderCenterAlign = () => {
   const [NavShow, setNavShow] = React.useState(true);
   function clickshow() {
     setNavShow(!NavShow);
@@ -23,7 +23,7 @@ const Headercenter = () => {
                   <img
                     src={logo}
                     alt="logo nav"
-                    className="w-100 pointer mx_45_sm mx_50"
+                    className="w-100 pointer-event"
                   />
                 </a>
                 <div className="d-flex align-items-center">
@@ -60,18 +60,13 @@ const Headercenter = () => {
                     </li>
                     <li>
                       <div className="d-block d-md-none">
-                        <div>
-                          <div className="d-flex align-items-center">
-                            <button
-                              className="dedcription-btn border-0"
-                              href="#"
-                            >
-                              <span className="name-descripeion position-relative">
-                                Subscribe
-                              </span>
-                              <span className="btn-icon"></span>
-                            </button>
-                          </div>
+                        <div className="d-flex align-items-center">
+                          <button className="dedcription-btn border-0" href="#">
+                            <span className="name-descripeion position-relative">
+                              Subscribe
+                            </span>
+                            <span className="btn-icon"></span>
+                          </button>
                         </div>
                       </div>
                     </li>
@@ -105,4 +100,4 @@ const Headercenter = () => {
   );
 };
 
-export default Headercenter;
+export default HeaderCenterAlign;

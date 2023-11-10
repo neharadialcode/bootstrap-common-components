@@ -16,9 +16,9 @@ const FaqsTwo = () => {
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  1. What is a cryptocurrency token?
+                  <span>1. What is a cryptocurrency token?</span>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -26,9 +26,9 @@ const FaqsTwo = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="1" className="mt-3">
                 <Accordion.Header>
-                  2. How can I buy cryptocurrency tokens?
+                  <span>2. How can I buy cryptocurrency tokens?</span>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -36,9 +36,9 @@ const FaqsTwo = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="2" className="mt-3">
                 <Accordion.Header>
-                  3. What is a token wallet, why do I need one?
+                  <span>3. What is a token wallet, why do I need one?</span>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
@@ -46,9 +46,9 @@ const FaqsTwo = () => {
               </Accordion.Item>
               <Accordion.Item eventKey="3" className="mt-3">
                 <Accordion.Header>
-                  4. Are cryptocurrency tokens secure?
+                  <span>4. Are cryptocurrency tokens secure?</span>
                 </Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body className="activeBorder">
                   Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
                   porttitor quam sed aliquet. Sodales vulputate elementum arcu
                   donec. Feugiat nibh ullamcorper egestas
