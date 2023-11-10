@@ -6,15 +6,15 @@ const FooterOne = () => {
   return (
     <div className="py-5 my-5">
       <div className="container">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between ">
           <div className="col-xl-3">
             <a
               href="#"
-              className="fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3"
+              className="fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3 "
             >
               Logo
             </a>
-            <p className="font-sm ff_poppins opacity-75">
+            <p className="font-sm ff_poppins opacity-75 max-w-559 ">
               Discover Stellar blockchain's unrivaled speed, security, &
               scalability with Volag. Revolutionize finance.
             </p>
