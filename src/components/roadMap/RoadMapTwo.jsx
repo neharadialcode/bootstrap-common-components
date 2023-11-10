@@ -23,7 +23,7 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={road}
+                src={roadMapIamge}
                 alt="roadMapIamge"
                 className="position-absolute roadMapIamge_two"
                 height={34}

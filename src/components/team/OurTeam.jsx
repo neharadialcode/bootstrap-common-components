@@ -1,4 +1,4 @@
-import { teamData } from "../common/Helper";
+import { teamData } from "../common/HelperData";
 const OurTeam = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const OurTeam = () => {
           porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
           Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
           fames. Cursus libero nec facilisis
-        </p>
+      </p>
         <div className="row pb-5 justify-content-center">
           {teamData.map((teamData, i) => {
             return (
