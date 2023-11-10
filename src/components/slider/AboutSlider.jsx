@@ -63,7 +63,7 @@ const SliderSlick = () => {
           slidesToShow={5}
           swipeToSlide={true}
           focusOnSelect={true}
-          autoplay={true}
+          autoplay={false}
           autoplaySpeed={2000}
           responsive={[
             {
@@ -92,7 +92,7 @@ const SliderSlick = () => {
         >
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_1}
               alt="Slider-img"
@@ -100,7 +100,7 @@ const SliderSlick = () => {
           </div>
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_2}
               alt="Slider-img"
@@ -108,7 +108,7 @@ const SliderSlick = () => {
           </div>
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_3}
               alt="Slider-img"
@@ -116,7 +116,7 @@ const SliderSlick = () => {
           </div>
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_4}
               alt="Slider-img"
@@ -124,7 +124,7 @@ const SliderSlick = () => {
           </div>
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_5}
               alt="Slider-img"
@@ -132,7 +132,7 @@ const SliderSlick = () => {
           </div>
           <div className="py-4">
             <img
-              className="w-100 rounded-3"
+              className="w-100 rounded-3 object-fit-cover"
               height={162}
               src={Slider_small_3}
               alt="Slider-img"
