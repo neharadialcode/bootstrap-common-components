@@ -7,14 +7,14 @@ const HeroHalfContentHalfImage = () => {
       <div>
         <HeaderFull />
         <div className="hero_custom_height d-flex align-items-center">
-          <div className="container py-5">
+          <div className="custom_container py-5">
             <div className="row flex-column-reverse flex-lg-row align-content-center justify-content-between">
               <div className=" col-md-9 col-lg-6  col-lg-5 mt-3">
-                <h1 className="ff_poppins fw-bold fs_3xl lh_mainHeading text_secondary">
-                  Lorem ipsum dolor sit{" "}
+                <h1 className="ff_poppins fw-bold fs_3xl lh_mainHeading text_secondary max_w_HeroHalfContent_heading">
+                  Lorem ipsum dolor sit
                 </h1>
 
-                <p className="ff_poppins fw-normal text_primary fs_sm lh_All_par mb-0">
+                <p className=" fw-normal text_primary fs_sm lh_All_par mb-0 max_w_HeroHalfContent_par">
                   Lorem ipsum dolor sit amet consectetur. Semper vitae nullam
                   eget consectetur mi. Vulputate sapien a a bibendum suspendisse
                   quam. Hac posuere eget nam diam velit urna adipiscing diam.

@@ -7,7 +7,7 @@ const HeroCenterPosition = () => {
       <div className="min_vh_custom mb-4 d-flex flex-column">
         <HeaderCenterAlign />
         <div className=" d-flex align-items-center flex-grow-1 justify-content-center align-items-center my-4 my-xl-0 ">
-          <div className=" container">
+          <div className=" custom_container">
             <h1 className=" text-center fw-bold fs_3xl lh_mainHeading mx-auto">
               Lorem ipsum Lorem ipsum
             </h1>

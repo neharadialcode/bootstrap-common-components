@@ -70,13 +70,13 @@ const FooterOne = () => {
                 <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
                   <div className="mt-0">
-                    <div className="footer_input_clr  ps-2 pe-1 py-1 d-flex align-items-center">
+                    <div className="footer_input_clr  ps-2 pe-1  d-flex align-items-center">
                       <input
                         type="text"
                         placeholder="Type Your Mail"
                         className="bg-transparent border-0 footer_input w-100"
                       />
-                      <button className="Search_btn text-white py-1 px-3">
+                      <button className="Search_btn text-white">
                         Search
                       </button>
                     </div>
