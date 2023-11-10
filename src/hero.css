@@ -215,35 +215,35 @@
     flex-shrink: 0;
     background: #c5c2c2;
   }
-  .roadMapIamge_one {
+  .roadMapImage_one {
     top: -53px;
     left: 80px;
     z-index: 1;
   }
-  .roadMapIamge_two {
+  .roadMapImage_two {
     bottom: -30px;
     left: 85px;
     display: none;
     z-index: 2;
   }
-  .roadMapIamge_three {
+  .roadMapImage_three {
     left: 88px;
     top: -55px;
     display: none;
     z-index: 1;
   }
-  .roadMapIamge_four {
+  .roadMapImage_four {
     left: 80px;
     top: 126px;
     z-index: 1;
   }
-  .roadMapIamge_five {
+  .roadMapImage_five {
     top: -55px;
     left: 85px;
     z-index: 1;
     display: none;
   }
-  .roadMapIamge_six {
+  .roadMapImage_six {
     top: 126px;
     left: 85px;
     z-index: 1;
@@ -296,35 +296,35 @@
     flex-shrink: 0;
     background: #c5c2c2;
   }
-  .roadMapIamge_one {
+  .roadMapImage_one {
     top: -53px;
     left: 80px;
     z-index: 1;
   }
-  .roadMapIamge_two {
+  .roadMapImage_two {
     bottom: -30px;
     left: 85px;
     z-index: 2;
     display: inline-block;
   }
-  .roadMapIamge_three {
+  .roadMapImage_three {
     left: 88px;
     top: -55px;
     z-index: 1;
     display: inline-block;
   }
-  .roadMapIamge_four {
+  .roadMapImage_four {
     left: 80px;
     top: 126px;
     z-index: 1;
   }
-  .roadMapIamge_five {
+  .roadMapImage_five {
     top: -55px;
     left: 85px;
     z-index: 1;
     display: inline-block;
   }
-  .roadMapIamge_six {
+  .roadMapImage_six {
     top: 126px;
     left: 85px;
     z-index: 1;

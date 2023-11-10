@@ -84,10 +84,10 @@ const FooterOne = () => {
                 </form>
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
                 <div className=" d-flex gap-2">
-                  <a href="#" className="">
+                  <a href="#" >
                     <img src={twitter} alt="twitter" className="hover_scale" />
                   </a>
-                  <a href="#" className="">
+                  <a href="#" >
                     <img
                       src={fackbook}
                       alt="fackbook"

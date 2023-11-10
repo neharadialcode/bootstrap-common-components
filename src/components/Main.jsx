@@ -22,7 +22,7 @@ const Main = () => {
         <a href="/footer" className="py-2 px-4 bg-info border-0 text-white">
           Footer
         </a>
-        <a href="/vedio" className="py-2 px-4 bg-info border-0 text-white">
+        <a href="/video" className="py-2 px-4 bg-info border-0 text-white">
           Vedio
         </a>
         <a href="/slider" className="py-2 px-4 bg-info border-0 text-white">
