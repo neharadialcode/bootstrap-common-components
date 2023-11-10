@@ -87,7 +87,7 @@ const HeaderCenterAlign = () => {
                   </div>
                 </div>
                 <div className="z-10 d-md-none position-relative">
-                  <h3 className="text-black w-100" onClick={clickshow}>
+                  <h3 className="text-black mb-0 w-100" onClick={clickshow}>
                     {NavShow ? <MenuIcon /> : <CrossIcon />}
                   </h3>
                 </div>
