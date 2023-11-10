@@ -1,5 +1,6 @@
 import React from "react";
 const AboutCenter = () => {
+  
   return (
     <div className="center_about_bg">
       <div className="container">
