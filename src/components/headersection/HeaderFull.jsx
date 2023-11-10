@@ -23,7 +23,7 @@ const HeaderFull = () => {
           </span>
           <h2
             onClick={clickshow}
-            className="pointer position-relative zFull text-white ps-4"
+            className="pointer position-relative zFull text-white ps-4 mb-0"
           >
             {First ? <MenuIcon /> : <CrossIcon />}
           </h2>

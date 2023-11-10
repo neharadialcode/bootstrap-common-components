@@ -34,12 +34,9 @@ const Main = () => {
         </a>
         <a href="/team" className="py-2 px-4 bg-info border-0 text-white">
           team
-          </a>
-        <a
-          href="/roadMap"
-          className="py-2 px-4 bg-info border-0 text-white ms-3"
-        >
-          Road Map
+        </a>
+        <a href="/roadMap" className="py-2 px-4 bg-info border-0 text-white">
+          Road map
         </a>
       </div>
     </>
