@@ -1,4 +1,4 @@
-import { teamData } from "../common/Helper";
+import { teamData } from "../common/helper";
 const OurTeam = () => {
   return (
     <>

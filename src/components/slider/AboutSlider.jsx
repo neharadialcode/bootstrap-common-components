@@ -8,7 +8,7 @@ import Slider_small_4 from "../../assets/images/png/about_slider_4.png";
 import Slider_small_5 from "../../assets/images/png/about_slider_5.png";
 import left_arrow from "../../assets/images/png/aboutus_slider_left_arrow.png";
 import right_arrow from "../../assets/images/png/aboutus_slider_right_arrow.png";
-import { AboutSliderData } from "../common/Helper";
+import { AboutSliderData } from "../common/helper";
 const SliderSlick = () => {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
@@ -20,7 +20,13 @@ const SliderSlick = () => {
   }, []);
   return (
     <div className="container py-5 px-0">
-      <Slider className="mainSlider" asNavFor={nav2} arrows={false} ref={slider1} fade={true}>
+      <Slider
+        className="mainSlider"
+        asNavFor={nav2}
+        arrows={false}
+        ref={slider1}
+        fade={true}
+      >
         {AboutSliderData.map((SlideData, index) => {
           return (
             <>

@@ -31,7 +31,7 @@ const CenterForm = () => {
   return (
     <>
       <div className="vh-100 d-flex align-items-center">
-        <div className="container center_form_input">
+        <div className="container center_form_input border-0">
           <p className="text-black text-center fs_2xl fw-medium lh-1 mb-5">
             Love to hear from you, <br className=" d-sm-block d-none" /> Get in
             touch
