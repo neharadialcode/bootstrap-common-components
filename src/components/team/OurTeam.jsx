@@ -4,7 +4,7 @@ const OurTeam = () => {
     <>
       <div className="container py-5">
         <h1 className="text-center fw-semibold lh-base">Our Team</h1>
-        <p className="text-center fw-normal lh-base txt_offBlack mw_934 mx-auto pb-4">
+        <p className="text-center fw-normal lh-base text_offBlack mw_934 mx-auto pb-4">
           Lorem ipsum dolor sit amet consectetur. Velit pulvinar libero
           porttitor quam sed aliquet. Sodales vulputate elementum arcu donec.
           Feugiat nibh ullamcorper egestas lectus risus ornare ullamcorper
@@ -14,9 +14,7 @@ const OurTeam = () => {
           {teamData.map((teamData, i) => {
             return (
               <div
-                className={`col-lg-3 col-md-4 col-sm-6 h-100 ${
-                  i === 0 ? "" : ""
-                }`}
+                className="col-lg-3 col-md-4 col-sm-6 h-100"
                 key={i}
               >
                 <div

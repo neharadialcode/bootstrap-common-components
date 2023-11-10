@@ -1,14 +1,10 @@
 import * as React from "react";
 import { useEffect, useState, useRef } from "react";
 import Slider from "react-slick";
-import Slider_small_1 from "../../assets/images/png/about_slider_1.png";
-import Slider_small_2 from "../../assets/images/png/about_slider_2.png";
-import Slider_small_3 from "../../assets/images/png/about_slider_3.png";
-import Slider_small_4 from "../../assets/images/png/about_slider_4.png";
-import Slider_small_5 from "../../assets/images/png/about_slider_5.png";
 import left_arrow from "../../assets/images/png/aboutus_slider_left_arrow.png";
 import right_arrow from "../../assets/images/png/aboutus_slider_right_arrow.png";
-import { AboutSliderData } from "../common/HelperData";
+import { aboutSliderData } from "../common/HelperData";
+import { aboutSmallSlider } from "../common/HelperData";
 const SliderSlick = () => {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
@@ -21,7 +17,7 @@ const SliderSlick = () => {
   return (
     <div className="container py-5">
       <Slider className="mainSlider" asNavFor={nav2} arrows={false} ref={slider1} fade={true}>
-        {AboutSliderData.map((SlideData, index) => {
+        {aboutSliderData.map((slideData, index) => {
           return (
             <>
               <div
@@ -31,16 +27,16 @@ const SliderSlick = () => {
                 <div className="col-lg-6 col-md-10 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-lg-3">
                   <img
                     className="w-100 about_big_sliders"
-                    src={SlideData.image}
+                    src={slideData.image}
                     alt="Slider-img"
                   />
                 </div>
                 <div className="col-lg-6 pe-lg-5">
                   <h2 className="fs_2xl fw-semibold about_heading">
-                    {SlideData.heading}
+                    {slideData.heading}
                   </h2>
-                  <p className="fs_sm">{SlideData.para1}</p>
-                  <p className="fs_sm">{SlideData.para2}</p>
+                  <p className="fs_sm">{slideData.para1}</p>
+                  <p className="fs_sm">{slideData.para2}</p>
                   <button className="about_btn">Button</button>
                 </div>
               </div>
@@ -90,54 +86,17 @@ const SliderSlick = () => {
             },
           ]}
         >
-          <div className="py-4 small_slider_img">
+          {aboutSmallSlider.map((smallSlider, index) => {
+          return ( 
+            <div className="py-4 small_slider_img" key={index}>
             <img
               className="w-100 rounded-3 object-fit-cover"
-              
-              src={Slider_small_1}
+            src={smallSlider.smallSlide}
               alt="Slider-img"
             />
           </div>
-          <div className="py-4">
-            <img
-              className="w-100 rounded-3 object-fit-cover"
-              
-              src={Slider_small_2}
-              alt="Slider-img"
-            />
-          </div>
-          <div className="py-4">
-            <img
-              className="w-100 rounded-3 object-fit-cover"
-              
-              src={Slider_small_3}
-              alt="Slider-img"
-            />
-          </div>
-          <div className="py-4">
-            <img
-              className="w-100 rounded-3 object-fit-cover"
-              
-              src={Slider_small_4}
-              alt="Slider-img"
-            />
-          </div>
-          <div className="py-4">
-            <img
-              className="w-100 rounded-3 object-fit-cover"
-           
-              src={Slider_small_5}
-              alt="Slider-img"
-            />
-          </div>
-          <div className="py-4">
-            <img
-              className="w-100 rounded-3 object-fit-cover"
-              
-              src={Slider_small_3}
-              alt="Slider-img"
-            />
-          </div>
+          );
+        })}
         </Slider>
         <div
           onClick={() => slider2.current?.slickPrev()}

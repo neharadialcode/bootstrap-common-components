@@ -17,7 +17,7 @@
   border: 1px solid #3c278d !important;
   color: #3c278d !important;
 }
-.header_bg {
+.center_about_bg {
   background-image: url("../src/assets/images/webp/about-img.webp");
   background-repeat: no-repeat;
   background-size: cover;
