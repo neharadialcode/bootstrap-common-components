@@ -6,15 +6,15 @@ const FooterOne = () => {
   return (
     <div className="py-5 my-5">
       <div className="container">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between ">
           <div className="col-xl-3">
             <a
               href="#"
-              className="fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3"
+              className="fw-semibold fs-5 bg_logo clr_purple d-inline-block py-2 px-3 mb-3 "
             >
               Logo
             </a>
-            <p className="font-sm ff_poppins opacity-75">
+            <p className="font-sm ff_poppins opacity-75 max-w-559 ">
               Discover Stellar blockchain's unrivaled speed, security, &
               scalability with Volag. Revolutionize finance.
             </p>
@@ -70,13 +70,13 @@ const FooterOne = () => {
                 <p className="font-sm ff_poppins text-black">Get in Touch</p>
                 <form>
                   <div className="mt-0">
-                    <div className="footer_input_clr  ps-2 pe-1 py-1 d-flex align-items-center">
+                    <div className="footer_input_clr  ps-2 pe-1  d-flex align-items-center">
                       <input
                         type="text"
                         placeholder="Type Your Mail"
                         className="bg-transparent border-0 footer_input w-100"
                       />
-                      <button className="Search_btn text-white py-1 px-3">
+                      <button className="Search_btn text-white">
                         Search
                       </button>
                     </div>
@@ -84,10 +84,10 @@ const FooterOne = () => {
                 </form>
                 <p className="font-sm ff_poppins mt-3">Follow us now</p>
                 <div className=" d-flex gap-2">
-                  <a href="#" className="">
+                  <a href="#" >
                     <img src={twitter} alt="twitter" className="hover_scale" />
                   </a>
-                  <a href="#" className="">
+                  <a href="#" >
                     <img
                       src={fackbook}
                       alt="fackbook"

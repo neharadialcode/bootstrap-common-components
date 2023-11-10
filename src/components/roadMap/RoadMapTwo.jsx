@@ -1,5 +1,5 @@
 import React from 'react'
-import roadMapIamge from "../../assetsFolder/images/svg/RoadMap two.svg"
+import roadMapImage from "../../assetsFolder/images/svg/RoadMap two.svg";
 const RoadMapTwo = () => {
   return (
     <div div className="py-5">
@@ -23,9 +23,9 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_two"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_two"
                 height={34}
                 width={34}
               />
@@ -40,9 +40,9 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_six"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_six"
                 height={34}
                 width={34}
               />
@@ -57,9 +57,9 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_four"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_four"
                 height={34}
                 width={34}
               />
@@ -74,9 +74,9 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_one"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_one"
                 height={34}
                 width={34}
               />
@@ -85,9 +85,9 @@ const RoadMapTwo = () => {
           <div className="col-md-4 mt-5 roadMapTwo_transform_five">
             <div className="roadMap_main_box position-relative">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_three"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_three"
                 height={34}
                 width={34}
               />
@@ -108,9 +108,9 @@ const RoadMapTwo = () => {
                 Lorem ipsum dolor sit amet consectetur.
               </p>
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
-                className="position-absolute roadMapIamge_five"
+                src={roadMapImage}
+                alt="roadMapImage"
+                className="position-absolute roadMapImage_five"
                 height={34}
                 width={34}
               />
@@ -121,8 +121,8 @@ const RoadMapTwo = () => {
           <div className="position-relative center_line_two">
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}
@@ -138,8 +138,8 @@ const RoadMapTwo = () => {
             </div>
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}
@@ -155,8 +155,8 @@ const RoadMapTwo = () => {
             </div>
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}
@@ -172,8 +172,8 @@ const RoadMapTwo = () => {
             </div>
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}
@@ -189,8 +189,8 @@ const RoadMapTwo = () => {
             </div>
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}
@@ -206,8 +206,8 @@ const RoadMapTwo = () => {
             </div>
             <div className="d-flex gap-4 mt-3">
               <img
-                src={roadMapIamge}
-                alt="roadMapIamge"
+                src={roadMapImage}
+                alt="roadMapImage"
                 className="mt-3"
                 height={34}
                 width={34}

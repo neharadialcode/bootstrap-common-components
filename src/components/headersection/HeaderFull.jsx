@@ -13,7 +13,7 @@ const HeaderFull = () => {
   }
   return (
     <>
-      <div className="">
+      <div>
         {/* btn */}
         <div className="d-flex justify-content-between d-lg-none align-items-center px-3 py-3 bg-info">
           <span>

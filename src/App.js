@@ -12,9 +12,9 @@ import Form from "./views/Form";
 import Slider from "./components/slider/AboutSlider";
 import Faqs from "./components/faqs/Faqs";
 import Footer from "./components/footer/Footer";
-import Vedio from "./components/vedio/Vedio";
 import RoadMap from "./components/roadMap/RoadMap";
 import OurTeam from "./components/team/OurTeam";
+import VideoPage from "./components/video/VideoPage";
 
 
 function App() {
@@ -29,9 +29,9 @@ function App() {
           <Route path="/form" element={<Form />} />
           <Route path="/faqs" element={<Faqs />} />
           <Route path="/footer" element={<Footer />} />
-          <Route path="/vedio" element={<Vedio />} />
+          <Route path="/video" element={<VideoPage />} />
           <Route path="/slider" element={<Slider />} />
-          <Route path="/team" element={<OurTeam/>} />
+          <Route path="/team" element={<OurTeam />} />
           <Route path="/roadMap" element={<RoadMap />} />
         </Routes>
       </BrowserRouter>

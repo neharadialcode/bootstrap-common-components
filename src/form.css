@@ -178,8 +178,6 @@
   background-image: url(./assets/images/png/getTouchBg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .touch_btn {
   width: 191px;

@@ -4,9 +4,9 @@ import { Container } from "react-bootstrap";
 const GetInTouch = () => {
   return (
     <>
-      <div className="touch_bg">
-        <Container>
-          <div className=" d-flex justify-content-center align-items-center flex-column h-100">
+      <div className="touch_bg py-5">
+        <Container className="py-lg-5">
+          <div className="d-flex justify-content-center align-items-center flex-column h-100">
             <p className="text-white fw-semibold fs_xl text-center mb-3">
               Get In Touch
             </p>

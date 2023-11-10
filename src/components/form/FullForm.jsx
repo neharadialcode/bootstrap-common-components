@@ -60,8 +60,8 @@ const FullForm = () => {
               typicalForm !== ""
             )}
           </div>
-          <div className=" col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative">
-            <p className=" ff_inter fw-medium fs_sm text-black mb-2 text-start">
+          <div className="col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative mt-1 mt-sm-0">
+            <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start">
               Your email
             </p>
             <input
@@ -89,8 +89,8 @@ const FullForm = () => {
         </div>
         {/* input 2 */}
         <div className="row input_bottom_space_sm position-relative">
-          <div className="col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative">
-            <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
+          <div className="col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative mt-1 mt-sm-0">
+            <p className="ff_inter fw-medium  text-black mb-2 text-start">
               What you are interested
             </p>
             <input
@@ -111,7 +111,7 @@ const FullForm = () => {
             )}
           </div>
           <div className="col-sm-6 col-12 input_bottom_space mb-sm-0 position-relative">
-            <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
+            <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start mt-1 mt-sm-0">
               Project Budget
             </p>
             <input
@@ -134,7 +134,7 @@ const FullForm = () => {
         </div>
         {/* textarea */}
         <div className="w-100 input_bottom_space position-relative pb-2">
-          <p className="ff_inter fw-medium fs_sm text-black mb-2 text-start">
+          <p className="ff_inter fw-medium fs_16 text-black mb-2 text-start mt-1 mt-sm-0">
             Message
           </p>
           <textarea

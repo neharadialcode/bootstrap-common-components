@@ -17,7 +17,7 @@
   border: 1px solid #3c278d !important;
   color: #3c278d !important;
 }
-.header_bg {
+.center_about_bg {
   background-image: url("../src/assets/images/webp/about-img.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,9 +61,13 @@
 .team_card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.small_slider_img{height: 150px !important;}
 @media (min-width: 768px) {
   .about_big_sliders {
     width: 100% !important;
+  }
+  .small_slider_img{
+    height: 162px !important;
   }
 }
 @media (min-width: 992px) {
