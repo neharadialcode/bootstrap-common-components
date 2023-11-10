@@ -1,7 +1,6 @@
 import "./App.css";
 import "./aboutUs.css";
 import "./hero.css";
-import "./header.css";
 import "./form.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

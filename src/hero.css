@@ -494,6 +494,8 @@ button:focus {
   background-image: url("../src/assetsFolder/images/svg/Arrow\ -\ Down\ Circle.svg") !important;
   background-repeat: no-repeat !important;
   height: 12px !important;
+  width: 12px !important;
+  background-size: 100%  100% !important;
 }
 .accordion {
   --bs-accordion-border-color: none !important;
@@ -577,6 +579,13 @@ div ul li a:hover {
 
 .max_width_roadMapTwo_par{
   max-width: 994px;
+}
+
+@media (min-width:576px) {
+  .accordion-button::after{
+    width: 20px !important;
+  }
+  
 }
 @media (max-width: 767.98px) {
   .max_width_hero_img {
