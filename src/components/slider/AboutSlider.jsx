@@ -23,7 +23,7 @@ const SliderSlick = () => {
               <div
                 className="align-items-center justify-content-center d-flex flex-wrap"
                 key={index}
-              >
+>
                 <div className="col-lg-6 col-md-10 pe-lg-5 pb-lg-0 mb-lg-0 pb-4 mb-lg-3">
                   <img
                     className="w-100 about_big_sliders"
